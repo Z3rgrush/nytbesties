@@ -19,7 +19,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 LIST_DIR = ROOT / "data" / "lists"
-SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2027"))
+SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2026"))
 SLOTS = 15
 
 

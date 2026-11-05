@@ -1,6 +1,6 @@
-# Best of the Best Sellers 2027
+# Best of the Best Sellers 2026
 
-A weekly scoreboard of publisher and title performance on the 2027 *New York Times* Hardcover Fiction best-seller list. It follows the methodology from the Publiography post [“Best of the Best Sellers”](https://publiography.beehiiv.com/p/best-of-the-best-sellers-0d0656eaee377845).
+A weekly scoreboard of publisher and title performance on the 2026 *New York Times* Hardcover Fiction best-seller list. It follows the methodology from the Publiography post [“Best of the Best Sellers”](https://publiography.beehiiv.com/p/best-of-the-best-sellers-0d0656eaee377845).
 
 The page is published with GitHub Pages from `docs/`.
 
@@ -15,7 +15,7 @@ The page is published with GitHub Pages from `docs/`.
 
 `.github/workflows/update.yml` runs every Wednesday night and Thursday morning (UTC times, after the NYT posts the new list). It:
 
-1. `scripts/fetch_lists.py` downloads any new Hardcover Fiction list dated in 2027 into `data/lists/`.
+1. `scripts/fetch_lists.py` downloads any new Hardcover Fiction list dated in 2026 into `data/lists/`.
 2. `scripts/build.py` scores every saved list and writes `data/scoreboard.json` and `docs/index.html`.
 3. Commits the result only when a new list arrived.
 
@@ -37,7 +37,7 @@ You can also run it by hand from the Actions tab (**Update scoreboard → Run wo
 | Titles | Distinct books placed on the list. |
 | Average rank | Mean chart position over every appearance (lower is better). |
 
-Publishers are named exactly as the NYT lists them, so Little, Brown and Mulholland are counted separately. A list counts toward the season if its NYT list date (`published_date`) falls in 2027. Set `SEASON_YEAR` to score a different year.
+Publishers are named exactly as the NYT lists them, so Little, Brown and Mulholland are counted separately. A list counts toward the season if its NYT list date (`published_date`) falls in 2026. Set `SEASON_YEAR` to score a different year.
 
 ## Run locally
 

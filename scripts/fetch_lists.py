@@ -20,7 +20,7 @@ ROOT = Path(__file__).resolve().parent.parent
 LIST_DIR = ROOT / "data" / "lists"
 LIST_NAME = "hardcover-fiction"
 API = "https://api.nytimes.com/svc/books/v3/lists/{date}/{name}.json?api-key={key}"
-SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2027"))
+SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2026"))
 PAUSE_SECONDS = 12
 
 
