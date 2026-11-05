@@ -11,17 +11,17 @@
 :root{
   --bg:#f7f4ee; --surface:#ffffff; --ink:#1c1a17; --muted:#6b655c; --line:#e4ded3;
   --accent:#b3261e; --accent-soft:#f6e3e1; --gold:#b8860b; --up:#2e7d32; --down:#b3261e;
-  --bar:#d9cfc0;
+ 
 }
 @media (prefers-color-scheme: dark){
   :root:not([data-theme="light"]){
     --bg:#15130f; --surface:#1f1c17; --ink:#f1ece4; --muted:#a39b8f; --line:#352f27;
-    --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e; --bar:#4a4237;
+    --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e;
   }
 }
 :root[data-theme="dark"]{
   --bg:#15130f; --surface:#1f1c17; --ink:#f1ece4; --muted:#a39b8f; --line:#352f27;
-  --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e; --bar:#4a4237;
+  --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e;
 }
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
@@ -49,8 +49,6 @@ ol.top li:first-child{border-top:0}
 li:nth-child(1) .pos{color:var(--gold)}
 .name{font-weight:600;min-width:0}
 .name small{display:block;font-weight:400;color:var(--muted);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.barwrap{height:4px;background:var(--line);margin-top:5px}
-.bar{height:4px;background:var(--accent);}
 .val{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
 .val small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
 .mv{font-size:11px;font-weight:600;margin-left:6px}
@@ -181,11 +179,8 @@ function renderTabs(){
   $('pubDesc').textContent = a.desc;
   if (!D.weeks) return;
   const rows = [...D.publishers].sort((x, y) => x['rank_'+a.id] - y['rank_'+a.id] || y.list_points - x.list_points).filter(r => r['rank_'+a.id] <= 10);
-  const vals = rows.map(r => r[a.col]);
-  const max = Math.max(...vals), min = Math.min(...vals);
   $('topPubs').innerHTML = rows.map(r => {
     const v = r[a.col];
-    const pct = a.low ? (100 * (min / v)) : (100 * v / max);
     let mv = '';
     if (a.id === 'cumulative' && D.weeks > 1){
       const p = r.prev_rank_cumulative, n = r.rank_cumulative;
@@ -194,18 +189,15 @@ function renderTabs(){
       else if (p < n) mv = `<span class="mv down">▼${n-p}</span>`;
     }
     return `<li><span class="pos">${rk(r['rank_'+a.id], r['tied_'+a.id])}</span>
-      <div class="name">${esc(r.publisher)}${mv}<small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · best #${r.best_rank}</small>
-      <div class="barwrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div></div>
+      <div class="name">${esc(r.publisher)}${mv}<small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · best #${r.best_rank}</small></div>
       <div class="val">${a.low ? v.toFixed(2) : v.toLocaleString()}<small>${a.unit}</small></div></li>`;
   }).join('');
 }
 
 function renderTitles(){
   const rows = D.titles.filter(t => t.rank <= 10);
-  const max = rows[0].list_points;
   $('topTitles').innerHTML = rows.map(t => `<li><span class="pos">${rk(t.rank, t.tied)}</span>
-    <div class="name">${esc(titleCase(t.title))}<small>${esc(t.author)} · ${esc(t.publisher)} · ${t.weeks} wk${t.weeks===1?'':'s'}, best #${t.best_rank}${t.weeks_at_1 ? ` (${t.weeks_at_1} at #1)` : ''}</small>
-    <div class="barwrap"><div class="bar" style="width:${(100*t.list_points/max).toFixed(1)}%"></div></div></div>
+    <div class="name">${esc(titleCase(t.title))}<small>${esc(t.author)} · ${esc(t.publisher)} · ${t.weeks} wk${t.weeks===1?'':'s'}, best #${t.best_rank}${t.weeks_at_1 ? ` (${t.weeks_at_1} at #1)` : ''}</small></div>
     <div class="val">${t.list_points}<small>pts</small></div></li>`).join('');
 }
 function titleCase(s){ return s.toLowerCase().replace(/(^|[\s:(-])(\w)/g, (m, a, b) => a + b.toUpperCase()); }
