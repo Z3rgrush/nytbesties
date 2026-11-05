@@ -32,10 +32,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Source Serif
 header{border-top:8px solid var(--rule);padding-top:18px;margin-bottom:28px}
 .kicker{text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:800;font-stretch:110%}
 h1{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:80%;font-size:clamp(40px,8vw,84px);line-height:.95;letter-spacing:-.01em;margin:10px 0 14px;text-transform:uppercase}
-.hl{background:linear-gradient(transparent 52%,var(--hl) 52%,var(--hl) 92%,transparent 92%);padding:0 .06em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .hl{background:var(--hl);color:var(--hl-ink);padding:0 .12em}}
-:root[data-theme="dark"] .hl{background:var(--hl);color:var(--hl-ink);padding:0 .12em}
-h2{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:85%;font-size:30px;line-height:1.05;text-transform:uppercase;margin:0 0 6px}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) :root[data-theme="dark"] h2{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:85%;font-size:30px;line-height:1.05;text-transform:uppercase;margin:0 0 6px}
 .sub{color:var(--muted);margin:0;font-size:14px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0 24px;margin:0 0 36px}
 .stat{border-top:3px solid var(--rule);padding:10px 0 4px}
@@ -88,7 +85,7 @@ footer a{color:inherit}
 <div class="wrap">
   <header>
     <div class="kicker">Publiography · NYT Hardcover Fiction</div>
-    <h1><span class="hl">Best of the Best Sellers</span> __SEASON__</h1>
+    <h1>Best of the Best Sellers __SEASON__</h1>
     <p class="sub" id="asof"></p>
   </header>
 
