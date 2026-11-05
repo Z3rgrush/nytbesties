@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fiction Bestseller Scoreboard __SEASON__</title>
+<meta name="description" content="Weekly publisher and title standings on the __SEASON__ NYT Hardcover Fiction best-seller lists.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f7f4ee; --surface:#ffffff; --ink:#1c1a17; --muted:#6b655c; --line:#e4ded3;
+  --accent:#b3261e; --accent-soft:#f6e3e1; --gold:#b8860b; --up:#2e7d32; --down:#b3261e;
+  --bar:#d9cfc0;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#15130f; --surface:#1f1c17; --ink:#f1ece4; --muted:#a39b8f; --line:#352f27;
+    --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e; --bar:#4a4237;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#15130f; --surface:#1f1c17; --ink:#f1ece4; --muted:#a39b8f; --line:#352f27;
+  --accent:#ff7b6e; --accent-soft:#3a201c; --gold:#e0b44c; --up:#7bd88f; --down:#ff7b6e; --bar:#4a4237;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:32px 16px 64px}
+header{border-bottom:3px double var(--ink);padding-bottom:18px;margin-bottom:24px}
+.kicker{text-transform:uppercase;letter-spacing:.14em;font-size:12px;color:var(--accent);font-weight:600}
+h1{font-family:Fraunces,Georgia,serif;font-weight:800;font-size:clamp(30px,6vw,52px);line-height:1.05;margin:6px 0 10px}
+h2{font-family:Fraunces,Georgia,serif;font-weight:600;font-size:24px;margin:0 0 4px}
+.sub{color:var(--muted);margin:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:0 0 28px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.stat b{display:block;font-family:Fraunces,Georgia,serif;font-size:28px;line-height:1.1}
+.stat span{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:820px){.grid{grid-template-columns:1fr}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;margin-bottom:20px;min-width:0}
+.card .sub{font-size:13px;margin-bottom:14px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 14px}
+.tabs button{font:inherit;font-size:12.5px;border:1px solid var(--line);background:transparent;color:var(--muted);padding:5px 10px;border-radius:999px;cursor:pointer}
+.tabs button[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+ol.top{list-style:none;margin:0;padding:0}
+ol.top li{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--line)}
+ol.top li:first-child{border-top:0}
+.pos{font-family:Fraunces,Georgia,serif;font-size:20px;font-weight:600;color:var(--muted);text-align:center}
+li:nth-child(1) .pos{color:var(--gold)}
+.name{font-weight:600;min-width:0}
+.name small{display:block;font-weight:400;color:var(--muted);font-size:12.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.barwrap{height:4px;background:var(--line);border-radius:2px;margin-top:5px}
+.bar{height:4px;background:var(--accent);border-radius:2px}
+.val{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+.val small{display:block;font-weight:400;color:var(--muted);font-size:11.5px}
+.mv{font-size:11px;font-weight:600;margin-left:6px}
+.mv.up{color:var(--up)} .mv.down{color:var(--down)} .mv.new{color:var(--gold)}
+.tablewrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+table{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:14px}
+th,td{padding:8px 10px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:nth-child(2),td:nth-child(2){text-align:left;white-space:normal;min-width:150px}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);cursor:pointer;user-select:none;position:sticky;top:0;background:var(--surface)}
+th[aria-sort] {color:var(--ink)}
+th[aria-sort="ascending"]::after{content:" ▲"} th[aria-sort="descending"]::after{content:" ▼"}
+tbody tr:hover{background:var(--accent-soft)}
+.rk{color:var(--muted)}
+.tie{color:var(--muted);font-size:11px}
+.search{font:inherit;width:100%;max-width:280px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);margin-bottom:12px}
+.empty{padding:28px 8px;text-align:center;color:var(--muted)}
+details{color:var(--muted);font-size:14px}
+details summary{cursor:pointer;color:var(--ink);font-weight:600}
+details li{margin:4px 0}
+footer{color:var(--muted);font-size:12.5px;margin-top:28px;text-align:center}
+footer a{color:inherit}
+.week{font-size:14px}
+.week td:nth-child(1){width:32px}
+.week td:nth-child(3){text-align:left;color:var(--muted)}
+.stat b.txt{font-size:19px;line-height:1.2}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Publiography · NYT Hardcover Fiction</div>
+    <h1>Best of the Best Sellers __SEASON__</h1>
+    <p class="sub" id="asof"></p>
+  </header>
+
+  <section class="stats" id="stats"></section>
+
+  <div class="grid">
+    <section class="card">
+      <h2>Top 10 publishers</h2>
+      <p class="sub" id="pubDesc"></p>
+      <div class="tabs" role="tablist" id="pubTabs"></div>
+      <ol class="top" id="topPubs"></ol>
+    </section>
+    <section class="card">
+      <h2>Top 10 titles</h2>
+      <p class="sub">Ranked by List Rank points: #1 earns 15 points each week, #15 earns 1.</p>
+      <ol class="top" id="topTitles"></ol>
+    </section>
+  </div>
+
+  <section class="card">
+    <h2>Complete publisher ranking</h2>
+    <p class="sub">Every publisher that has reached the list this year. Click a column to sort.</p>
+    <input class="search" id="search" type="search" placeholder="Find a publisher" aria-label="Find a publisher">
+    <div class="tablewrap"><table id="full"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <h2>This week's list</h2>
+    <p class="sub" id="weekDesc"></p>
+    <div class="tablewrap"><table class="week" id="week"><tbody></tbody></table></div>
+  </section>
+
+  <section class="card">
+    <details>
+      <summary>How the scoring works</summary>
+      <ul>
+        <li><b>Cumulative Rank</b> (headline): each week, publishers on the list are ordered by that week's List Rank points. With N publishers on the list, the best scores N and the worst scores 1. Publishers tied in a week share the higher score. Weekly scores add up over the year.</li>
+        <li><b>List Rank points</b>: #1 earns 15 points, #2 earns 14, down to 1 point for #15, summed over every appearance.</li>
+        <li><b>Appearances</b>: one point for every weekly slot a publisher fills.</li>
+        <li><b>Titles</b>: distinct books a publisher has placed on the list.</li>
+        <li><b>Average rank</b>: mean chart position across every appearance. Lower is better.</li>
+        <li>Publishers are named exactly as the NYT lists them, so imprints such as Little, Brown and Mulholland are counted separately. "T" marks a tie.</li>
+        <li>A list counts toward __SEASON__ if its NYT list date falls in __SEASON__.</li>
+      </ul>
+    </details>
+  </section>
+
+  <footer>
+    Data: The New York Times Books API. Methodology from <a href="https://publiography.beehiiv.com/p/best-of-the-best-sellers-0d0656eaee377845">“Best of the Best Sellers”</a>. Updated <span id="gen"></span>.
+  </footer>
+</div>
+
+<script>
+const D = /*__DATA__*/null;
+const $ = id => document.getElementById(id);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const fmtDate = d => d ? new Date(d + 'T12:00:00').toLocaleDateString('en-US', {month:'long', day:'numeric', year:'numeric'}) : '';
+const rk = (r, t) => (t ? 'T' : '') + r;
+
+const APPROACHES = [
+  {id:'cumulative',  label:'Cumulative Rank', col:'cumulative',  unit:'pts', desc:'Weekly head-to-head: with N publishers on a list, the best scores N and the worst 1.'},
+  {id:'list_points', label:'List Rank',       col:'list_points', unit:'pts', desc:'#1 earns 15 points each week, #15 earns 1, summed across all titles.'},
+  {id:'appearances', label:'Appearances',     col:'appearances', unit:'slots', desc:'One point for every weekly slot filled.'},
+  {id:'titles',      label:'Titles',          col:'titles',      unit:'titles', desc:'Distinct books placed on the list this year.'},
+  {id:'avg_rank',    label:'Avg. rank',       col:'avg_rank',    unit:'avg', desc:'Mean chart position across every appearance. Lower is better.', low:true},
+];
+
+function init(){
+  $('gen').textContent = D.generated_at.replace('T', ' ') + ' UTC';
+  if (!D.weeks){
+    $('asof').textContent = `The season starts with the first list dated in ${D.season}. Check back then.`;
+    for (const id of ['topPubs','topTitles']) $(id).innerHTML = '<li class="empty">No lists yet</li>';
+    $('full').querySelector('tbody').innerHTML = '<tr><td colspan="9" class="empty">No lists yet</td></tr>';
+    $('weekDesc').textContent = 'No lists yet.';
+    renderTabs(); return;
+  }
+  $('asof').textContent = `Standings through the list dated ${fmtDate(D.latest_list)} · Week ${D.weeks} of the ${D.season} season`;
+  const leader = D.publishers[0];
+  const topTitle = D.titles[0];
+  $('stats').innerHTML = [
+    [D.weeks, 'weeks scored'],
+    [D.total_publishers, 'publishers on the list'],
+    [D.total_titles, 'titles on the list'],
+    [esc(leader.publisher), 'leads Cumulative Rank'],
+    [esc(topTitle.title.toLowerCase().replace(/\b\w/g, c => c.toUpperCase())), 'top title'],
+  ].map(([b, s]) => `<div class="stat"><b${typeof b === 'string' ? ' class="txt"' : ''}>${b}</b><span>${s}</span></div>`).join('');
+  renderTabs(); renderTitles(); renderFull(); renderWeek();
+}
+
+let current = 'cumulative';
+function renderTabs(){
+  $('pubTabs').innerHTML = APPROACHES.map(a =>
+    `<button role="tab" aria-selected="${a.id===current}" data-id="${a.id}">${a.label}</button>`).join('');
+  $('pubTabs').onclick = e => { const b = e.target.closest('button'); if (b){ current = b.dataset.id; renderTabs(); } };
+  const a = APPROACHES.find(x => x.id === current);
+  $('pubDesc').textContent = a.desc;
+  if (!D.weeks) return;
+  const rows = [...D.publishers].sort((x, y) => x['rank_'+a.id] - y['rank_'+a.id] || y.list_points - x.list_points).filter(r => r['rank_'+a.id] <= 10);
+  const vals = rows.map(r => r[a.col]);
+  const max = Math.max(...vals), min = Math.min(...vals);
+  $('topPubs').innerHTML = rows.map(r => {
+    const v = r[a.col];
+    const pct = a.low ? (100 * (min / v)) : (100 * v / max);
+    let mv = '';
+    if (a.id === 'cumulative' && D.weeks > 1){
+      const p = r.prev_rank_cumulative, n = r.rank_cumulative;
+      if (p == null) mv = '<span class="mv new">NEW</span>';
+      else if (p > n) mv = `<span class="mv up">▲${p-n}</span>`;
+      else if (p < n) mv = `<span class="mv down">▼${n-p}</span>`;
+    }
+    return `<li><span class="pos">${rk(r['rank_'+a.id], r['tied_'+a.id])}</span>
+      <div class="name">${esc(r.publisher)}${mv}<small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · best #${r.best_rank}</small>
+      <div class="barwrap"><div class="bar" style="width:${pct.toFixed(1)}%"></div></div></div>
+      <div class="val">${a.low ? v.toFixed(2) : v.toLocaleString()}<small>${a.unit}</small></div></li>`;
+  }).join('');
+}
+
+function renderTitles(){
+  const rows = D.titles.filter(t => t.rank <= 10);
+  const max = rows[0].list_points;
+  $('topTitles').innerHTML = rows.map(t => `<li><span class="pos">${rk(t.rank, t.tied)}</span>
+    <div class="name">${esc(titleCase(t.title))}<small>${esc(t.author)} · ${esc(t.publisher)} · ${t.weeks} wk${t.weeks===1?'':'s'}, best #${t.best_rank}${t.weeks_at_1 ? ` (${t.weeks_at_1} at #1)` : ''}</small>
+    <div class="barwrap"><div class="bar" style="width:${(100*t.list_points/max).toFixed(1)}%"></div></div></div>
+    <div class="val">${t.list_points}<small>pts</small></div></li>`).join('');
+}
+function titleCase(s){ return s.toLowerCase().replace(/(^|[\s:(-])(\w)/g, (m, a, b) => a + b.toUpperCase()); }
+
+const COLS = [
+  {k:'rank_cumulative', label:'#', fmt:r => rk(r.rank_cumulative, r.tied_cumulative), cls:'rk'},
+  {k:'publisher', label:'Publisher', fmt:r => esc(r.publisher), str:true},
+  {k:'cumulative', label:'Cumulative'},
+  {k:'list_points', label:'List Rank pts'},
+  {k:'appearances', label:'Appearances'},
+  {k:'share', label:'% of slots', fmt:r => r.share.toFixed(1)},
+  {k:'titles', label:'Titles'},
+  {k:'avg_rank', label:'Avg. rank', fmt:r => r.avg_rank.toFixed(2), low:true},
+  {k:'weeks_at_1', label:'Wks at #1'},
+];
+let sortK = 'rank_cumulative', sortDir = 1;
+function renderFull(){
+  const thead = $('full').querySelector('thead');
+  thead.innerHTML = '<tr>' + COLS.map(c => `<th data-k="${c.k}"${c.k===sortK ? ` aria-sort="${sortDir>0?'ascending':'descending'}"` : ''}>${c.label}</th>`).join('') + '</tr>';
+  thead.onclick = e => {
+    const th = e.target.closest('th'); if (!th) return;
+    const c = COLS.find(x => x.k === th.dataset.k);
+    if (sortK === c.k) sortDir = -sortDir;
+    else { sortK = c.k; sortDir = (c.str || c.low || c.k === 'rank_cumulative') ? 1 : -1; }
+    renderFull();
+  };
+  const q = $('search').value.trim().toLowerCase();
+  const rows = D.publishers.filter(r => !q || r.publisher.toLowerCase().includes(q)).sort((a, b) => {
+    const x = a[sortK], y = b[sortK];
+    const d = typeof x === 'string' ? x.localeCompare(y) : x - y;
+    return d * sortDir || a.rank_cumulative - b.rank_cumulative;
+  });
+  $('full').querySelector('tbody').innerHTML = rows.length ? rows.map(r =>
+    '<tr>' + COLS.map(c => `<td${c.cls ? ` class="${c.cls}"` : ''}>${c.fmt ? c.fmt(r) : r[c.k].toLocaleString()}</td>`).join('') + '</tr>').join('')
+    : '<tr><td colspan="9" class="empty">No publisher matches.</td></tr>';
+}
+$('search').addEventListener('input', () => D.weeks && renderFull());
+
+function renderWeek(){
+  $('weekDesc').textContent = `The Hardcover Fiction list dated ${fmtDate(D.latest_list)}.`;
+  $('week').querySelector('tbody').innerHTML = D.latest_books.map(b =>
+    `<tr><td class="rk">${b.rank}</td><td><b>${esc(titleCase(b.title))}</b> <span class="tie">${esc(b.author)}</span></td><td>${esc(b.publisher)}</td><td class="rk">${b.weeks_on_list > 1 ? b.weeks_on_list + ' wks' : 'New'}</td></tr>`).join('');
+}
+
+init();
+</script>
+</body>
+</html>
