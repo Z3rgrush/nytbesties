@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-03-01",
+ "bestsellers_date": "2026-02-14",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 2,
+   "title": "OPERATION BOUNCE HOUSE",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820308",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "CROSS & SAMPSON",
+   "author": "James Patterson and Brian Sitts",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316599849",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE NIGHT PRINCE",
+   "author": "Lauren Palphreyman",
+   "publisher": "Bloom",
+   "isbn13": "9781464275609",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THRONE OF NIGHTMARES",
+   "author": "Kerri Maniscalco",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316602839",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 21
+  },
+  {
+   "rank": 7,
+   "title": "COLD ZERO",
+   "author": "Brad Thor with Ward Larsen",
+   "publisher": "Atria/Emily Bestler",
+   "isbn13": "9781668066379",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "WRETCHED",
+   "author": "Emily McIntire",
+   "publisher": "Bloom",
+   "isbn13": "9781464244667",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "IT'S NOT HER",
+   "author": "Mary Kubica",
+   "publisher": "Park Row",
+   "isbn13": "9780778387992",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "HALF HIS AGE",
+   "author": "Jennette McCurdy",
+   "publisher": "Ballantine",
+   "isbn13": "9780593723739",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 11,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 12,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 13,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 17
+  },
+  {
+   "rank": 14,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "VIGIL",
+   "author": "George Saunders",
+   "publisher": "Random House",
+   "isbn13": "9780525509622",
+   "weeks_on_list": 3
+  }
+ ]
+}

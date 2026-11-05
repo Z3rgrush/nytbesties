@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-10-04",
+ "bestsellers_date": "2026-09-19",
+ "books": [
+  {
+   "rank": 1,
+   "title": "DEAD BEAT",
+   "author": "Leigh Bardugo",
+   "publisher": "Flatiron",
+   "isbn13": "9781250884312",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "HOLLOW BONES",
+   "author": "Jodi Picoult",
+   "publisher": "Ballantine",
+   "isbn13": "9780593726259",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE THOROUGHBREDS",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567916",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "EXIT PARTY",
+   "author": "Emily St",
+   "publisher": "Knopf",
+   "isbn13": "9780593321461",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 6,
+   "title": "THE ALTAR OF PERGAMON",
+   "author": "Jonathan Cahn",
+   "publisher": "Frontline",
+   "isbn13": "9781636416151",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 7,
+   "title": "THE EMPEROR'S ENEMY",
+   "author": "Jasmine Mas",
+   "publisher": "MIRA",
+   "isbn13": "9780778307518",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "WE CHASE SHADOWS",
+   "author": "Richard Osman",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9798217060399",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "ELDRITCH",
+   "author": "Keri Lake",
+   "publisher": "Bloom",
+   "isbn13": "9781464261183",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE PIRATE QUEEN",
+   "author": "Ariel Lawhon",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550345",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 24
+  },
+  {
+   "rank": 12,
+   "title": "WHISTLER",
+   "author": "Ann Patchett",
+   "publisher": "Harper",
+   "isbn13": "9780063511637",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 13,
+   "title": "THE KNAVE AND THE MOON",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316601849",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 29
+  },
+  {
+   "rank": 15,
+   "title": "BIG LITTLE TRUTHS",
+   "author": "Liane Moriarty",
+   "publisher": "Crown",
+   "isbn13": "9780593798638",
+   "weeks_on_list": 4
+  }
+ ]
+}

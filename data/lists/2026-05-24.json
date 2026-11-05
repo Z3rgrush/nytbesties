@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-05-24",
+ "bestsellers_date": "2026-05-09",
+ "books": [
+  {
+   "rank": 1,
+   "title": "OUR PERFECT STORM",
+   "author": "Carley Fortune",
+   "publisher": "Berkley",
+   "isbn13": "9780593953242",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "FURY BOUND",
+   "author": "Sable Sorensen",
+   "publisher": "Requited",
+   "isbn13": "9780316601412",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 4,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "26 BEAUTIES",
+   "author": "James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316569804",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 28
+  },
+  {
+   "rank": 7,
+   "title": "THE THINGS WE NEVER SAY",
+   "author": "Elizabeth Strout",
+   "publisher": "Random House",
+   "isbn13": "9798217154746",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "PLATFORM DECAY",
+   "author": "Martha Wells",
+   "publisher": "Tor",
+   "isbn13": "9781250827005",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 10,
+   "title": "JOHN OF JOHN",
+   "author": "Douglas Stuart",
+   "publisher": "Grove",
+   "isbn13": "9780802167194",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "THE MOTHER-DAUGHTER BOOK CLUB",
+   "author": "Susan Patterson and James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316580595",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 12,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 17
+  },
+  {
+   "rank": 13,
+   "title": "TWISTED",
+   "author": "Emily McIntire",
+   "publisher": "Bloom",
+   "isbn13": "9781464244674",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 15,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 7
+  }
+ ]
+}

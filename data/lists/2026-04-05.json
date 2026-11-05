@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-04-05",
+ "bestsellers_date": "2026-03-21",
+ "books": [
+  {
+   "rank": 1,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 2,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 21
+  },
+  {
+   "rank": 3,
+   "title": "BLOODLUST",
+   "author": "Sandra Brown",
+   "publisher": "Grand Central",
+   "isbn13": "9781538743027",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 5,
+   "title": "INNAMORATA",
+   "author": "Ava Reid",
+   "publisher": "Del Rey",
+   "isbn13": "9780593722596",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 7,
+   "title": "MOTHER OF DEATH AND DAWN",
+   "author": "Carissa Broadbent",
+   "publisher": "Bramble",
+   "isbn13": "9781250405401",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "KIN",
+   "author": "Tayari Jones",
+   "publisher": "Knopf",
+   "isbn13": "9780525659181",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 9,
+   "title": "BETWEEN TWO FIRES",
+   "author": "Christopher Buehlman",
+   "publisher": "Tor Nightfire",
+   "isbn13": "9781250439208",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 10,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 11,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 12,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 26
+  },
+  {
+   "rank": 13,
+   "title": "THE CROSSROADS",
+   "author": "C.J. Box",
+   "publisher": "Putnam",
+   "isbn13": "9780593851098",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 14,
+   "title": "THE GATE OF THE FERAL GODS",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955970",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 15,
+   "title": "DUNGEON CRAWLER CARL",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820247",
+   "weeks_on_list": 12
+  }
+ ]
+}

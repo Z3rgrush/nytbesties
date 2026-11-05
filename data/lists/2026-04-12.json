@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-04-12",
+ "bestsellers_date": "2026-03-28",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 3,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 4,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 5,
+   "title": "DAUGHTER OF EGYPT",
+   "author": "Marie Benedict",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250280732",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 7,
+   "title": "BENEATH",
+   "author": "Ariel Sullivan",
+   "publisher": "Thousand Voices x Ballantine",
+   "isbn13": "9798217091027",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "THE GATE OF THE FERAL GODS",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955970",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 9,
+   "title": "THE TRAITOR QUEEN",
+   "author": "Danielle L. Jensen",
+   "publisher": "Del Rey",
+   "isbn13": "9780593975237",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "KIN",
+   "author": "Tayari Jones",
+   "publisher": "Knopf",
+   "isbn13": "9780525659181",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 11,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 27
+  },
+  {
+   "rank": 12,
+   "title": "THE BUTCHER'S MASQUERADE",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955994",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 13,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 14,
+   "title": "WOLF WORM",
+   "author": "T. Kingfisher",
+   "publisher": "Tor Nightfire",
+   "isbn13": "9781250829825",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "THE EYE OF THE BEDLAM BRIDE",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593956014",
+   "weeks_on_list": 2
+  }
+ ]
+}

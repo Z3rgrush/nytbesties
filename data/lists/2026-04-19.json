@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-04-19",
+ "bestsellers_date": "2026-04-04",
+ "books": [
+  {
+   "rank": 1,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 23
+  },
+  {
+   "rank": 4,
+   "title": "THE KEEPER",
+   "author": "Tana French",
+   "publisher": "Viking",
+   "isbn13": "9780593493465",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 6,
+   "title": "UPWARD BOUND",
+   "author": "Woody Brown",
+   "publisher": "Hogarth",
+   "isbn13": "9780593979976",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "BETWEEN TWO FIRES",
+   "author": "Christopher Buehlman",
+   "publisher": "Tor Nightfire",
+   "isbn13": "9781250439208",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 8,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 12
+  },
+  {
+   "rank": 9,
+   "title": "RAIN OF SHADOWS AND ENDINGS",
+   "author": "Melissa K. Roehrich",
+   "publisher": "Kensington",
+   "isbn13": "9781496760296",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THIS KINGDOM WILL NOT KILL ME",
+   "author": "Ilona Andrews",
+   "publisher": "Tor",
+   "isbn13": "9781250377265",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "KIN",
+   "author": "Tayari Jones",
+   "publisher": "Knopf",
+   "isbn13": "9780525659181",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 12,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 13,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 14,
+   "title": "THE GATE OF THE FERAL GODS",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955970",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 15,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 23
+  }
+ ]
+}

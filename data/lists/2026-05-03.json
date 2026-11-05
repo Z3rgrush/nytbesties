@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-05-03",
+ "bestsellers_date": "2026-04-18",
+ "books": [
+  {
+   "rank": 1,
+   "title": "HOPE RISES",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538758021",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 25
+  },
+  {
+   "rank": 3,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 4,
+   "title": "RITES OF THE STARLING",
+   "author": "Devney Perry",
+   "publisher": "Red Tower",
+   "isbn13": "9781682816752",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "THE AUCTION",
+   "author": "Sadie Kincaid",
+   "publisher": "MIRA",
+   "isbn13": "9780778306085",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "THE FAITH OF BEASTS",
+   "author": "James S.A. Corey",
+   "publisher": "Orbit",
+   "isbn13": "9780316525671",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 9,
+   "title": "GO GENTLE",
+   "author": "Maria Semple",
+   "publisher": "Putnam",
+   "isbn13": "9798217176632",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 11,
+   "title": "REVENGE PREY",
+   "author": "John Sandford",
+   "publisher": "Putnam",
+   "isbn13": "9780593852064",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 12,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 13,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 14,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 15,
+   "title": "CHERRY BABY",
+   "author": "Rainbow Rowell",
+   "publisher": "Morrow",
+   "isbn13": "9780063380264",
+   "weeks_on_list": 1
+  }
+ ]
+}

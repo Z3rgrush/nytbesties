@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-06-28",
+ "bestsellers_date": "2026-06-13",
+ "books": [
+  {
+   "rank": 1,
+   "title": "HARVEST SEASON",
+   "author": "Brynne Weaver",
+   "publisher": "Slowburn",
+   "isbn13": "9781638932123",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "WHISTLER",
+   "author": "Ann Patchett",
+   "publisher": "Harper",
+   "isbn13": "9780063511637",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 4,
+   "title": "LIGHT WIELDER",
+   "author": "Rachel Schneider",
+   "publisher": "Saturday",
+   "isbn13": "9781250419101",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 6,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 33
+  },
+  {
+   "rank": 7,
+   "title": "ROCKET'S RED GLARE",
+   "author": "James Patterson and Matt Eversmann",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316600118",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "LAND",
+   "author": "Maggie O'Farrell",
+   "publisher": "Knopf",
+   "isbn13": "9780593320648",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "OUR PERFECT STORM",
+   "author": "Carley Fortune",
+   "publisher": "Berkley",
+   "isbn13": "9780593953242",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 10,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 11,
+   "title": "THE MIDNIGHT TRAIN",
+   "author": "Matt Haig",
+   "publisher": "Viking",
+   "isbn13": "9780593833377",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 12,
+   "title": "DAUGHTERS OF THE SUN AND MOON",
+   "author": "Lisa See",
+   "publisher": "Scribner",
+   "isbn13": "9781982117054",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 15
+  },
+  {
+   "rank": 14,
+   "title": "VILLA COCO",
+   "author": "Andrew Sean Greer",
+   "publisher": "Doubleday",
+   "isbn13": "9780385551977",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "A PARADE OF HORRIBLES",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9798217190065",
+   "weeks_on_list": 5
+  }
+ ]
+}

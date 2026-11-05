@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-05-10",
+ "bestsellers_date": "2026-04-25",
+ "books": [
+  {
+   "rank": 1,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 2,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 26
+  },
+  {
+   "rank": 3,
+   "title": "PURPLE STATE",
+   "author": "Dana Perino",
+   "publisher": "Harper",
+   "isbn13": "9780063486560",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "A WOMAN'S PLACE",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593973080",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "HOPE RISES",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538758021",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 6,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 7,
+   "title": "MAD MABEL",
+   "author": "Sally Hepworth",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250284549",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "RITES OF THE STARLING",
+   "author": "Devney Perry",
+   "publisher": "Red Tower",
+   "isbn13": "9781682816752",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 9,
+   "title": "THE MOTHER-DAUGHTER BOOK CLUB",
+   "author": "Susan Patterson and James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316580595",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "PARADOX",
+   "author": "Douglas Preston and Aletheia Preston",
+   "publisher": "Forge",
+   "isbn13": "9781250413901",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 12,
+   "title": "THE CARETAKER",
+   "author": "Marcus Kliewer",
+   "publisher": "Atria/Emily Bestler/12:01",
+   "isbn13": "9781982198817",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 14,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 15
+  },
+  {
+   "rank": 15,
+   "title": "GO GENTLE",
+   "author": "Maria Semple",
+   "publisher": "Putnam",
+   "isbn13": "9798217176632",
+   "weeks_on_list": 2
+  }
+ ]
+}

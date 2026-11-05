@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-02-08",
+ "bestsellers_date": "2026-01-24",
+ "books": [
+  {
+   "rank": 1,
+   "title": "TWELVE MONTHS",
+   "author": "Jim Butcher",
+   "publisher": "Ace",
+   "isbn13": "9780593199336",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "HALF HIS AGE",
+   "author": "Jennette McCurdy",
+   "publisher": "Ballantine",
+   "isbn13": "9780593723739",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 4,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE THINGS WE LEAVE UNFINISHED",
+   "author": "Rebecca Yarros",
+   "publisher": "Amara",
+   "isbn13": "9781682816318",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 7,
+   "title": "THE FIRST TIME I SAW HIM",
+   "author": "Laura Dave",
+   "publisher": "Scribner",
+   "isbn13": "9781668002964",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 9,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 18
+  },
+  {
+   "rank": 10,
+   "title": "ANATOMY OF AN ALIBI",
+   "author": "Ashley Elston",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9780593834459",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 15
+  },
+  {
+   "rank": 12,
+   "title": "BRIMSTONE",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774229",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 13,
+   "title": "THE ELSEWHERE EXPRESS",
+   "author": "Samantha Sotto Yambao",
+   "publisher": "Del Rey",
+   "isbn13": "9780593725023",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 15,
+   "title": "THE DEVIL'S DAUGHTER",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498859",
+   "weeks_on_list": 2
+  }
+ ]
+}

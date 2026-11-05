@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-04-26",
+ "bestsellers_date": "2026-04-11",
+ "books": [
+  {
+   "rank": 1,
+   "title": "RITES OF THE STARLING",
+   "author": "Devney Perry",
+   "publisher": "Red Tower",
+   "isbn13": "9781682816752",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "REVENGE PREY",
+   "author": "John Sandford",
+   "publisher": "Putnam",
+   "isbn13": "9780593852064",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 24
+  },
+  {
+   "rank": 5,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 6,
+   "title": "BLOODSINGER",
+   "author": "Juliette Cross",
+   "publisher": "Bramble",
+   "isbn13": "9781250339881",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 8,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 9,
+   "title": "STRIXHAVEN: OMENS OF CHAOS",
+   "author": "Seanan McGuire",
+   "publisher": "Random House Worlds",
+   "isbn13": "9780593871430",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE ENDING WRITES ITSELF",
+   "author": "Evelyn Clarke",
+   "publisher": "Harper",
+   "isbn13": "9780063444614",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "AMERICAN FANTASY",
+   "author": "Emma Straub",
+   "publisher": "Riverhead",
+   "isbn13": "9798217046850",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 13,
+   "title": "THE WICKED SEA",
+   "author": "Jordan Stephanie Gray",
+   "publisher": "Requited",
+   "isbn13": "9780316596336",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "INTO THE BLUE",
+   "author": "Emma Brodie",
+   "publisher": "Ballantine",
+   "isbn13": "9798217093700",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "THE KEEPER",
+   "author": "Tana French",
+   "publisher": "Viking",
+   "isbn13": "9780593493465",
+   "weeks_on_list": 2
+  }
+ ]
+}

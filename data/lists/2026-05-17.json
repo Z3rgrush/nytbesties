@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-05-17",
+ "bestsellers_date": "2026-05-02",
+ "books": [
+  {
+   "rank": 1,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 2,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 27
+  },
+  {
+   "rank": 3,
+   "title": "THE THRONE OF BROKEN GODS",
+   "author": "Amber V. Nicole",
+   "publisher": "Kensington",
+   "isbn13": "9781496758071",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "PURPLE STATE",
+   "author": "Dana Perino",
+   "publisher": "Harper",
+   "isbn13": "9780063486560",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "BLOOD BOUND",
+   "author": "Ellis Hunter",
+   "publisher": "Atria",
+   "isbn13": "9781668233139",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "WE BURNED SO BRIGHT",
+   "author": "TJ Klune",
+   "publisher": "Tor",
+   "isbn13": "9781250881236",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "STARSIDE",
+   "author": "Alex Aster",
+   "publisher": "Avon",
+   "isbn13": "9780063462434",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 8,
+   "title": "HOPE RISES",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538758021",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 9,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 10,
+   "title": "THE MOTHER-DAUGHTER BOOK CLUB",
+   "author": "Susan Patterson and James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316580595",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "JUDGE STONE",
+   "author": "Viola Davis and James Patterson",
+   "publisher": "Little, Brown and JVL",
+   "isbn13": "9780316579834",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 12,
+   "title": "THE NIGHT WE MET",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759226",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 13,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 14,
+   "title": "CHASING THE CLOUDS AWAY",
+   "author": "Debbie Macomber",
+   "publisher": "Ballantine",
+   "isbn13": "9798217091676",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "RITES OF THE STARLING",
+   "author": "Devney Perry",
+   "publisher": "Red Tower",
+   "isbn13": "9781682816752",
+   "weeks_on_list": 4
+  }
+ ]
+}

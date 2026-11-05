@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-06-14",
+ "bestsellers_date": "2026-05-30",
+ "books": [
+  {
+   "rank": 1,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 2,
+   "title": "PHOEBE BERMAN'S GONNA LOSE IT",
+   "author": "Brooke Averick",
+   "publisher": "Crown",
+   "isbn13": "9798217088263",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE FINAL TARGET",
+   "author": "Nora Roberts",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250413581",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE MIDNIGHT TRAIN",
+   "author": "Matt Haig",
+   "publisher": "Viking",
+   "isbn13": "9780593833377",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE BALLAD OF FALLING DRAGONS",
+   "author": "Sarah A. Parker",
+   "publisher": "Avon",
+   "isbn13": "9780063415898",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 6,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 31
+  },
+  {
+   "rank": 7,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 8,
+   "title": "OUR PERFECT STORM",
+   "author": "Carley Fortune",
+   "publisher": "Berkley",
+   "isbn13": "9780593953242",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 9,
+   "title": "THE MARTIAN",
+   "author": "Andy Weir",
+   "publisher": "Ballantine",
+   "isbn13": "9798217300556",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 10,
+   "title": "A PARADE OF HORRIBLES",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9798217190065",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 11,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 12,
+   "title": "IRONWOOD",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316595384",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 13,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 14,
+   "title": "THE BROTHERS MCKAY",
+   "author": "Craig Johnson",
+   "publisher": "Viking",
+   "isbn13": "9780593830734",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "THE GATE OF THE FERAL GODS",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955970",
+   "weeks_on_list": 6
+  }
+ ]
+}

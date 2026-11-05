@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-02-22",
+ "bestsellers_date": "2026-02-07",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 15
+  },
+  {
+   "rank": 2,
+   "title": "STOLEN IN DEATH",
+   "author": "J.D. Robb",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250414526",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "IT'S NOT HER",
+   "author": "Mary Kubica",
+   "publisher": "Park Row",
+   "isbn13": "9780778387992",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "HALF HIS AGE",
+   "author": "Jennette McCurdy",
+   "publisher": "Ballantine",
+   "isbn13": "9780593723739",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 5,
+   "title": "ISLES OF THE EMBERDARK",
+   "author": "Brandon Sanderson",
+   "publisher": "Tor",
+   "isbn13": "9781250415394",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 7,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 8,
+   "title": "VIGIL",
+   "author": "George Saunders",
+   "publisher": "Random House",
+   "isbn13": "9780525509622",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 10,
+   "title": "METAL SLINGER",
+   "author": "Rachel Schneider",
+   "publisher": "Saturday",
+   "isbn13": "9781250419217",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 12,
+   "title": "DAWN OF THE NORTH",
+   "author": "Demi Winters",
+   "publisher": "Delacorte",
+   "isbn13": "9780593975657",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "JIGSAW",
+   "author": "Jonathan Kellerman",
+   "publisher": "Ballantine",
+   "isbn13": "9780593497715",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "ANATOMY OF AN ALIBI",
+   "author": "Ashley Elston",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9780593834459",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 15,
+   "title": "THE FIRST TIME I SAW HIM",
+   "author": "Laura Dave",
+   "publisher": "Scribner",
+   "isbn13": "9781668002964",
+   "weeks_on_list": 5
+  }
+ ]
+}

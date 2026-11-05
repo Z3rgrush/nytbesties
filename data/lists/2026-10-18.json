@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-10-18",
+ "bestsellers_date": "2026-10-03",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THRESHING DAY",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781682818084",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE FRENCH ILLUSION",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550543",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "HOLLYWOOD, ENDING",
+   "author": "John Green",
+   "publisher": "Dutton",
+   "isbn13": "9780525426073",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 4,
+   "title": "AMERICAN HAGWON",
+   "author": "Min Jin Lee",
+   "publisher": "Cardinal",
+   "isbn13": "9781538752036",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 6,
+   "title": "HOLLOW BONES",
+   "author": "Jodi Picoult",
+   "publisher": "Ballantine",
+   "isbn13": "9780593726259",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 7,
+   "title": "BALDUR'S GATE 3: ASTARION",
+   "author": "T. Kingfisher",
+   "publisher": "Random House Worlds",
+   "isbn13": "9798217298594",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "THE DAWN OF THE CURSED QUEEN",
+   "author": "Amber V. Nicole",
+   "publisher": "Kensington",
+   "isbn13": "9781496758088",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "HEATED RIVALRY",
+   "author": "Rachel Reid",
+   "publisher": "Harlequin",
+   "isbn13": "9781335004048",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "SOMETIMES I SCARE MYSELF",
+   "author": "Jeneva Rose",
+   "publisher": "Blackstone",
+   "isbn13": "9798212182881",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "RUTHLESS",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593973301",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 26
+  },
+  {
+   "rank": 13,
+   "title": "WHISTLER",
+   "author": "Ann Patchett",
+   "publisher": "Harper",
+   "isbn13": "9780063511637",
+   "weeks_on_list": 18
+  },
+  {
+   "rank": 14,
+   "title": "THE PIRATE QUEEN",
+   "author": "Ariel Lawhon",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550345",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 15,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379290",
+   "weeks_on_list": 100
+  }
+ ]
+}

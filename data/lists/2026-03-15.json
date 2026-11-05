@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-03-15",
+ "bestsellers_date": "2026-02-28",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE CROSSROADS",
+   "author": "C.J. Box",
+   "publisher": "Putnam",
+   "isbn13": "9780593851098",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 18
+  },
+  {
+   "rank": 3,
+   "title": "KIN",
+   "author": "Tayari Jones",
+   "publisher": "Knopf",
+   "isbn13": "9780525659181",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "CROSS & SAMPSON",
+   "author": "James Patterson and Brian Sitts",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316599849",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 5,
+   "title": "MY HUSBAND'S WIFE",
+   "author": "Alice Feeney",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250337818",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 6,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 23
+  },
+  {
+   "rank": 7,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 8,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 19
+  },
+  {
+   "rank": 9,
+   "title": "MORE THAN ENOUGH",
+   "author": "Anna Quindlen",
+   "publisher": "Random House",
+   "isbn13": "9780593734605",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "BRAWLER",
+   "author": "Lauren Groff",
+   "publisher": "Riverhead",
+   "isbn13": "9780593418420",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "IT'S NOT HER",
+   "author": "Mary Kubica",
+   "publisher": "Park Row",
+   "isbn13": "9780778387992",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 13,
+   "title": "VIGIL",
+   "author": "George Saunders",
+   "publisher": "Random House",
+   "isbn13": "9780525509622",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 14,
+   "title": "HEART THE LOVER",
+   "author": "Lily King",
+   "publisher": "Grove",
+   "isbn13": "9780802165176",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "THE RED WINTER",
+   "author": "Cameron Sullivan",
+   "publisher": "Tor",
+   "isbn13": "9781250362766",
+   "weeks_on_list": 1
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-07-05",
+ "bestsellers_date": "2026-06-20",
+ "books": [
+  {
+   "rank": 1,
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 2,
+   "title": "WHISTLER",
+   "author": "Ann Patchett",
+   "publisher": "Harper",
+   "isbn13": "9780063511637",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 3,
+   "title": "THE CALAMITY CLUB",
+   "author": "Kathryn Stockett",
+   "publisher": "Spiegel & Grau",
+   "isbn13": "9781954118812",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 4,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 34
+  },
+  {
+   "rank": 5,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 23
+  },
+  {
+   "rank": 6,
+   "title": "OUR PERFECT STORM",
+   "author": "Carley Fortune",
+   "publisher": "Berkley",
+   "isbn13": "9780593953242",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 7,
+   "title": "A PARADE OF HORRIBLES",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9798217190065",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 8,
+   "title": "ROCKET'S RED GLARE",
+   "author": "James Patterson and Matt Eversmann",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316600118",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "CHOKE POINT",
+   "author": "Brad Thor",
+   "publisher": "Atria/Emily Bestler",
+   "isbn13": "9781668065921",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 11,
+   "title": "THE GATE OF THE FERAL GODS",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955970",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 12,
+   "title": "THE BUTCHER'S MASQUERADE",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593955994",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 13,
+   "title": "THE EYE OF THE BEDLAM BRIDE",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593956014",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "LAND",
+   "author": "Maggie O'Farrell",
+   "publisher": "Knopf",
+   "isbn13": "9780593320648",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "HARVEST SEASON",
+   "author": "Brynne Weaver",
+   "publisher": "Slowburn",
+   "isbn13": "9781638932123",
+   "weeks_on_list": 2
+  }
+ ]
+}

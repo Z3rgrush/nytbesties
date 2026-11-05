@@ -1,0 +1,126 @@
+{
+ "published_date": "2026-02-01",
+ "bestsellers_date": "2026-01-17",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 12
+  },
+  {
+   "rank": 2,
+   "title": "ANATOMY OF AN ALIBI",
+   "author": "Ashley Elston",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9780593834459",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE DEVIL'S DAUGHTER",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498859",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "HOLLOW",
+   "author": "Celina Myers",
+   "publisher": "Hanover Square",
+   "isbn13": "9780778387855",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE FIRST TIME I SAW HIM",
+   "author": "Laura Dave",
+   "publisher": "Scribner",
+   "isbn13": "9781668002964",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 6,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 7,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 19
+  },
+  {
+   "rank": 8,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 17
+  },
+  {
+   "rank": 9,
+   "title": "BRIMSTONE",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774229",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 10,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 11,
+   "title": "ENCHANTRA",
+   "author": "Kaylie Smith",
+   "publisher": "Forever",
+   "isbn13": "9781538777367",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "HEART THE LOVER",
+   "author": "Lily King",
+   "publisher": "Grove",
+   "isbn13": "9780802165176",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 13,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 14,
+   "title": "MONA'S EYES",
+   "author": "Thomas Schlesser",
+   "publisher": "Europa",
+   "isbn13": "9798889661115",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 15,
+   "title": "CARL'S DOOMSDAY SCENARIO",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820261",
+   "weeks_on_list": 1
+  }
+ ]
+}
