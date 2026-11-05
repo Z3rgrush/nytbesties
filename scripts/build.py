@@ -52,7 +52,7 @@ def compete_rank(items, key, reverse=True):
 def score(lists: list) -> dict:
     pubs = defaultdict(lambda: {
         "appearances": 0, "rank_sum": 0, "list_points": 0, "cumulative": 0,
-        "titles": set(), "weeks_at_1": 0, "best_rank": 99,
+        "books": {}, "weeks_at_1": 0, "best_rank": 99,
     })
     titles = {}
     weekly = []
@@ -71,7 +71,13 @@ def score(lists: list) -> dict:
             # Titles are matched by title+author so new ISBNs (e.g. a
             # reissue mid-run) do not split one book into two entries.
             tk = f'{b["title"].lower()}|{b["author"].lower()}'
-            p["titles"].add(tk)
+            pb = p["books"].setdefault(tk, {
+                "title": b["title"], "author": b["author"],
+                "weeks": 0, "list_points": 0, "best_rank": 99,
+            })
+            pb["weeks"] += 1
+            pb["list_points"] += points(b["rank"])
+            pb["best_rank"] = min(pb["best_rank"], b["rank"])
             t = titles.setdefault(tk, {
                 "title": b["title"], "author": b["author"], "publisher": b["publisher"],
                 "weeks": 0, "list_points": 0, "best_rank": 99, "weeks_at_1": 0,
@@ -98,7 +104,8 @@ def score(lists: list) -> dict:
         pub_rows.append({
             "publisher": name,
             "appearances": p["appearances"],
-            "titles": len(p["titles"]),
+            "titles": len(p["books"]),
+            "books": sorted(p["books"].values(), key=lambda x: (-x["list_points"], x["best_rank"], x["title"])),
             "avg_rank": round(p["rank_sum"] / p["appearances"], 2),
             "list_points": p["list_points"],
             "cumulative": p["cumulative"],

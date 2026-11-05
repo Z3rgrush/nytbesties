@@ -32,7 +32,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Source Serif
 header{border-top:8px solid var(--rule);padding-top:18px;margin-bottom:28px}
 .kicker{text-transform:uppercase;letter-spacing:.08em;font-size:13px;font-weight:800;font-stretch:110%}
 h1{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:80%;font-size:clamp(40px,8vw,84px);line-height:.95;letter-spacing:-.01em;margin:10px 0 14px;text-transform:uppercase}
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) :root[data-theme="dark"] h2{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:85%;font-size:30px;line-height:1.05;text-transform:uppercase;margin:0 0 6px}
+h2{font-family:Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:900;font-stretch:85%;font-size:30px;line-height:1.05;text-transform:uppercase;margin:0 0 6px}
 .sub{color:var(--muted);margin:0;font-size:14px}
 .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:0 24px;margin:0 0 36px}
 .stat{border-top:3px solid var(--rule);padding:10px 0 4px}
@@ -79,6 +79,22 @@ footer a{color:inherit}
 .week td:nth-child(1){width:32px}
 .week td:nth-child(3){text-align:left;color:var(--muted)}
 .week td:nth-child(2) b{font-weight:600}
+.xp{cursor:pointer}
+.xp:focus-visible{outline:3px solid var(--hl);outline-offset:-3px}
+.caret{display:inline-block;font-family:Archivo,sans-serif;font-size:11px;margin-left:6px;color:var(--muted);transition:transform .15s}
+[aria-expanded="true"] .caret{transform:rotate(90deg)}
+ol.top li.books{display:block;border-top:0;padding:0 0 12px 64px}
+@media (max-width:520px){ol.top li.books{padding-left:0}}
+table.bk{font-size:13px;width:100%;background:var(--accent-soft)}
+table.bk th,table.bk td{padding:6px 10px;border-bottom:1px solid var(--line);position:static;cursor:default;background:transparent}
+table.bk th{font-size:10.5px;border-bottom:2px solid var(--rule)}
+table.bk td:nth-child(1){text-align:left;white-space:normal;min-width:160px;font-weight:600}
+table.bk th:nth-child(1){text-align:left}
+table.bk td:nth-child(2),table.bk th:nth-child(2){text-align:left;white-space:normal;min-width:110px;font-weight:400;color:var(--muted)}
+tr.booksrow>td{padding:0 0 12px 0;text-align:left}
+tr.booksrow:hover{background:transparent}
+tr.booksrow .tablewrap{max-width:760px;margin-left:40px}
+@media (max-width:520px){tr.booksrow .tablewrap{margin-left:0}}
 </style>
 </head>
 <body>
@@ -107,7 +123,7 @@ footer a{color:inherit}
 
   <section class="card">
     <h2>Complete publisher ranking</h2>
-    <p class="sub">Every publisher that has reached the list this year. Click a column to sort.</p>
+    <p class="sub">Every publisher that has reached the list this year. Click a column to sort, or a publisher to see its titles.</p>
     <input class="search" id="search" type="search" placeholder="Find a publisher" aria-label="Find a publisher">
     <div class="tablewrap"><table id="full"><thead></thead><tbody></tbody></table></div>
   </section>
@@ -193,10 +209,32 @@ function renderTabs(){
       else if (p > n) mv = `<span class="mv up">▲${p-n}</span>`;
       else if (p < n) mv = `<span class="mv down">▼${n-p}</span>`;
     }
-    return `<li><span class="pos">${rk(r['rank_'+a.id], r['tied_'+a.id])}</span>
-      <div class="name">${esc(r.publisher)}${mv}<small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · best #${r.best_rank}</small></div>
-      <div class="val">${a.low ? v.toFixed(2) : v.toLocaleString()}<small>${a.unit}</small></div></li>`;
+    const open = openTop.has(r.publisher);
+    return `<li class="xp" tabindex="0" role="button" aria-expanded="${open}" data-pub="${esc(r.publisher)}"><span class="pos">${rk(r['rank_'+a.id], r['tied_'+a.id])}</span>
+      <div class="name">${esc(r.publisher)}<span class="caret">▶</span>${mv}<small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · best #${r.best_rank}</small></div>
+      <div class="val">${a.low ? v.toFixed(2) : v.toLocaleString()}<small>${a.unit}</small></div></li>`
+      + (open ? `<li class="books">${booksTable(r)}</li>` : '');
   }).join('');
+}
+
+// Publisher drop-downs: click a publisher to list its titles.
+const openTop = new Set(), openFull = new Set();
+function booksTable(r){
+  return `<div class="tablewrap"><table class="bk"><thead><tr><th>Title</th><th>Author</th><th>Weeks</th><th>Best</th><th>Pts</th></tr></thead><tbody>`
+    + r.books.map(b => `<tr><td>${esc(titleCase(b.title))}</td><td>${esc(b.author)}</td><td>${b.weeks}</td><td>#${b.best_rank}</td><td>${b.list_points}</td></tr>`).join('')
+    + '</tbody></table></div>';
+}
+function bindToggle(el, openPubs, rerender){
+  const toggle = e => {
+    const row = e.target.closest('.xp'); if (!row) return;
+    const pub = row.dataset.pub;
+    openPubs.has(pub) ? openPubs.delete(pub) : openPubs.add(pub);
+    rerender();
+    const again = [...el.querySelectorAll('.xp')].find(x => x.dataset.pub === pub);
+    if (again) again.focus({preventScroll:true});
+  };
+  el.addEventListener('click', toggle);
+  el.addEventListener('keydown', e => { if ((e.key === 'Enter' || e.key === ' ') && e.target.closest('.xp')){ e.preventDefault(); toggle(e); } });
 }
 
 function renderTitles(){
@@ -236,10 +274,13 @@ function renderFull(){
     return d * sortDir || a.rank_cumulative - b.rank_cumulative;
   });
   $('full').querySelector('tbody').innerHTML = rows.length ? rows.map(r =>
-    '<tr>' + COLS.map(c => `<td${c.cls ? ` class="${c.cls}"` : ''}>${c.fmt ? c.fmt(r) : r[c.k].toLocaleString()}</td>`).join('') + '</tr>').join('')
+    `<tr class="xp" tabindex="0" role="button" aria-expanded="${openFull.has(r.publisher)}" data-pub="${esc(r.publisher)}">` + COLS.map(c => `<td${c.cls ? ` class="${c.cls}"` : ''}>${c.fmt ? c.fmt(r) : r[c.k].toLocaleString()}${c.k === 'publisher' ? '<span class="caret">▶</span>' : ''}</td>`).join('') + '</tr>'
+    + (openFull.has(r.publisher) ? `<tr class="booksrow"><td colspan="9">${booksTable(r)}</td></tr>` : '')).join('')
     : '<tr><td colspan="9" class="empty">No publisher matches.</td></tr>';
 }
 $('search').addEventListener('input', () => D.weeks && renderFull());
+bindToggle($('topPubs'), openTop, renderTabs);
+bindToggle($('full').querySelector('tbody'), openFull, renderFull);
 
 function renderWeek(){
   $('weekDesc').textContent = `The Hardcover Fiction list dated ${fmtDate(D.latest_list)}.`;

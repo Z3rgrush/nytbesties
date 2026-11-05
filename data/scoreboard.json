@@ -127,12 +127,91 @@
  ],
  "total_titles": 227,
  "total_publishers": 68,
- "generated_at": "2026-11-05T22:36Z",
+ "generated_at": "2026-11-05T22:39Z",
  "publishers": [
   {
    "publisher": "Ace",
    "appearances": 126,
    "titles": 11,
+   "books": [
+    {
+     "title": "CARL'S DOOMSDAY SCENARIO",
+     "author": "Matt Dinniman",
+     "weeks": 32,
+     "list_points": 195,
+     "best_rank": 4
+    },
+    {
+     "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+     "author": "Matt Dinniman",
+     "weeks": 32,
+     "list_points": 169,
+     "best_rank": 6
+    },
+    {
+     "title": "DUNGEON CRAWLER CARL",
+     "author": "Matt Dinniman",
+     "weeks": 17,
+     "list_points": 88,
+     "best_rank": 5
+    },
+    {
+     "title": "THE GATE OF THE FERAL GODS",
+     "author": "Matt Dinniman",
+     "weeks": 20,
+     "list_points": 63,
+     "best_rank": 8
+    },
+    {
+     "title": "A PARADE OF HORRIBLES",
+     "author": "Matt Dinniman",
+     "weeks": 8,
+     "list_points": 49,
+     "best_rank": 1
+    },
+    {
+     "title": "OPERATION BOUNCE HOUSE",
+     "author": "Matt Dinniman",
+     "weeks": 2,
+     "list_points": 24,
+     "best_rank": 2
+    },
+    {
+     "title": "THE BUTCHER'S MASQUERADE",
+     "author": "Matt Dinniman",
+     "weeks": 8,
+     "list_points": 21,
+     "best_rank": 12
+    },
+    {
+     "title": "TWELVE MONTHS",
+     "author": "Jim Butcher",
+     "weeks": 1,
+     "list_points": 15,
+     "best_rank": 1
+    },
+    {
+     "title": "THE EXQUISITE TORMENT OF LOVING YOUR ENEMY",
+     "author": "Brigitte Knightley",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "THE EYE OF THE BEDLAM BRIDE",
+     "author": "Matt Dinniman",
+     "weeks": 4,
+     "list_points": 9,
+     "best_rank": 12
+    },
+    {
+     "title": "THIS INEVITABLE RUIN",
+     "author": "Matt Dinniman",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 10.87,
    "list_points": 646,
    "cumulative": 337,
@@ -155,6 +234,29 @@
    "publisher": "Crown",
    "appearances": 44,
    "titles": 3,
+   "books": [
+    {
+     "title": "THE CORRESPONDENT",
+     "author": "Virginia Evans",
+     "weeks": 38,
+     "list_points": 449,
+     "best_rank": 1
+    },
+    {
+     "title": "BIG LITTLE TRUTHS",
+     "author": "Liane Moriarty",
+     "weeks": 4,
+     "list_points": 29,
+     "best_rank": 1
+    },
+    {
+     "title": "PHOEBE BERMAN'S GONNA LOSE IT",
+     "author": "Brooke Averick",
+     "weeks": 2,
+     "list_points": 21,
+     "best_rank": 2
+    }
+   ],
    "avg_rank": 4.66,
    "list_points": 499,
    "cumulative": 329,
@@ -177,6 +279,36 @@
    "publisher": "Knopf",
    "appearances": 40,
    "titles": 4,
+   "books": [
+    {
+     "title": "YESTERYEAR",
+     "author": "Caro Claire Burke",
+     "weeks": 28,
+     "list_points": 336,
+     "best_rank": 1
+    },
+    {
+     "title": "KIN",
+     "author": "Tayari Jones",
+     "weeks": 6,
+     "list_points": 54,
+     "best_rank": 3
+    },
+    {
+     "title": "LAND",
+     "author": "Maggie O'Farrell",
+     "weeks": 5,
+     "list_points": 34,
+     "best_rank": 3
+    },
+    {
+     "title": "EXIT PARTY",
+     "author": "Emily St",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    }
+   ],
    "avg_rank": 5.1,
    "list_points": 436,
    "cumulative": 280,
@@ -199,6 +331,57 @@
    "publisher": "Doubleday",
    "appearances": 36,
    "titles": 7,
+   "books": [
+    {
+     "title": "THE WIDOW",
+     "author": "John Grisham",
+     "weeks": 15,
+     "list_points": 130,
+     "best_rank": 1
+    },
+    {
+     "title": "THE SECRET OF SECRETS",
+     "author": "Dan Brown",
+     "weeks": 8,
+     "list_points": 83,
+     "best_rank": 2
+    },
+    {
+     "title": "THE FRENCH ILLUSION",
+     "author": "John Grisham",
+     "weeks": 5,
+     "list_points": 60,
+     "best_rank": 2
+    },
+    {
+     "title": "THE PIRATE QUEEN",
+     "author": "Ariel Lawhon",
+     "weeks": 5,
+     "list_points": 31,
+     "best_rank": 4
+    },
+    {
+     "title": "COOL MACHINE",
+     "author": "Colson Whitehead",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "THE AMATEUR",
+     "author": "Chris Bohjalian",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    },
+    {
+     "title": "VILLA COCO",
+     "author": "Andrew Sean Greer",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 7.11,
    "list_points": 320,
    "cumulative": 208,
@@ -221,6 +404,15 @@
    "publisher": "Spiegel & Grau",
    "appearances": 26,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE CALAMITY CLUB",
+     "author": "Kathryn Stockett",
+     "weeks": 26,
+     "list_points": 310,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 4.08,
    "list_points": 310,
    "cumulative": 206,
@@ -243,6 +435,50 @@
    "publisher": "Harper",
    "appearances": 32,
    "titles": 6,
+   "books": [
+    {
+     "title": "WHISTLER",
+     "author": "Ann Patchett",
+     "weeks": 18,
+     "list_points": 198,
+     "best_rank": 1
+    },
+    {
+     "title": "PARTITA",
+     "author": "Barbara Kingsolver",
+     "weeks": 4,
+     "list_points": 38,
+     "best_rank": 4
+    },
+    {
+     "title": "PURPLE STATE",
+     "author": "Dana Perino",
+     "weeks": 2,
+     "list_points": 25,
+     "best_rank": 3
+    },
+    {
+     "title": "RANSOM",
+     "author": "Daniel Silva",
+     "weeks": 2,
+     "list_points": 18,
+     "best_rank": 1
+    },
+    {
+     "title": "TWICE",
+     "author": "Mitch Albom",
+     "weeks": 5,
+     "list_points": 18,
+     "best_rank": 10
+    },
+    {
+     "title": "THE ENDING WRITES ITSELF",
+     "author": "Evelyn Clarke",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 6.53,
    "list_points": 303,
    "cumulative": 193,
@@ -265,6 +501,106 @@
    "publisher": "Little, Brown",
    "appearances": 33,
    "titles": 14,
+   "books": [
+    {
+     "title": "CROSS & SAMPSON",
+     "author": "James Patterson and Brian Sitts",
+     "weeks": 5,
+     "list_points": 47,
+     "best_rank": 3
+    },
+    {
+     "title": "THE COUNTRY ROAD MURDERS",
+     "author": "James Patterson and Mike Lupica",
+     "weeks": 3,
+     "list_points": 26,
+     "best_rank": 5
+    },
+    {
+     "title": "ROCKET'S RED GLARE",
+     "author": "James Patterson and Matt Eversmann",
+     "weeks": 4,
+     "list_points": 25,
+     "best_rank": 7
+    },
+    {
+     "title": "26 BEAUTIES",
+     "author": "James Patterson",
+     "weeks": 3,
+     "list_points": 24,
+     "best_rank": 5
+    },
+    {
+     "title": "DELUSIONAL",
+     "author": "James Patterson and James O. Born",
+     "weeks": 2,
+     "list_points": 22,
+     "best_rank": 4
+    },
+    {
+     "title": "RETURN OF THE SPIDER",
+     "author": "James Patterson",
+     "weeks": 3,
+     "list_points": 20,
+     "best_rank": 7
+    },
+    {
+     "title": "THE FAMILY CROSS",
+     "author": "James Patterson",
+     "weeks": 2,
+     "list_points": 19,
+     "best_rank": 4
+    },
+    {
+     "title": "THE MOTHER-DAUGHTER BOOK CLUB",
+     "author": "Susan Patterson and James Patterson",
+     "weeks": 3,
+     "list_points": 18,
+     "best_rank": 9
+    },
+    {
+     "title": "IRONWOOD",
+     "author": "Michael Connelly",
+     "weeks": 2,
+     "list_points": 17,
+     "best_rank": 3
+    },
+    {
+     "title": "THE THOROUGHBREDS",
+     "author": "Elin Hilderbrand and Shelby Cunningham",
+     "weeks": 2,
+     "list_points": 16,
+     "best_rank": 3
+    },
+    {
+     "title": "THE HOLLOW",
+     "author": "Michael Connelly",
+     "weeks": 1,
+     "list_points": 14,
+     "best_rank": 2
+    },
+    {
+     "title": "THRONE OF NIGHTMARES",
+     "author": "Kerri Maniscalco",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE MUNICH AFFAIR",
+     "author": "James Patterson and David Ellis",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "THE INVISIBLE WOMAN",
+     "author": "James Patterson and Susan DiLallo",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    }
+   ],
    "avg_rank": 7.79,
    "list_points": 271,
    "cumulative": 177,
@@ -287,6 +623,64 @@
    "publisher": "Del Rey",
    "appearances": 23,
    "titles": 8,
+   "books": [
+    {
+     "title": "ALCHEMISED",
+     "author": "SenLinYu",
+     "weeks": 15,
+     "list_points": 127,
+     "best_rank": 2
+    },
+    {
+     "title": "BROKEN DOVE",
+     "author": "Dani Francis",
+     "weeks": 2,
+     "list_points": 14,
+     "best_rank": 3
+    },
+    {
+     "title": "AGNES AUBERT'S MYSTICAL CAT SHELTER",
+     "author": "Heather Fawcett",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "INNAMORATA",
+     "author": "Ava Reid",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE TRAITOR QUEEN",
+     "author": "Danielle L. Jensen",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "A TRADE OF BLOOD",
+     "author": "Robert Jackson Bennett",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "PRINCE OF SWORDS",
+     "author": "Elise Kova",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "THE ELSEWHERE EXPRESS",
+     "author": "Samantha Sotto Yambao",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    }
+   ],
    "avg_rank": 7.96,
    "list_points": 185,
    "cumulative": 127,
@@ -309,6 +703,43 @@
    "publisher": "Forever",
    "appearances": 20,
    "titles": 5,
+   "books": [
+    {
+     "title": "BRIMSTONE",
+     "author": "Callie Hart",
+     "weeks": 7,
+     "list_points": 57,
+     "best_rank": 5
+    },
+    {
+     "title": "THE NIGHT WE MET",
+     "author": "Abby Jimenez",
+     "weeks": 7,
+     "list_points": 53,
+     "best_rank": 1
+    },
+    {
+     "title": "A MARRIED LITTLE CHRISTMAS",
+     "author": "Abby Jimenez",
+     "weeks": 2,
+     "list_points": 21,
+     "best_rank": 3
+    },
+    {
+     "title": "QUICKSILVER",
+     "author": "Callie Hart",
+     "weeks": 3,
+     "list_points": 17,
+     "best_rank": 9
+    },
+    {
+     "title": "ENCHANTRA",
+     "author": "Kaylie Smith",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    }
+   ],
    "avg_rank": 8.35,
    "list_points": 153,
    "cumulative": 119,
@@ -331,6 +762,64 @@
    "publisher": "Ballantine",
    "appearances": 19,
    "titles": 8,
+   "books": [
+    {
+     "title": "HOLLOW BONES",
+     "author": "Jodi Picoult",
+     "weeks": 7,
+     "list_points": 61,
+     "best_rank": 2
+    },
+    {
+     "title": "HALF HIS AGE",
+     "author": "Jennette McCurdy",
+     "weeks": 4,
+     "list_points": 45,
+     "best_rank": 2
+    },
+    {
+     "title": "LOVE YOU MORE",
+     "author": "Emily Giffin",
+     "weeks": 2,
+     "list_points": 14,
+     "best_rank": 5
+    },
+    {
+     "title": "THE MARTIAN",
+     "author": "Andy Weir",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "ATMOSPHERE",
+     "author": "Taylor Jenkins Reid",
+     "weeks": 2,
+     "list_points": 6,
+     "best_rank": 11
+    },
+    {
+     "title": "JIGSAW",
+     "author": "Jonathan Kellerman",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    },
+    {
+     "title": "CHASING THE CLOUDS AWAY",
+     "author": "Debbie Macomber",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    },
+    {
+     "title": "INTO THE BLUE",
+     "author": "Emma Brodie",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 8.63,
    "list_points": 140,
    "cumulative": 107,
@@ -353,6 +842,43 @@
    "publisher": "Red Tower",
    "appearances": 13,
    "titles": 5,
+   "books": [
+    {
+     "title": "THRESHING DAY",
+     "author": "Rebecca Yarros",
+     "weeks": 5,
+     "list_points": 72,
+     "best_rank": 1
+    },
+    {
+     "title": "RITES OF THE STARLING",
+     "author": "Devney Perry",
+     "weeks": 4,
+     "list_points": 36,
+     "best_rank": 1
+    },
+    {
+     "title": "RINGS OF FATE",
+     "author": "Melissa de la Cruz",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "FOURTH WING",
+     "author": "Rebecca Yarros",
+     "weeks": 2,
+     "list_points": 4,
+     "best_rank": 13
+    },
+    {
+     "title": "ONYX STORM",
+     "author": "Rebecca Yarros",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 6.62,
    "list_points": 122,
    "cumulative": 107,
@@ -375,6 +901,50 @@
    "publisher": "Avon",
    "appearances": 15,
    "titles": 6,
+   "books": [
+    {
+     "title": "STARSIDE",
+     "author": "Alex Aster",
+     "weeks": 8,
+     "list_points": 69,
+     "best_rank": 1
+    },
+    {
+     "title": "THE BALLAD OF FALLING DRAGONS",
+     "author": "Sarah A. Parker",
+     "weeks": 3,
+     "list_points": 29,
+     "best_rank": 1
+    },
+    {
+     "title": "WE WHO WILL DIE",
+     "author": "Stacia Stark",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "THE SWEETEST FIEND",
+     "author": "Raven Kennedy",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "WHEN HE WAS WICKED",
+     "author": "Julia Quinn",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    },
+    {
+     "title": "TO CAGE A WILD BIRD",
+     "author": "Brooke Fast",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 8.27,
    "list_points": 116,
    "cumulative": 83,
@@ -397,6 +967,22 @@
    "publisher": "Poisoned Pen",
    "appearances": 10,
    "titles": 2,
+   "books": [
+    {
+     "title": "THE WITCH",
+     "author": "Freida McFadden",
+     "weeks": 4,
+     "list_points": 49,
+     "best_rank": 1
+    },
+    {
+     "title": "THE INTRUDER",
+     "author": "Freida McFadden",
+     "weeks": 6,
+     "list_points": 43,
+     "best_rank": 7
+    }
+   ],
    "avg_rank": 6.8,
    "list_points": 92,
    "cumulative": 75,
@@ -419,6 +1005,57 @@
    "publisher": "Grand Central",
    "appearances": 13,
    "titles": 7,
+   "books": [
+    {
+     "title": "HOPE RISES",
+     "author": "David Baldacci",
+     "weeks": 3,
+     "list_points": 34,
+     "best_rank": 1
+    },
+    {
+     "title": "GONE BEFORE GOODBYE",
+     "author": "Reese Witherspoon and Harlan Coben",
+     "weeks": 4,
+     "list_points": 15,
+     "best_rank": 10
+    },
+    {
+     "title": "BLOODLUST",
+     "author": "Sandra Brown",
+     "weeks": 1,
+     "list_points": 13,
+     "best_rank": 3
+    },
+    {
+     "title": "PENDERGAST: THE BEGINNING",
+     "author": "Douglas Preston and Lincoln Child",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "YOU'LL BE SORRY",
+     "author": "Lisa Gardner",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "THE DEVIL'S BIBLE",
+     "author": "Steve Berry",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "NASH FALLS",
+     "author": "David Baldacci",
+     "weeks": 2,
+     "list_points": 6,
+     "best_rank": 11
+    }
+   ],
    "avg_rank": 8.85,
    "list_points": 93,
    "cumulative": 73,
@@ -441,6 +1078,43 @@
    "publisher": "Scribner",
    "appearances": 12,
    "titles": 5,
+   "books": [
+    {
+     "title": "THE FIRST TIME I SAW HIM",
+     "author": "Laura Dave",
+     "weeks": 5,
+     "list_points": 38,
+     "best_rank": 2
+    },
+    {
+     "title": "OTHER WORLDS THAN THESE",
+     "author": "Stephen King and Peter Straub",
+     "weeks": 2,
+     "list_points": 22,
+     "best_rank": 3
+    },
+    {
+     "title": "PECK & PECK",
+     "author": "Bonnie Garmus",
+     "weeks": 3,
+     "list_points": 18,
+     "best_rank": 4
+    },
+    {
+     "title": "THE WITCHES OF CAMBRIDGE",
+     "author": "Alice Hoffman",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "DAUGHTERS OF THE SUN AND MOON",
+     "author": "Lisa See",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 8.42,
    "list_points": 91,
    "cumulative": 65,
@@ -463,6 +1137,64 @@
    "publisher": "St. Martin's",
    "appearances": 14,
    "titles": 8,
+   "books": [
+    {
+     "title": "MAD MABEL",
+     "author": "Sally Hepworth",
+     "weeks": 5,
+     "list_points": 19,
+     "best_rank": 7
+    },
+    {
+     "title": "THE FINAL TARGET",
+     "author": "Nora Roberts",
+     "weeks": 2,
+     "list_points": 18,
+     "best_rank": 3
+    },
+    {
+     "title": "STOLEN IN DEATH",
+     "author": "J.D. Robb",
+     "weeks": 1,
+     "list_points": 14,
+     "best_rank": 2
+    },
+    {
+     "title": "DAUGHTER OF EGYPT",
+     "author": "Marie Benedict",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "ROAD TRIP",
+     "author": "Mary Kay Andrews",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "FURY IN DEATH",
+     "author": "J.D. Robb",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "LADY TREMAINE",
+     "author": "Rachel Hochhauser",
+     "weeks": 2,
+     "list_points": 9,
+     "best_rank": 8
+    },
+    {
+     "title": "THE SHIPPERS",
+     "author": "Katherine Center",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 9.0,
    "list_points": 98,
    "cumulative": 60,
@@ -485,6 +1217,22 @@
    "publisher": "Pine & Cedar",
    "appearances": 12,
    "titles": 2,
+   "books": [
+    {
+     "title": "MY HUSBAND'S WIFE",
+     "author": "Alice Feeney",
+     "weeks": 11,
+     "list_points": 79,
+     "best_rank": 3
+    },
+    {
+     "title": "THIS STORY MIGHT SAVE YOUR LIFE",
+     "author": "Tiffany Crum",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    }
+   ],
    "avg_rank": 9.17,
    "list_points": 82,
    "cumulative": 60,
@@ -507,6 +1255,15 @@
    "publisher": "Little, Brown and JVL",
    "appearances": 8,
    "titles": 1,
+   "books": [
+    {
+     "title": "JUDGE STONE",
+     "author": "Viola Davis and James Patterson",
+     "weeks": 8,
+     "list_points": 80,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 6.0,
    "list_points": 80,
    "cumulative": 60,
@@ -529,6 +1286,57 @@
    "publisher": "Delacorte",
    "appearances": 10,
    "titles": 7,
+   "books": [
+    {
+     "title": "FELICIA'S FAVORITES",
+     "author": "Danielle Steel",
+     "weeks": 2,
+     "list_points": 21,
+     "best_rank": 2
+    },
+    {
+     "title": "THE DEVIL'S DAUGHTER",
+     "author": "Danielle Steel",
+     "weeks": 2,
+     "list_points": 14,
+     "best_rank": 3
+    },
+    {
+     "title": "WEDDINGS",
+     "author": "Danielle Steel",
+     "weeks": 2,
+     "list_points": 13,
+     "best_rank": 5
+    },
+    {
+     "title": "A WOMAN'S PLACE",
+     "author": "Danielle Steel",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "THE TRUE MEANING OF LOVE",
+     "author": "Danielle Steel",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "RUTHLESS",
+     "author": "Danielle Steel",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "DAWN OF THE NORTH",
+     "author": "Demi Winters",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 8.1,
    "list_points": 79,
    "cumulative": 57,
@@ -551,6 +1359,22 @@
    "publisher": "Berkley",
    "appearances": 10,
    "titles": 2,
+   "books": [
+    {
+     "title": "OUR PERFECT STORM",
+     "author": "Carley Fortune",
+     "weeks": 9,
+     "list_points": 84,
+     "best_rank": 1
+    },
+    {
+     "title": "THE HARD LINE",
+     "author": "Mark Greaney",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    }
+   ],
    "avg_rank": 6.4,
    "list_points": 96,
    "cumulative": 56,
@@ -573,6 +1397,29 @@
    "publisher": "Putnam",
    "appearances": 8,
    "titles": 3,
+   "books": [
+    {
+     "title": "THE CROSSROADS",
+     "author": "C.J. Box",
+     "weeks": 4,
+     "list_points": 37,
+     "best_rank": 1
+    },
+    {
+     "title": "REVENGE PREY",
+     "author": "John Sandford",
+     "weeks": 2,
+     "list_points": 18,
+     "best_rank": 3
+    },
+    {
+     "title": "GO GENTLE",
+     "author": "Maria Semple",
+     "weeks": 2,
+     "list_points": 8,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 8.12,
    "list_points": 63,
    "cumulative": 52,
@@ -595,6 +1442,57 @@
    "publisher": "Morrow",
    "appearances": 8,
    "titles": 7,
+   "books": [
+    {
+     "title": "THE MOST DANGEROUS GAMES",
+     "author": "MrBeast and James Patterson",
+     "weeks": 2,
+     "list_points": 15,
+     "best_rank": 3
+    },
+    {
+     "title": "THE ASTRAL LIBRARY",
+     "author": "Kate Quinn",
+     "weeks": 1,
+     "list_points": 14,
+     "best_rank": 2
+    },
+    {
+     "title": "TAIPEI STORY",
+     "author": "R.F. Kuang",
+     "weeks": 1,
+     "list_points": 13,
+     "best_rank": 3
+    },
+    {
+     "title": "AGATHA CHRISTIE: MURDER AT THE GRAND ALPINE HOTEL",
+     "author": "Lucy Foley",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE SECRETS WE HIDE",
+     "author": "Karin Slaughter",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE VIPER",
+     "author": "Brad Meltzer",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    },
+    {
+     "title": "CHERRY BABY",
+     "author": "Rainbow Rowell",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 7.38,
    "list_points": 69,
    "cumulative": 51,
@@ -617,6 +1515,22 @@
    "publisher": "Dutton",
    "appearances": 7,
    "titles": 2,
+   "books": [
+    {
+     "title": "HOLLYWOOD, ENDING",
+     "author": "John Green",
+     "weeks": 3,
+     "list_points": 37,
+     "best_rank": 1
+    },
+    {
+     "title": "THE UNKNOWN",
+     "author": "Riley Sager",
+     "weeks": 4,
+     "list_points": 30,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 6.43,
    "list_points": 67,
    "cumulative": 49,
@@ -639,6 +1553,50 @@
    "publisher": "Random House",
    "appearances": 11,
    "titles": 6,
+   "books": [
+    {
+     "title": "VIGIL",
+     "author": "George Saunders",
+     "weeks": 4,
+     "list_points": 27,
+     "best_rank": 1
+    },
+    {
+     "title": "THE THINGS WE NEVER SAY",
+     "author": "Elizabeth Strout",
+     "weeks": 2,
+     "list_points": 11,
+     "best_rank": 7
+    },
+    {
+     "title": "MORE THAN ENOUGH",
+     "author": "Anna Quindlen",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "COUNTRY PEOPLE",
+     "author": "Daniel Mason",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "REMAIN",
+     "author": "Nicholas Sparks with M. Night Shyamalan",
+     "weeks": 2,
+     "list_points": 4,
+     "best_rank": 14
+    },
+    {
+     "title": "THRILLING TALES OF MODERN MEN",
+     "author": "Danny McBride",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 10.91,
    "list_points": 56,
    "cumulative": 43,
@@ -661,6 +1619,43 @@
    "publisher": "Atria",
    "appearances": 7,
    "titles": 5,
+   "books": [
+    {
+     "title": "IT COULD HAVE BEEN HER",
+     "author": "Lisa Jewell",
+     "weeks": 2,
+     "list_points": 19,
+     "best_rank": 4
+    },
+    {
+     "title": "BURN OF THE EVERFLAME",
+     "author": "Penn Cole",
+     "weeks": 1,
+     "list_points": 15,
+     "best_rank": 1
+    },
+    {
+     "title": "BLOOD BOUND",
+     "author": "Ellis Hunter",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "GOD'S COUNTRY",
+     "author": "William Kent Krueger",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "THEO OF GOLDEN",
+     "author": "Allen Levi",
+     "weeks": 2,
+     "list_points": 7,
+     "best_rank": 11
+    }
+   ],
    "avg_rank": 7.29,
    "list_points": 61,
    "cumulative": 42,
@@ -683,6 +1678,36 @@
    "publisher": "Pamela Dorman",
    "appearances": 11,
    "titles": 4,
+   "books": [
+    {
+     "title": "THE SHAMPOO EFFECT",
+     "author": "Jenny Jackson",
+     "weeks": 5,
+     "list_points": 29,
+     "best_rank": 4
+    },
+    {
+     "title": "ANATOMY OF AN ALIBI",
+     "author": "Ashley Elston",
+     "weeks": 4,
+     "list_points": 24,
+     "best_rank": 2
+    },
+    {
+     "title": "WE CHASE SHADOWS",
+     "author": "Richard Osman",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    },
+    {
+     "title": "GETTING AWAY WITH MURDER",
+     "author": "Shari Lapena",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 9.82,
    "list_points": 68,
    "cumulative": 41,
@@ -705,6 +1730,50 @@
    "publisher": "Bramble",
    "appearances": 6,
    "titles": 6,
+   "books": [
+    {
+     "title": "SEA OF CHARMS",
+     "author": "Sarah Beth Durst",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE LION & THE DEATHLESS DARK",
+     "author": "Carissa Broadbent",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "BLOODSINGER",
+     "author": "Juliette Cross",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "MOTHER OF DEATH AND DAWN",
+     "author": "Carissa Broadbent",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "DAGGERBOUND",
+     "author": "T. Kingfisher",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "CROWN OF WAR AND SHADOW",
+     "author": "J.R. Ward",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    }
+   ],
    "avg_rank": 7.17,
    "list_points": 53,
    "cumulative": 35,
@@ -727,6 +1796,15 @@
    "publisher": "Europa",
    "appearances": 5,
    "titles": 1,
+   "books": [
+    {
+     "title": "MONA'S EYES",
+     "author": "Thomas Schlesser",
+     "weeks": 5,
+     "list_points": 42,
+     "best_rank": 4
+    }
+   ],
    "avg_rank": 7.6,
    "list_points": 42,
    "cumulative": 35,
@@ -749,6 +1827,36 @@
    "publisher": "MIRA",
    "appearances": 4,
    "titles": 4,
+   "books": [
+    {
+     "title": "THE WINGS THAT BIND",
+     "author": "Briar Boleyn",
+     "weeks": 1,
+     "list_points": 14,
+     "best_rank": 2
+    },
+    {
+     "title": "THE AUCTION",
+     "author": "Sadie Kincaid",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "THE EMPEROR'S ENEMY",
+     "author": "Jasmine Mas",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "WITH HEARTS OF FLAME",
+     "author": "Briar Boleyn",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    }
+   ],
    "avg_rank": 5.75,
    "list_points": 41,
    "cumulative": 33,
@@ -771,6 +1879,22 @@
    "publisher": "Orbit",
    "appearances": 4,
    "titles": 2,
+   "books": [
+    {
+     "title": "THE KNAVE AND THE MOON",
+     "author": "Rachel Gillig",
+     "weeks": 3,
+     "list_points": 29,
+     "best_rank": 1
+    },
+    {
+     "title": "THE FAITH OF BEASTS",
+     "author": "James S.A. Corey",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    }
+   ],
    "avg_rank": 6.5,
    "list_points": 38,
    "cumulative": 29,
@@ -793,6 +1917,50 @@
    "publisher": "Tor",
    "appearances": 6,
    "titles": 6,
+   "books": [
+    {
+     "title": "ISLES OF THE EMBERDARK",
+     "author": "Brandon Sanderson",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "WE BURNED SO BRIGHT",
+     "author": "TJ Klune",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "PLATFORM DECAY",
+     "author": "Martha Wells",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    },
+    {
+     "title": "THIS KINGDOM WILL NOT KILL ME",
+     "author": "Ilona Andrews",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "VICTORIOUS",
+     "author": "V.E. Schwab",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    },
+    {
+     "title": "THE RED WINTER",
+     "author": "Cameron Sullivan",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 9.67,
    "list_points": 38,
    "cumulative": 29,
@@ -815,6 +1983,36 @@
    "publisher": "Kensington",
    "appearances": 4,
    "titles": 4,
+   "books": [
+    {
+     "title": "THE THRONE OF BROKEN GODS",
+     "author": "Amber V. Nicole",
+     "weeks": 1,
+     "list_points": 13,
+     "best_rank": 3
+    },
+    {
+     "title": "THE DAWN OF THE CURSED QUEEN",
+     "author": "Amber V. Nicole",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    },
+    {
+     "title": "RAIN OF SHADOWS AND ENDINGS",
+     "author": "Melissa K. Roehrich",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "HER SOUL FOR REVENGE",
+     "author": "Harley Laroux",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 7.5,
    "list_points": 34,
    "cumulative": 29,
@@ -837,6 +2035,22 @@
    "publisher": "Slowburn",
    "appearances": 5,
    "titles": 2,
+   "books": [
+    {
+     "title": "THE POISON DAUGHTER",
+     "author": "Sheila Masterson",
+     "weeks": 3,
+     "list_points": 26,
+     "best_rank": 1
+    },
+    {
+     "title": "HARVEST SEASON",
+     "author": "Brynne Weaver",
+     "weeks": 2,
+     "list_points": 16,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 7.6,
    "list_points": 42,
    "cumulative": 28,
@@ -859,6 +2073,36 @@
    "publisher": "Requited",
    "appearances": 5,
    "titles": 4,
+   "books": [
+    {
+     "title": "FURY BOUND",
+     "author": "Sable Sorensen",
+     "weeks": 2,
+     "list_points": 20,
+     "best_rank": 2
+    },
+    {
+     "title": "DIRE BOUND",
+     "author": "Sable Sorensen",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "KISSED BY THE GODS",
+     "author": "Caty Rogan",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "THE WICKED SEA",
+     "author": "Jordan Stephanie Gray",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    }
+   ],
    "avg_rank": 8.0,
    "list_points": 40,
    "cumulative": 28,
@@ -881,6 +2125,29 @@
    "publisher": "Minotaur",
    "appearances": 4,
    "titles": 3,
+   "books": [
+    {
+     "title": "MISS WOLCOTT'S GHOST",
+     "author": "Louise Penny",
+     "weeks": 2,
+     "list_points": 18,
+     "best_rank": 2
+    },
+    {
+     "title": "HEART OF GLASS",
+     "author": "Jennifer Hillier",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "THE LAST MANDARIN",
+     "author": "Louise Penny and Mellissa Fung",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 7.0,
    "list_points": 36,
    "cumulative": 28,
@@ -903,6 +2170,57 @@
    "publisher": "Bloom",
    "appearances": 8,
    "titles": 7,
+   "books": [
+    {
+     "title": "THE NIGHT PRINCE",
+     "author": "Lauren Palphreyman",
+     "weeks": 2,
+     "list_points": 13,
+     "best_rank": 4
+    },
+    {
+     "title": "WRETCHED",
+     "author": "Emily McIntire",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    },
+    {
+     "title": "ELDRITCH",
+     "author": "Keri Lake",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "HEXED",
+     "author": "Emily McIntire",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "THE LEGACY",
+     "author": "Elle Kennedy",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "CROSSED",
+     "author": "Emily McIntire",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    },
+    {
+     "title": "TWISTED",
+     "author": "Emily McIntire",
+     "weeks": 1,
+     "list_points": 3,
+     "best_rank": 13
+    }
+   ],
    "avg_rank": 10.5,
    "list_points": 44,
    "cumulative": 26,
@@ -925,6 +2243,22 @@
    "publisher": "Tor Nightfire",
    "appearances": 5,
    "titles": 2,
+   "books": [
+    {
+     "title": "BETWEEN TWO FIRES",
+     "author": "Christopher Buehlman",
+     "weeks": 4,
+     "list_points": 37,
+     "best_rank": 4
+    },
+    {
+     "title": "WOLF WORM",
+     "author": "T. Kingfisher",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 8.2,
    "list_points": 39,
    "cumulative": 26,
@@ -947,6 +2281,29 @@
    "publisher": "Viking",
    "appearances": 7,
    "titles": 3,
+   "books": [
+    {
+     "title": "THE MIDNIGHT TRAIN",
+     "author": "Matt Haig",
+     "weeks": 4,
+     "list_points": 26,
+     "best_rank": 4
+    },
+    {
+     "title": "THE KEEPER",
+     "author": "Tana French",
+     "weeks": 2,
+     "list_points": 13,
+     "best_rank": 4
+    },
+    {
+     "title": "THE BROTHERS MCKAY",
+     "author": "Craig Johnson",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 10.14,
    "list_points": 41,
    "cumulative": 25,
@@ -969,6 +2326,36 @@
    "publisher": "Atria/Emily Bestler",
    "appearances": 4,
    "titles": 4,
+   "books": [
+    {
+     "title": "THE FOURTH OPTION",
+     "author": "Jack Carr and M.P. Woodward",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "VINCE FLYNN: DOUBLE TAP",
+     "author": "Don Bentley",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "COLD ZERO",
+     "author": "Brad Thor with Ward Larsen",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "CHOKE POINT",
+     "author": "Brad Thor",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 6.5,
    "list_points": 38,
    "cumulative": 25,
@@ -991,6 +2378,15 @@
    "publisher": "Park Row",
    "appearances": 4,
    "titles": 1,
+   "books": [
+    {
+     "title": "IT'S NOT HER",
+     "author": "Mary Kubica",
+     "weeks": 4,
+     "list_points": 26,
+     "best_rank": 3
+    }
+   ],
    "avg_rank": 9.5,
    "list_points": 26,
    "cumulative": 19,
@@ -1013,6 +2409,22 @@
    "publisher": "Bantam",
    "appearances": 3,
    "titles": 2,
+   "books": [
+    {
+     "title": "CHAIN REACTION",
+     "author": "Lee Child and Andrew Child",
+     "weeks": 2,
+     "list_points": 17,
+     "best_rank": 5
+    },
+    {
+     "title": "WORSE THAN A LIE",
+     "author": "Ben Crump",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 9.0,
    "list_points": 21,
    "cumulative": 19,
@@ -1035,6 +2447,15 @@
    "publisher": "Cardinal",
    "appearances": 3,
    "titles": 1,
+   "books": [
+    {
+     "title": "AMERICAN HAGWON",
+     "author": "Min Jin Lee",
+     "weeks": 3,
+     "list_points": 24,
+     "best_rank": 4
+    }
+   ],
    "avg_rank": 8.0,
    "list_points": 24,
    "cumulative": 18,
@@ -1057,6 +2478,15 @@
    "publisher": "Frontline",
    "appearances": 3,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE ALTAR OF PERGAMON",
+     "author": "Jonathan Cahn",
+     "weeks": 3,
+     "list_points": 23,
+     "best_rank": 6
+    }
+   ],
    "avg_rank": 8.33,
    "list_points": 23,
    "cumulative": 18,
@@ -1079,6 +2509,15 @@
    "publisher": "Blackstone",
    "appearances": 2,
    "titles": 1,
+   "books": [
+    {
+     "title": "SOMETIMES I SCARE MYSELF",
+     "author": "Jeneva Rose",
+     "weeks": 2,
+     "list_points": 20,
+     "best_rank": 2
+    }
+   ],
    "avg_rank": 6.0,
    "list_points": 20,
    "cumulative": 17,
@@ -1101,6 +2540,29 @@
    "publisher": "Riverhead",
    "appearances": 4,
    "titles": 3,
+   "books": [
+    {
+     "title": "THE DISAPPEARERS",
+     "author": "Marlon James",
+     "weeks": 2,
+     "list_points": 12,
+     "best_rank": 5
+    },
+    {
+     "title": "AMERICAN FANTASY",
+     "author": "Emma Straub",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    },
+    {
+     "title": "BRAWLER",
+     "author": "Lauren Groff",
+     "weeks": 1,
+     "list_points": 5,
+     "best_rank": 11
+    }
+   ],
    "avg_rank": 10.5,
    "list_points": 22,
    "cumulative": 16,
@@ -1123,6 +2585,15 @@
    "publisher": "Scarlett",
    "appearances": 3,
    "titles": 1,
+   "books": [
+    {
+     "title": "DAGGERMOUTH",
+     "author": "H.M. Wolfe",
+     "weeks": 3,
+     "list_points": 31,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 5.67,
    "list_points": 31,
    "cumulative": 15,
@@ -1145,6 +2616,22 @@
    "publisher": "Saturday",
    "appearances": 2,
    "titles": 2,
+   "books": [
+    {
+     "title": "LIGHT WIELDER",
+     "author": "Rachel Schneider",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    },
+    {
+     "title": "METAL SLINGER",
+     "author": "Rachel Schneider",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 7.0,
    "list_points": 18,
    "cumulative": 14,
@@ -1167,6 +2654,22 @@
    "publisher": "Random House Worlds",
    "appearances": 2,
    "titles": 2,
+   "books": [
+    {
+     "title": "BALDUR'S GATE 3: ASTARION",
+     "author": "T. Kingfisher",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "STRIXHAVEN: OMENS OF CHAOS",
+     "author": "Seanan McGuire",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 8.0,
    "list_points": 16,
    "cumulative": 14,
@@ -1189,6 +2692,15 @@
    "publisher": "Flatiron",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "DEAD BEAT",
+     "author": "Leigh Bardugo",
+     "weeks": 1,
+     "list_points": 15,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 1.0,
    "list_points": 15,
    "cumulative": 13,
@@ -1211,6 +2723,15 @@
    "publisher": "Amara",
    "appearances": 2,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE THINGS WE LEAVE UNFINISHED",
+     "author": "Rebecca Yarros",
+     "weeks": 2,
+     "list_points": 15,
+     "best_rank": 5
+    }
+   ],
    "avg_rank": 8.5,
    "list_points": 15,
    "cumulative": 11,
@@ -1233,6 +2754,15 @@
    "publisher": "Bloomsbury",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "A COURT OF SPLINTERED HARMONY",
+     "author": "Sarah J. Maas",
+     "weeks": 1,
+     "list_points": 15,
+     "best_rank": 1
+    }
+   ],
    "avg_rank": 1.0,
    "list_points": 15,
    "cumulative": 11,
@@ -1255,6 +2785,29 @@
    "publisher": "Gallery",
    "appearances": 3,
    "titles": 3,
+   "books": [
+    {
+     "title": "MEET ME IN PARIS",
+     "author": "Kristin Harmel",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "THE ROMANCE REVIVAL",
+     "author": "Christina Lauren",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "MERCY'S CHILD",
+     "author": "Richard Paul Evans",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 9.33,
    "list_points": 20,
    "cumulative": 10,
@@ -1277,6 +2830,22 @@
    "publisher": "Grove",
    "appearances": 3,
    "titles": 2,
+   "books": [
+    {
+     "title": "JOHN OF JOHN",
+     "author": "Douglas Stuart",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    },
+    {
+     "title": "HEART THE LOVER",
+     "author": "Lily King",
+     "weeks": 2,
+     "list_points": 6,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 12.0,
    "list_points": 12,
    "cumulative": 10,
@@ -1299,6 +2868,15 @@
    "publisher": "Hanover Square",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "HOLLOW",
+     "author": "Celina Myers",
+     "weeks": 1,
+     "list_points": 12,
+     "best_rank": 4
+    }
+   ],
    "avg_rank": 4.0,
    "list_points": 12,
    "cumulative": 9,
@@ -1321,6 +2899,15 @@
    "publisher": "Dafina",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "BURN DOWN MASTER'S HOUSE",
+     "author": "Clay Cane",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    }
+   ],
    "avg_rank": 5.0,
    "list_points": 11,
    "cumulative": 9,
@@ -1343,6 +2930,22 @@
    "publisher": "Hogarth",
    "appearances": 2,
    "titles": 2,
+   "books": [
+    {
+     "title": "UPWARD BOUND",
+     "author": "Woody Brown",
+     "weeks": 1,
+     "list_points": 10,
+     "best_rank": 6
+    },
+    {
+     "title": "PUBLIC ACCESS AFTERWORLD",
+     "author": "Jane Schoenbrun",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 10.5,
    "list_points": 11,
    "cumulative": 8,
@@ -1365,6 +2968,22 @@
    "publisher": "S&S/Saga",
    "appearances": 2,
    "titles": 2,
+   "books": [
+    {
+     "title": "A FORSAKEN PROPHECY",
+     "author": "Stacey McEwan",
+     "weeks": 1,
+     "list_points": 8,
+     "best_rank": 8
+    },
+    {
+     "title": "SCION",
+     "author": "James Islington",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 8.5,
    "list_points": 15,
    "cumulative": 7,
@@ -1387,6 +3006,15 @@
    "publisher": "Zando",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE BUTCHER LEGACY",
+     "author": "Alaina Urquhart",
+     "weeks": 1,
+     "list_points": 13,
+     "best_rank": 3
+    }
+   ],
    "avg_rank": 3.0,
    "list_points": 13,
    "cumulative": 7,
@@ -1409,6 +3037,22 @@
    "publisher": "Harper Voyager",
    "appearances": 2,
    "titles": 2,
+   "books": [
+    {
+     "title": "TEMPEST",
+     "author": "Victoria Aveyard",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    },
+    {
+     "title": "KATABASIS",
+     "author": "R.F. Kuang",
+     "weeks": 1,
+     "list_points": 2,
+     "best_rank": 14
+    }
+   ],
    "avg_rank": 11.5,
    "list_points": 9,
    "cumulative": 7,
@@ -1431,6 +3075,15 @@
    "publisher": "Apiary",
    "appearances": 2,
    "titles": 1,
+   "books": [
+    {
+     "title": "RETURN TO THE SHACK",
+     "author": "Wm",
+     "weeks": 2,
+     "list_points": 8,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 12.0,
    "list_points": 8,
    "cumulative": 7,
@@ -1453,6 +3106,15 @@
    "publisher": "Forge",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "PARADOX",
+     "author": "Douglas Preston and Aletheia Preston",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 10.0,
    "list_points": 6,
    "cumulative": 6,
@@ -1475,6 +3137,15 @@
    "publisher": "Harlequin",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "HEATED RIVALRY",
+     "author": "Rachel Reid",
+     "weeks": 1,
+     "list_points": 7,
+     "best_rank": 9
+    }
+   ],
    "avg_rank": 9.0,
    "list_points": 7,
    "cumulative": 5,
@@ -1497,6 +3168,15 @@
    "publisher": "Thousand Voices x Ballantine",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "BENEATH",
+     "author": "Ariel Sullivan",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    }
+   ],
    "avg_rank": 7.0,
    "list_points": 9,
    "cumulative": 4,
@@ -1519,6 +3199,15 @@
    "publisher": "Elle Kennedy",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE GOAL",
+     "author": "Elle Kennedy",
+     "weeks": 1,
+     "list_points": 6,
+     "best_rank": 10
+    }
+   ],
    "avg_rank": 10.0,
    "list_points": 6,
    "cumulative": 4,
@@ -1541,6 +3230,15 @@
    "publisher": "Atria/Emily Bestler/12:01",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE CARETAKER",
+     "author": "Marcus Kliewer",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 12.0,
    "list_points": 4,
    "cumulative": 4,
@@ -1563,6 +3261,15 @@
    "publisher": "FEIWEL",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "THE WRETCHED DIVINE",
+     "author": "Adalyn Grace",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 12.0,
    "list_points": 4,
    "cumulative": 3,
@@ -1585,6 +3292,15 @@
    "publisher": "AETHON: Vault",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "HE WHO FIGHTS WITH MONSTERS, BOOK 1: OUTWORLDER",
+     "author": "Travis Deverell",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
+    }
+   ],
    "avg_rank": 12.0,
    "list_points": 4,
    "cumulative": 2,
@@ -1607,6 +3323,15 @@
    "publisher": "Avid Reader",
    "appearances": 1,
    "titles": 1,
+   "books": [
+    {
+     "title": "EVERYTHING WAS BEAUTIFUL AND NOTHING HURT",
+     "author": "Ben Reeves",
+     "weeks": 1,
+     "list_points": 1,
+     "best_rank": 15
+    }
+   ],
    "avg_rank": 15.0,
    "list_points": 1,
    "cumulative": 1,
