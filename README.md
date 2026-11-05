@@ -1,4 +1,4 @@
-# Best of the Best Sellers 2026
+# NYT Bestseller Scoreboard 2026
 
 A weekly scoreboard of publisher and title performance on the 2026 *New York Times* Hardcover Fiction best-seller list. It follows the methodology from the Publiography post [“Best of the Best Sellers”](https://publiography.beehiiv.com/p/best-of-the-best-sellers-0d0656eaee377845).
 
