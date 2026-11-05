@@ -178,7 +178,7 @@ function init(){
     $('weekDesc').textContent = 'No lists yet.';
     renderTabs(); return;
   }
-  $('asof').textContent = `Standings through the list dated ${fmtDate(D.latest_list)} · Week ${D.weeks} of the ${D.season} season`;
+  $('asof').textContent = `Standings through the ${D.list} list dated ${fmtDate(D.latest_list)} · Week ${D.weeks} of the ${D.season} season`;
   const leader = D.publishers[0];
   const topTitle = D.titles[0];
   $('stats').innerHTML = [
