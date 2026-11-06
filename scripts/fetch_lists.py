@@ -21,6 +21,8 @@ LIST_DIR = ROOT / "data" / "lists"
 LIST_NAME = "hardcover-fiction"
 API = "https://api.nytimes.com/svc/books/v3/lists/{date}/{name}.json?api-key={key}"
 SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2026"))
+# Optional list date to start walking back from (for backfilling past years).
+START_DATE = os.environ.get("START_DATE") or "current"
 PAUSE_SECONDS = 12
 
 
@@ -63,9 +65,9 @@ def main() -> int:
         return 1
     LIST_DIR.mkdir(parents=True, exist_ok=True)
 
-    date, saved = "current", 0
+    date, saved = START_DATE, 0
     while date:
-        if date != "current":
+        if date != START_DATE:
             if int(date[:4]) < SEASON_YEAR:
                 break
             if (LIST_DIR / f"{date}.json").exists():

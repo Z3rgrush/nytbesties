@@ -1,0 +1,48 @@
+name: Backfill a past year
+
+on:
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year to download (e.g. 2025)"
+        required: true
+        default: "2025"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-scoreboard
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch lists for the year
+        env:
+          NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
+          SEASON_YEAR: ${{ inputs.year }}
+        run: |
+          # Start from the first saved list of the following year, so the
+          # walk back begins at a real list date.
+          next=$(( SEASON_YEAR + 1 ))
+          first=$(ls data/lists/${next}-*.json 2>/dev/null | sort | head -1 | xargs -r basename | sed 's/.json//')
+          export START_DATE=${first:-${next}-01-10}
+          echo "Starting from $START_DATE"
+          python scripts/fetch_lists.py
+      - name: Build scoreboard
+        run: python scripts/build.py
+      - name: Commit changes
+        run: |
+          git config user.name "scoreboard-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet && exit 0
+          git commit -m "Backfill ${{ inputs.year }} lists"
+          git pull --rebase origin main
+          git push
