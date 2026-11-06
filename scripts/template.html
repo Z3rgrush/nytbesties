@@ -279,6 +279,8 @@ tr.booksrow .tablewrap{max-width:760px;margin-left:40px}
 .tip b{display:block;margin-bottom:4px;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
 .tip div{display:flex;justify-content:space-between;gap:12px}
 .tip .me{font-weight:700;color:var(--v-fg);text-decoration:underline;text-decoration-color:var(--v-acc);text-decoration-thickness:3px}
+.hastip{position:relative;text-decoration:underline dotted;text-underline-offset:3px;cursor:help}
+.hastip:hover::after,.hastip:focus::after{content:attr(data-tip);position:absolute;top:calc(100% + 8px);right:0;width:240px;white-space:normal;text-transform:none;letter-spacing:0;font-weight:400;font-size:12.5px;line-height:1.45;text-align:left;padding:8px 10px;z-index:5;background:var(--v-tip);color:var(--v-fg);border:2px solid var(--v-fg);box-shadow:3px 3px 0 var(--v-acc)}
 .chart-note{font-size:12.5px;color:var(--v-muted);margin:10px 0 0}
 #pastTop li{cursor:pointer}
 #pastTop li[aria-pressed="true"] .nm{text-decoration:underline;text-decoration-color:var(--v-acc);text-decoration-thickness:3px;text-underline-offset:3px}
@@ -348,6 +350,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><b>Appearances</b>: one point for every weekly slot a publisher fills.</li>
         <li><b>Titles</b>: distinct books a publisher has placed on the list.</li>
         <li><b>Average rank</b>: mean chart position across every appearance. Lower is better.</li>
+        <li><b>Concentration</b>: how concentrated a publisher's List Rank points are across its titles, measured with the Herfindahl index of each title's share of points. 100% means every point came from one title. A publisher with points split evenly across four titles scores 25%.</li>
         <li>Publishers are named exactly as the NYT lists them, so imprints such as Little, Brown and Mulholland are counted separately. "T" marks a tie.</li>
         <li>A list counts toward __SEASON__ if its NYT list date falls in __SEASON__.</li>
       </ul>
@@ -382,7 +385,7 @@ function init(){
   if (!D.weeks){
     $('asof').textContent = `The season starts with the first list dated in ${D.season}. Check back then.`;
     for (const id of ['topPubs','topTitles']) $(id).innerHTML = '<li class="empty">No lists yet</li>';
-    $('full').querySelector('tbody').innerHTML = '<tr><td colspan="9" class="empty">No lists yet</td></tr>';
+    $('full').querySelector('tbody').innerHTML = '<tr><td colspan="10" class="empty">No lists yet</td></tr>';
     $('weekDesc').textContent = 'No lists yet.';
     renderTabs(); return;
   }
@@ -458,17 +461,18 @@ const COLS = [
   {k:'rank_cumulative', label:'#', fmt:r => rk(r.rank_cumulative, r.tied_cumulative), cls:'rk'},
   {k:'publisher', label:'Publisher', fmt:r => esc(r.publisher), str:true},
   {k:'cumulative', label:'Cumulative'},
-  {k:'list_points', label:'List Rank pts'},
+  {k:'list_points', label:'List pts'},
   {k:'appearances', label:'Appearances'},
-  {k:'share', label:'% of slots', fmt:r => r.share.toFixed(1)},
+  {k:'share', label:'% slots', fmt:r => r.share.toFixed(1)},
   {k:'titles', label:'Titles'},
   {k:'avg_rank', label:'Avg. rank', fmt:r => r.avg_rank.toFixed(2), low:true},
   {k:'weeks_at_1', label:'Wks at #1'},
+  {k:'concentration', label:'Concentration', tip:'How concentrated a publisher\'s List Rank points are across its titles. 100% means every point came from a single title; a low number means points are spread across many titles.', fmt:r => `<span title="Points spread like ${r.effective_titles} equal titles. Biggest: ${esc(titleCase(r.top_title))}">${Math.round(r.concentration)}%</span>`},
 ];
 let sortK = 'rank_cumulative', sortDir = 1;
 function renderFull(){
   const thead = $('full').querySelector('thead');
-  thead.innerHTML = '<tr>' + COLS.map(c => `<th data-k="${c.k}"${c.k===sortK ? ` aria-sort="${sortDir>0?'ascending':'descending'}"` : ''}>${c.label}</th>`).join('') + '</tr>';
+  thead.innerHTML = '<tr>' + COLS.map(c => `<th data-k="${c.k}"${c.k===sortK ? ` aria-sort="${sortDir>0?'ascending':'descending'}"` : ''}>${c.tip ? `<span class="hastip" tabindex="0" data-tip="${esc(c.tip)}" aria-label="${esc(c.label + ': ' + c.tip)}">${c.label}</span>` : c.label}</th>`).join('') + '</tr>';
   thead.onclick = e => {
     const th = e.target.closest('th'); if (!th) return;
     const c = COLS.find(x => x.k === th.dataset.k);
@@ -478,14 +482,14 @@ function renderFull(){
   };
   const q = $('search').value.trim().toLowerCase();
   const rows = D.publishers.filter(r => !q || r.publisher.toLowerCase().includes(q)).sort((a, b) => {
-    const x = a[sortK], y = b[sortK];
+    const x = a[sortK] ?? 1e9, y = b[sortK] ?? 1e9;
     const d = typeof x === 'string' ? x.localeCompare(y) : x - y;
     return d * sortDir || a.rank_cumulative - b.rank_cumulative;
   });
   $('full').querySelector('tbody').innerHTML = rows.length ? rows.map(r =>
     `<tr class="xp" tabindex="0" role="button" aria-expanded="${openFull.has(r.publisher)}" data-pub="${esc(r.publisher)}">` + COLS.map(c => `<td${c.cls ? ` class="${c.cls}"` : ''}>${c.fmt ? c.fmt(r) : r[c.k].toLocaleString()}${c.k === 'publisher' ? '<span class="caret">▶</span>' : ''}</td>`).join('') + '</tr>'
-    + (openFull.has(r.publisher) ? `<tr class="booksrow"><td colspan="9">${booksTable(r)}</td></tr>` : '')).join('')
-    : '<tr><td colspan="9" class="empty">No publisher matches.</td></tr>';
+    + (openFull.has(r.publisher) ? `<tr class="booksrow"><td colspan="10">${booksTable(r)}</td></tr>` : '')).join('')
+    : '<tr><td colspan="10" class="empty">No publisher matches.</td></tr>';
 }
 $('search').addEventListener('input', () => D.weeks && renderFull());
 bindToggle($('topPubs'), openTop, renderTabs);

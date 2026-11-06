@@ -127,7 +127,7 @@
  ],
  "total_titles": 227,
  "total_publishers": 68,
- "generated_at": "2026-11-06T13:53Z",
+ "generated_at": "2026-11-06T14:32Z",
  "publishers": [
   {
    "publisher": "Crown",
@@ -172,6 +172,9 @@
    "tied_titles": true,
    "rank_avg_rank": 6,
    "tied_avg_rank": false,
+   "concentration": 81.5,
+   "effective_titles": 1.2,
+   "top_title": "THE CORRESPONDENT",
    "prev_rank_cumulative": 1
   },
   {
@@ -273,6 +276,9 @@
    "tied_titles": false,
    "rank_avg_rank": 60,
    "tied_avg_rank": false,
+   "concentration": 19.7,
+   "effective_titles": 5.1,
+   "top_title": "CARL'S DOOMSDAY SCENARIO",
    "prev_rank_cumulative": 2
   },
   {
@@ -325,6 +331,9 @@
    "tied_titles": true,
    "rank_avg_rank": 8,
    "tied_avg_rank": false,
+   "concentration": 61.6,
+   "effective_titles": 1.6,
+   "top_title": "YESTERYEAR",
    "prev_rank_cumulative": 3
   },
   {
@@ -398,6 +407,9 @@
    "tied_titles": true,
    "rank_avg_rank": 23,
    "tied_avg_rank": false,
+   "concentration": 27.8,
+   "effective_titles": 3.6,
+   "top_title": "THE WIDOW",
    "prev_rank_cumulative": 5
   },
   {
@@ -429,6 +441,9 @@
    "tied_titles": true,
    "rank_avg_rank": 5,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE CALAMITY CLUB",
    "prev_rank_cumulative": 4
   },
   {
@@ -495,6 +510,9 @@
    "tied_titles": true,
    "rank_avg_rank": 17,
    "tied_avg_rank": false,
+   "concentration": 45.7,
+   "effective_titles": 2.2,
+   "top_title": "WHISTLER",
    "prev_rank_cumulative": 6
   },
   {
@@ -617,6 +635,9 @@
    "tied_titles": false,
    "rank_avg_rank": 30,
    "tied_avg_rank": false,
+   "concentration": 9.0,
+   "effective_titles": 11.1,
+   "top_title": "CROSS & SAMPSON",
    "prev_rank_cumulative": 7
   },
   {
@@ -697,6 +718,9 @@
    "tied_titles": true,
    "rank_avg_rank": 31,
    "tied_avg_rank": false,
+   "concentration": 48.8,
+   "effective_titles": 2.0,
+   "top_title": "ALCHEMISED",
    "prev_rank_cumulative": 8
   },
   {
@@ -756,6 +780,9 @@
    "tied_titles": true,
    "rank_avg_rank": 40,
    "tied_avg_rank": false,
+   "concentration": 29.1,
+   "effective_titles": 3.4,
+   "top_title": "BRIMSTONE",
    "prev_rank_cumulative": 9
   },
   {
@@ -815,6 +842,9 @@
    "tied_titles": true,
    "rank_avg_rank": 18,
    "tied_avg_rank": false,
+   "concentration": 44.2,
+   "effective_titles": 2.3,
+   "top_title": "THRESHING DAY",
    "prev_rank_cumulative": 11
   },
   {
@@ -895,6 +925,9 @@
    "tied_titles": true,
    "rank_avg_rank": 44,
    "tied_avg_rank": false,
+   "concentration": 30.8,
+   "effective_titles": 3.2,
+   "top_title": "HOLLOW BONES",
    "prev_rank_cumulative": 10
   },
   {
@@ -961,6 +994,9 @@
    "tied_titles": true,
    "rank_avg_rank": 38,
    "tied_avg_rank": false,
+   "concentration": 42.6,
+   "effective_titles": 2.3,
+   "top_title": "STARSIDE",
    "prev_rank_cumulative": 12
   },
   {
@@ -999,6 +1035,9 @@
    "tied_titles": true,
    "rank_avg_rank": 19,
    "tied_avg_rank": false,
+   "concentration": 50.2,
+   "effective_titles": 2.0,
+   "top_title": "THE WITCH",
    "prev_rank_cumulative": 14
   },
   {
@@ -1072,6 +1111,9 @@
    "tied_titles": true,
    "rank_avg_rank": 45,
    "tied_avg_rank": false,
+   "concentration": 21.0,
+   "effective_titles": 4.8,
+   "top_title": "HOPE RISES",
    "prev_rank_cumulative": 13
   },
   {
@@ -1131,6 +1173,9 @@
    "tied_titles": true,
    "rank_avg_rank": 41,
    "tied_avg_rank": false,
+   "concentration": 28.4,
+   "effective_titles": 3.5,
+   "top_title": "THE FIRST TIME I SAW HIM",
    "prev_rank_cumulative": 15
   },
   {
@@ -1211,6 +1256,9 @@
    "tied_titles": true,
    "rank_avg_rank": 46,
    "tied_avg_rank": true,
+   "concentration": 14.0,
+   "effective_titles": 7.2,
+   "top_title": "MAD MABEL",
    "prev_rank_cumulative": 16
   },
   {
@@ -1249,6 +1297,9 @@
    "tied_titles": true,
    "rank_avg_rank": 49,
    "tied_avg_rank": false,
+   "concentration": 93.0,
+   "effective_titles": 1.1,
+   "top_title": "MY HUSBAND'S WIFE",
    "prev_rank_cumulative": 16
   },
   {
@@ -1280,6 +1331,9 @@
    "tied_titles": true,
    "rank_avg_rank": 11,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "JUDGE STONE",
    "prev_rank_cumulative": 18
   },
   {
@@ -1353,6 +1407,9 @@
    "tied_titles": true,
    "rank_avg_rank": 35,
    "tied_avg_rank": false,
+   "concentration": 17.5,
+   "effective_titles": 5.7,
+   "top_title": "FELICIA'S FAVORITES",
    "prev_rank_cumulative": 19
   },
   {
@@ -1391,6 +1448,9 @@
    "tied_titles": true,
    "rank_avg_rank": 13,
    "tied_avg_rank": false,
+   "concentration": 78.1,
+   "effective_titles": 1.3,
+   "top_title": "OUR PERFECT STORM",
    "prev_rank_cumulative": 20
   },
   {
@@ -1464,6 +1524,9 @@
    "tied_titles": true,
    "rank_avg_rank": 26,
    "tied_avg_rank": false,
+   "concentration": 17.8,
+   "effective_titles": 5.6,
+   "top_title": "THE MOST DANGEROUS GAMES",
    "prev_rank_cumulative": 21
   },
   {
@@ -1502,6 +1565,9 @@
    "tied_titles": true,
    "rank_avg_rank": 14,
    "tied_avg_rank": false,
+   "concentration": 50.5,
+   "effective_titles": 2.0,
+   "top_title": "HOLLYWOOD, ENDING",
    "prev_rank_cumulative": 21
   },
   {
@@ -1547,6 +1613,9 @@
    "tied_titles": true,
    "rank_avg_rank": 36,
    "tied_avg_rank": false,
+   "concentration": 44.3,
+   "effective_titles": 2.3,
+   "top_title": "THE CROSSROADS",
    "prev_rank_cumulative": 21
   },
   {
@@ -1613,6 +1682,9 @@
    "tied_titles": true,
    "rank_avg_rank": 61,
    "tied_avg_rank": false,
+   "concentration": 30.1,
+   "effective_titles": 3.3,
+   "top_title": "VIGIL",
    "prev_rank_cumulative": 24
   },
   {
@@ -1665,6 +1737,9 @@
    "tied_titles": true,
    "rank_avg_rank": 53,
    "tied_avg_rank": false,
+   "concentration": 33.1,
+   "effective_titles": 3.0,
+   "top_title": "THE SHAMPOO EFFECT",
    "prev_rank_cumulative": 25
   },
   {
@@ -1724,6 +1799,9 @@
    "tied_titles": true,
    "rank_avg_rank": 25,
    "tied_avg_rank": false,
+   "concentration": 22.5,
+   "effective_titles": 4.4,
+   "top_title": "IT COULD HAVE BEEN HER",
    "prev_rank_cumulative": 26
   },
   {
@@ -1790,6 +1868,9 @@
    "tied_titles": true,
    "rank_avg_rank": 24,
    "tied_avg_rank": false,
+   "concentration": 17.7,
+   "effective_titles": 5.7,
+   "top_title": "SEA OF CHARMS",
    "prev_rank_cumulative": 27
   },
   {
@@ -1821,6 +1902,9 @@
    "tied_titles": true,
    "rank_avg_rank": 28,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "MONA'S EYES",
    "prev_rank_cumulative": 27
   },
   {
@@ -1873,6 +1957,9 @@
    "tied_titles": true,
    "rank_avg_rank": 10,
    "tied_avg_rank": false,
+   "concentration": 26.2,
+   "effective_titles": 3.8,
+   "top_title": "THE WINGS THAT BIND",
    "prev_rank_cumulative": 29
   },
   {
@@ -1911,6 +1998,9 @@
    "tied_titles": true,
    "rank_avg_rank": 15,
    "tied_avg_rank": true,
+   "concentration": 63.9,
+   "effective_titles": 1.6,
+   "top_title": "THE KNAVE AND THE MOON",
    "prev_rank_cumulative": 30
   },
   {
@@ -1963,6 +2053,9 @@
    "tied_titles": true,
    "rank_avg_rank": 27,
    "tied_avg_rank": false,
+   "concentration": 27.5,
+   "effective_titles": 3.6,
+   "top_title": "THE THRONE OF BROKEN GODS",
    "prev_rank_cumulative": 30
   },
   {
@@ -2001,6 +2094,9 @@
    "tied_titles": true,
    "rank_avg_rank": 28,
    "tied_avg_rank": true,
+   "concentration": 52.8,
+   "effective_titles": 1.9,
+   "top_title": "THE POISON DAUGHTER",
    "prev_rank_cumulative": 32
   },
   {
@@ -2053,6 +2149,9 @@
    "tied_titles": true,
    "rank_avg_rank": 32,
    "tied_avg_rank": true,
+   "concentration": 35.4,
+   "effective_titles": 2.8,
+   "top_title": "FURY BOUND",
    "prev_rank_cumulative": 32
   },
   {
@@ -2119,6 +2218,9 @@
    "tied_titles": true,
    "rank_avg_rank": 52,
    "tied_avg_rank": false,
+   "concentration": 22.6,
+   "effective_titles": 4.4,
+   "top_title": "ISLES OF THE EMBERDARK",
    "prev_rank_cumulative": 32
   },
   {
@@ -2164,6 +2266,9 @@
    "tied_titles": true,
    "rank_avg_rank": 20,
    "tied_avg_rank": true,
+   "concentration": 38.1,
+   "effective_titles": 2.6,
+   "top_title": "MISS WOLCOTT'S GHOST",
    "prev_rank_cumulative": 39
   },
   {
@@ -2202,6 +2307,9 @@
    "tied_titles": true,
    "rank_avg_rank": 37,
    "tied_avg_rank": false,
+   "concentration": 90.3,
+   "effective_titles": 1.1,
+   "top_title": "BETWEEN TWO FIRES",
    "prev_rank_cumulative": 35
   },
   {
@@ -2275,6 +2383,9 @@
    "tied_titles": true,
    "rank_avg_rank": 57,
    "tied_avg_rank": true,
+   "concentration": 18.1,
+   "effective_titles": 5.5,
+   "top_title": "THE NIGHT PRINCE",
    "prev_rank_cumulative": 36
   },
   {
@@ -2320,6 +2431,9 @@
    "tied_titles": true,
    "rank_avg_rank": 56,
    "tied_avg_rank": false,
+   "concentration": 50.5,
+   "effective_titles": 2.0,
+   "top_title": "THE MIDNIGHT TRAIN",
    "prev_rank_cumulative": 36
   },
   {
@@ -2372,6 +2486,9 @@
    "tied_titles": true,
    "rank_avg_rank": 15,
    "tied_avg_rank": true,
+   "concentration": 25.9,
+   "effective_titles": 3.9,
+   "top_title": "THE FOURTH OPTION",
    "prev_rank_cumulative": 36
   },
   {
@@ -2403,6 +2520,9 @@
    "tied_titles": true,
    "rank_avg_rank": 51,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "IT'S NOT HER",
    "prev_rank_cumulative": 40
   },
   {
@@ -2441,6 +2561,9 @@
    "tied_titles": true,
    "rank_avg_rank": 46,
    "tied_avg_rank": true,
+   "concentration": 69.2,
+   "effective_titles": 1.4,
+   "top_title": "CHAIN REACTION",
    "prev_rank_cumulative": 46
   },
   {
@@ -2472,6 +2595,9 @@
    "tied_titles": true,
    "rank_avg_rank": 32,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "AMERICAN HAGWON",
    "prev_rank_cumulative": 41
   },
   {
@@ -2503,6 +2629,9 @@
    "tied_titles": true,
    "rank_avg_rank": 39,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE ALTAR OF PERGAMON",
    "prev_rank_cumulative": 41
   },
   {
@@ -2534,6 +2663,9 @@
    "tied_titles": true,
    "rank_avg_rank": 11,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "SOMETIMES I SCARE MYSELF",
    "prev_rank_cumulative": 43
   },
   {
@@ -2579,6 +2711,9 @@
    "tied_titles": true,
    "rank_avg_rank": 57,
    "tied_avg_rank": true,
+   "concentration": 40.1,
+   "effective_titles": 2.5,
+   "top_title": "THE DISAPPEARERS",
    "prev_rank_cumulative": 44
   },
   {
@@ -2610,6 +2745,9 @@
    "tied_titles": true,
    "rank_avg_rank": 9,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "DAGGERMOUTH",
    "prev_rank_cumulative": 45
   },
   {
@@ -2648,6 +2786,9 @@
    "tied_titles": true,
    "rank_avg_rank": 20,
    "tied_avg_rank": true,
+   "concentration": 55.6,
+   "effective_titles": 1.8,
+   "top_title": "LIGHT WIELDER",
    "prev_rank_cumulative": 46
   },
   {
@@ -2686,6 +2827,9 @@
    "tied_titles": true,
    "rank_avg_rank": 32,
    "tied_avg_rank": true,
+   "concentration": 50.8,
+   "effective_titles": 2.0,
+   "top_title": "BALDUR'S GATE 3: ASTARION",
    "prev_rank_cumulative": 46
   },
   {
@@ -2717,6 +2861,9 @@
    "tied_titles": true,
    "rank_avg_rank": 1,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "DEAD BEAT",
    "prev_rank_cumulative": 49
   },
   {
@@ -2748,6 +2895,9 @@
    "tied_titles": true,
    "rank_avg_rank": 42,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE THINGS WE LEAVE UNFINISHED",
    "prev_rank_cumulative": 50
   },
   {
@@ -2779,6 +2929,9 @@
    "tied_titles": true,
    "rank_avg_rank": 1,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "A COURT OF SPLINTERED HARMONY",
    "prev_rank_cumulative": null
   },
   {
@@ -2824,6 +2977,9 @@
    "tied_titles": true,
    "rank_avg_rank": 50,
    "tied_avg_rank": false,
+   "concentration": 45.5,
+   "effective_titles": 2.2,
+   "top_title": "MEET ME IN PARIS",
    "prev_rank_cumulative": 51
   },
   {
@@ -2862,6 +3018,9 @@
    "tied_titles": true,
    "rank_avg_rank": 63,
    "tied_avg_rank": true,
+   "concentration": 50.0,
+   "effective_titles": 2.0,
+   "top_title": "JOHN OF JOHN",
    "prev_rank_cumulative": 52
   },
   {
@@ -2893,6 +3052,9 @@
    "tied_titles": true,
    "rank_avg_rank": 7,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "BURN DOWN MASTER'S HOUSE",
    "prev_rank_cumulative": 52
   },
   {
@@ -2924,6 +3086,9 @@
    "tied_titles": true,
    "rank_avg_rank": 4,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "HOLLOW",
    "prev_rank_cumulative": 54
   },
   {
@@ -2962,6 +3127,9 @@
    "tied_titles": true,
    "rank_avg_rank": 57,
    "tied_avg_rank": true,
+   "concentration": 83.5,
+   "effective_titles": 1.2,
+   "top_title": "UPWARD BOUND",
    "prev_rank_cumulative": 55
   },
   {
@@ -3000,6 +3168,9 @@
    "tied_titles": true,
    "rank_avg_rank": 42,
    "tied_avg_rank": true,
+   "concentration": 50.2,
+   "effective_titles": 2.0,
+   "top_title": "A FORSAKEN PROPHECY",
    "prev_rank_cumulative": 55
   },
   {
@@ -3031,6 +3202,9 @@
    "tied_titles": true,
    "rank_avg_rank": 3,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE BUTCHER LEGACY",
    "prev_rank_cumulative": 55
   },
   {
@@ -3069,6 +3243,9 @@
    "tied_titles": true,
    "rank_avg_rank": 62,
    "tied_avg_rank": false,
+   "concentration": 65.4,
+   "effective_titles": 1.5,
+   "top_title": "TEMPEST",
    "prev_rank_cumulative": 55
   },
   {
@@ -3100,6 +3277,9 @@
    "tied_titles": true,
    "rank_avg_rank": 63,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "RETURN TO THE SHACK",
    "prev_rank_cumulative": 55
   },
   {
@@ -3131,6 +3311,9 @@
    "tied_titles": true,
    "rank_avg_rank": 54,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "PARADOX",
    "prev_rank_cumulative": 60
   },
   {
@@ -3162,6 +3345,9 @@
    "tied_titles": true,
    "rank_avg_rank": 46,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "HEATED RIVALRY",
    "prev_rank_cumulative": 61
   },
   {
@@ -3193,6 +3379,9 @@
    "tied_titles": true,
    "rank_avg_rank": 20,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "BENEATH",
    "prev_rank_cumulative": 62
   },
   {
@@ -3224,6 +3413,9 @@
    "tied_titles": true,
    "rank_avg_rank": 54,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE GOAL",
    "prev_rank_cumulative": 62
   },
   {
@@ -3255,6 +3447,9 @@
    "tied_titles": true,
    "rank_avg_rank": 63,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE CARETAKER",
    "prev_rank_cumulative": 62
   },
   {
@@ -3286,6 +3481,9 @@
    "tied_titles": true,
    "rank_avg_rank": 63,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "THE WRETCHED DIVINE",
    "prev_rank_cumulative": 65
   },
   {
@@ -3317,6 +3515,9 @@
    "tied_titles": true,
    "rank_avg_rank": 63,
    "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "HE WHO FIGHTS WITH MONSTERS, BOOK 1: OUTWORLDER",
    "prev_rank_cumulative": 66
   },
   {
@@ -3348,6 +3549,9 @@
    "tied_titles": true,
    "rank_avg_rank": 68,
    "tied_avg_rank": false,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "EVERYTHING WAS BEAUTIFUL AND NOTHING HURT",
    "prev_rank_cumulative": 67
   }
  ],

@@ -159,6 +159,16 @@ def score(lists: list, year: int = SEASON_YEAR) -> dict:
             row[f"tied_{name}"] = tied
     pub_rows.sort(key=lambda r: (r["rank_cumulative"], -r["list_points"], r["publisher"]))
 
+    # Title concentration (Herfindahl index over the publisher's titles):
+    # 100% means every point came from one title; lower means the points are
+    # spread across many titles. 1 / index is the "effective number" of titles.
+    for row in pub_rows:
+        total = row["list_points"]
+        hhi = sum((b["list_points"] / total) ** 2 for b in row["books"]) if total else 0
+        row["concentration"] = round(100 * hhi, 1)
+        row["effective_titles"] = round(1 / hhi, 1) if hhi else 0
+        row["top_title"] = row["books"][0]["title"]
+
     # Movement since last week on the headline (cumulative) ranking.
     if len(lists) > 1:
         prev = score_prev(lists[:-1])
