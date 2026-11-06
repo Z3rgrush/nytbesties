@@ -1,0 +1,22 @@
+name: Publisher lookup
+
+on:
+  workflow_dispatch:
+    inputs:
+      publisher:
+        description: "Publisher name as NYT prints it"
+        required: true
+
+jobs:
+  lookup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look up Hardcover Fiction history
+        env:
+          NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
+          PUBLISHER: ${{ inputs.publisher }}
+        run: python scripts/publisher_history.py "$PUBLISHER" | tee -a "$GITHUB_STEP_SUMMARY"
