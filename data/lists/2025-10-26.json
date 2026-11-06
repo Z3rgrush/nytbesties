@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-10-26",
+ "bestsellers_date": "2025-10-11",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 3,
+   "title": "CRY HAVOC",
+   "author": "Jack Carr",
+   "publisher": "Atria/Emily Bestler",
+   "isbn13": "9781668095256",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "ALCHEMY OF SECRETS",
+   "author": "Stephanie Garber",
+   "publisher": "Flatiron",
+   "isbn13": "9781250789150",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "SHADOW TICKET",
+   "author": "Thomas Pynchon",
+   "publisher": "Penguin Press",
+   "isbn13": "9781594206108",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "FOR WHOM THE BELLE TOLLS",
+   "author": "Jaysea Lynn",
+   "publisher": "Saga",
+   "isbn13": "9781668208809",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "MY BELOVED",
+   "author": "Jan Karon",
+   "publisher": "Putnam",
+   "isbn13": "9798217047178",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379290",
+   "weeks_on_list": 96
+  },
+  {
+   "rank": 11,
+   "title": "SHARP FORCE",
+   "author": "Patricia Cornwell",
+   "publisher": "Grand Central",
+   "isbn13": "9781538773963",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379399",
+   "weeks_on_list": 81
+  },
+  {
+   "rank": 13,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 14,
+   "title": "THE DAMNED",
+   "author": "Harper L. Woods",
+   "publisher": "Bramble",
+   "isbn13": "9781250365231",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374189",
+   "weeks_on_list": 37
+  }
+ ]
+}

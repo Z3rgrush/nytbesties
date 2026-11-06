@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-09-07",
+ "bestsellers_date": "2025-08-23",
+ "books": [
+  {
+   "rank": 1,
+   "title": "QUICKSILVER",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774205",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "ON WINGS OF BLOOD",
+   "author": "Briar Boleyn",
+   "publisher": "MIRA",
+   "isbn13": "9780778306269",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE END OF THE WORLD AS WE KNOW IT",
+   "author": "Christopher Golden and Brian Keene",
+   "publisher": "Gallery",
+   "isbn13": "9781668057551",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "PEOPLE WE MEET ON VACATION",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593956229",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 12
+  },
+  {
+   "rank": 6,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 7,
+   "title": "THE DRAGON WAKES WITH THUNDER",
+   "author": "K.X. Song",
+   "publisher": "Ace",
+   "isbn13": "9780593641552",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 31
+  },
+  {
+   "rank": 9,
+   "title": "HEMLOCK & SILVER",
+   "author": "T. Kingfisher",
+   "publisher": "Tor",
+   "isbn13": "9781250342034",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 11,
+   "title": "THE PUMPKIN SPICE CAF\u00c9",
+   "author": "Laurie Gilmore",
+   "publisher": "HarperCollins",
+   "isbn13": "9780008759827",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 12,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 38
+  },
+  {
+   "rank": 13,
+   "title": "BURY OUR BONES IN THE MIDNIGHT SOIL",
+   "author": "V.E. Schwab",
+   "publisher": "Tor",
+   "isbn13": "9781250320520",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 14,
+   "title": "FOR RICHER FOR POORER",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498798",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 15,
+   "title": "NOT QUITE DEAD YET",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780593977057",
+   "weeks_on_list": 5
+  }
+ ]
+}

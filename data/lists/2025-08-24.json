@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-08-24",
+ "bestsellers_date": "2025-08-09",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE FALLEN & THE KISS OF DUSK",
+   "author": "Carissa Broadbent",
+   "publisher": "Bramble",
+   "isbn13": "9781250367815",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "SCARRED",
+   "author": "Emily McIntire",
+   "publisher": "Bloom",
+   "isbn13": "9781464244650",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 4,
+   "title": "NOT QUITE DEAD YET",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780593977057",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 5,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 29
+  },
+  {
+   "rank": 6,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 7,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 8,
+   "title": "AN INSIDE JOB",
+   "author": "Daniel Silva",
+   "publisher": "Harper",
+   "isbn13": "9780063384217",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 9,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 36
+  },
+  {
+   "rank": 10,
+   "title": "THE HAMPTONS LAWYER",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780316569934",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 11,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 51
+  },
+  {
+   "rank": 12,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 13,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 14,
+   "title": "THE ENCHANTED GREENHOUSE",
+   "author": "Sarah Beth Durst",
+   "publisher": "Bramble",
+   "isbn13": "9781250333988",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 15,
+   "title": "DUNGEON CRAWLER CARL",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820247",
+   "weeks_on_list": 2
+  }
+ ]
+}

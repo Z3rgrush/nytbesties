@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-06-22",
+ "bestsellers_date": "2025-06-07",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE FIRST GENTLEMAN",
+   "author": "Bill Clinton and James Patterson",
+   "publisher": "Little, Brown and Knopf",
+   "isbn13": "9780316565103",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 4,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 5,
+   "title": "NIGHTSHADE",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316588485",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "BADLANDS",
+   "author": "Douglas Preston and Lincoln Child",
+   "publisher": "Grand Central",
+   "isbn13": "9781538765821",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "THE KNIGHT AND THE MOTH",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316582704",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "HIDDEN NATURE",
+   "author": "Nora Roberts",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250370853",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 10,
+   "title": "THE EMPEROR OF GLADNESS",
+   "author": "Ocean Vuong",
+   "publisher": "Penguin Press",
+   "isbn13": "9780593831878",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 11,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 12,
+   "title": "THE PERFECT DIVORCE",
+   "author": "Jeneva Rose",
+   "publisher": "Blackstone",
+   "isbn13": "9798874620936",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 13,
+   "title": "THE GHOSTWRITER",
+   "author": "Julie Clark",
+   "publisher": "Sourcebooks Landmark",
+   "isbn13": "9781464221286",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 49
+  },
+  {
+   "rank": 15,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 13
+  }
+ ]
+}

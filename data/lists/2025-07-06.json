@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-07-06",
+ "bestsellers_date": "2025-06-21",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 2,
+   "title": "BURY OUR BONES IN THE MIDNIGHT SOIL",
+   "author": "V.E. Schwab",
+   "publisher": "Tor",
+   "isbn13": "9781250320520",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 4,
+   "title": "THE ROBIN ON THE OAK THRONE",
+   "author": "K.A. Linde",
+   "publisher": "Red Tower",
+   "isbn13": "9781649378521",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE FIRST GENTLEMAN",
+   "author": "Bill Clinton and James Patterson",
+   "publisher": "Little, Brown and Knopf",
+   "isbn13": "9780316565103",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 7,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 8,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 9,
+   "title": "THE RIVER IS WAITING",
+   "author": "Wally Lamb",
+   "publisher": "Marysue Rucci",
+   "isbn13": "9781668006399",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "THE STOLEN LIFE OF COLETTE MARCEAU",
+   "author": "Kristin Harmel",
+   "publisher": "Gallery",
+   "isbn13": "9781982191733",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "NIGHTSHADE",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316588485",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 12,
+   "title": "THE KNIGHT AND THE MOTH",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316582704",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 13,
+   "title": "WITH A VENGEANCE",
+   "author": "Riley Sager",
+   "publisher": "Dutton",
+   "isbn13": "9780593472408",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 14,
+   "title": "THE EMPEROR OF GLADNESS",
+   "author": "Ocean Vuong",
+   "publisher": "Penguin Press",
+   "isbn13": "9780593831878",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 15,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 29
+  }
+ ]
+}

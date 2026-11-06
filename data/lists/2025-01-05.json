@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-01-05",
+ "bestsellers_date": "2024-12-21",
+ "books": [
+  {
+   "rank": 1,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 25
+  },
+  {
+   "rank": 2,
+   "title": "THE WOMEN",
+   "author": "Kristin Hannah",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250178633",
+   "weeks_on_list": 46
+  },
+  {
+   "rank": 3,
+   "title": "WIND AND TRUTH",
+   "author": "Brandon Sanderson",
+   "publisher": "Tor",
+   "isbn13": "9781250319180",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 4,
+   "title": "THE GOD OF THE WOODS",
+   "author": "Liz Moore",
+   "publisher": "Riverhead",
+   "isbn13": "9780593418918",
+   "weeks_on_list": 23
+  },
+  {
+   "rank": 5,
+   "title": "COUNTING MIRACLES",
+   "author": "Nicholas Sparks",
+   "publisher": "Random House",
+   "isbn13": "9780593449592",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 6,
+   "title": "THE HOUSE OF CROSS",
+   "author": "James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316402682",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 7,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374172",
+   "weeks_on_list": 59
+  },
+  {
+   "rank": 8,
+   "title": "SMALL THINGS LIKE THESE",
+   "author": "Claire Keegan",
+   "publisher": "Grove",
+   "isbn13": "9780802158741",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 9,
+   "title": "WICKED",
+   "author": "Gregory Maguire",
+   "publisher": "Morrow",
+   "isbn13": "9780063391086",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 10,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 11,
+   "title": "INTERMEZZO",
+   "author": "Sally Rooney",
+   "publisher": "Farrar, Straus and Giroux",
+   "isbn13": "9780374602635",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 12,
+   "title": "TO DIE FOR",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538757901",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 13,
+   "title": "NOW OR NEVER",
+   "author": "Janet Evanovich",
+   "publisher": "Atria",
+   "isbn13": "9781668003138",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 14,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374042",
+   "weeks_on_list": 76
+  },
+  {
+   "rank": 15,
+   "title": "REMARKABLY BRIGHT CREATURES",
+   "author": "Shelby Van Pelt",
+   "publisher": "Ecco",
+   "isbn13": "9780063204157",
+   "weeks_on_list": 57
+  }
+ ]
+}

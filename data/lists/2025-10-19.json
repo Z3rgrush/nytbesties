@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-10-19",
+ "bestsellers_date": "2025-10-04",
+ "books": [
+  {
+   "rank": 1,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379399",
+   "weeks_on_list": 80
+  },
+  {
+   "rank": 2,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379290",
+   "weeks_on_list": 95
+  },
+  {
+   "rank": 3,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 4,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 5,
+   "title": "THE IMPOSSIBLE FORTUNE",
+   "author": "Richard Osman",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9780593653258",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "VINCE FLYNN: DENIED ACCESS",
+   "author": "Don Bentley",
+   "publisher": "Atria/Emily Bestler",
+   "isbn13": "9781668045879",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "THE PORTRAIT",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498767",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "TOURIST SEASON",
+   "author": "Brynne Weaver",
+   "publisher": "Slowburn",
+   "isbn13": "9781638932109",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374189",
+   "weeks_on_list": 36
+  },
+  {
+   "rank": 11,
+   "title": "CIRCLE OF DAYS",
+   "author": "Ken Follett",
+   "publisher": "Grand Central",
+   "isbn13": "9781538772775",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 12,
+   "title": "WHAT STALKS THE DEEP",
+   "author": "T. Kingfisher",
+   "publisher": "Tor Nightfire",
+   "isbn13": "9781250354921",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "CROSSROADS OF RAVENS",
+   "author": "Andrzej Sapkowski",
+   "publisher": "Orbit",
+   "isbn13": "9780316597739",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "HEART THE LOVER",
+   "author": "Lily King",
+   "publisher": "Grove",
+   "isbn13": "9780802165176",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "WIDOW'S POINT",
+   "author": "Richard Chizmar and W.H. Chizmar",
+   "publisher": "Gallery",
+   "isbn13": "9781668057704",
+   "weeks_on_list": 1
+  }
+ ]
+}

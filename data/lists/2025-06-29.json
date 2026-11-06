@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-06-29",
+ "bestsellers_date": "2025-06-14",
+ "books": [
+  {
+   "rank": 1,
+   "title": "BURY OUR BONES IN THE MIDNIGHT SOIL",
+   "author": "V.E. Schwab",
+   "publisher": "Tor",
+   "isbn13": "9781250320520",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 4,
+   "title": "THE FIRST GENTLEMAN",
+   "author": "Bill Clinton and James Patterson",
+   "publisher": "Little, Brown and Knopf",
+   "isbn13": "9780316565103",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "WITH A VENGEANCE",
+   "author": "Riley Sager",
+   "publisher": "Dutton",
+   "isbn13": "9780593472408",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE RIVER IS WAITING",
+   "author": "Wally Lamb",
+   "publisher": "Marysue Rucci",
+   "isbn13": "9781668006399",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 8,
+   "title": "NIGHTSHADE",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316588485",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 9,
+   "title": "KING OF ASHES",
+   "author": "S.A. Cosby",
+   "publisher": "Pine & Cedar",
+   "isbn13": "9781250832061",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 11,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 21
+  },
+  {
+   "rank": 12,
+   "title": "THE LOVE HYPOTHESIS",
+   "author": "Ali Hazelwood",
+   "publisher": "Berkley",
+   "isbn13": "9780593953815",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "THE KNIGHT AND THE MOTH",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316582704",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 14,
+   "title": "THE LIFE OF CHUCK",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668208786",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "THE EMPEROR OF GLADNESS",
+   "author": "Ocean Vuong",
+   "publisher": "Penguin Press",
+   "isbn13": "9780593831878",
+   "weeks_on_list": 5
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-10-05",
+ "bestsellers_date": "2025-09-20",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 2,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE LAST LETTER",
+   "author": "Rebecca Yarros",
+   "publisher": "Amara",
+   "isbn13": "9781649379658",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "AMONG THE BURNING FLOWERS",
+   "author": "Samantha Shannon",
+   "publisher": "Bloomsbury",
+   "isbn13": "9781639738861",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "KATABASIS",
+   "author": "R.F. Kuang",
+   "publisher": "Harper Voyager",
+   "isbn13": "9780063021471",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 6,
+   "title": "ASSISTANT TO THE VILLAIN",
+   "author": "Hannah Nicole Maehrer",
+   "publisher": "Red Tower",
+   "isbn13": "9781682816349",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "BUCKEYE",
+   "author": "Patrick Ryan",
+   "publisher": "Random House",
+   "isbn13": "9780593595039",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 35
+  },
+  {
+   "rank": 9,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 16
+  },
+  {
+   "rank": 10,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 20
+  },
+  {
+   "rank": 11,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 26
+  },
+  {
+   "rank": 12,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "THE COLOR OF DEATH",
+   "author": "Trey Gowdy with Christopher Greyson",
+   "publisher": "Fox News",
+   "isbn13": "9780063451919",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "FRAMED IN DEATH",
+   "author": "J.D. Robb",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250370822",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "QUICKSILVER",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774205",
+   "weeks_on_list": 5
+  }
+ ]
+}

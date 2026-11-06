@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-06-08",
+ "bestsellers_date": "2025-05-24",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE KNIGHT AND THE MOTH",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316588447",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "NIGHTSHADE",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316588485",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 4,
+   "title": "THE EMPEROR OF GLADNESS",
+   "author": "Ocean Vuong",
+   "publisher": "Penguin Press",
+   "isbn13": "9780593831878",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "SHIELD OF SPARROWS",
+   "author": "Devney Perry",
+   "publisher": "Red Tower",
+   "isbn13": "9781649378514",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 7,
+   "title": "THE LOVE HATERS",
+   "author": "Katherine Center",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250283825",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 18
+  },
+  {
+   "rank": 9,
+   "title": "A CURSE CARVED IN BONE",
+   "author": "Danielle L. Jensen",
+   "publisher": "Del Rey",
+   "isbn13": "9780593599860",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 47
+  },
+  {
+   "rank": 11,
+   "title": "THE PERFECT DIVORCE",
+   "author": "Jeneva Rose",
+   "publisher": "Blackstone",
+   "isbn13": "9798874620936",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 12,
+   "title": "STRANGERS IN TIME",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538742051",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 13,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 14,
+   "title": "SILVER ELITE",
+   "author": "Dani Francis",
+   "publisher": "Del Rey",
+   "isbn13": "9780593875469",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "25 ALIVE",
+   "author": "James Patterson and Maxine Paetro",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316569774",
+   "weeks_on_list": 4
+  }
+ ]
+}

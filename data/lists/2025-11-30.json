@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-11-30",
+ "bestsellers_date": "2025-11-15",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE STRENGTH OF THE FEW",
+   "author": "James Islington",
+   "publisher": "Saga",
+   "isbn13": "9781982141233",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 3,
+   "title": "EXIT STRATEGY",
+   "author": "Lee Child and Andrew Child",
+   "publisher": "Bantam",
+   "isbn13": "9780593725849",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "NASH FALLS",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538757987",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 6,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 7,
+   "title": "REMAIN",
+   "author": "Nicholas Sparks with M. Night Shyamalan",
+   "publisher": "Random House",
+   "isbn13": "9798217154043",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 8,
+   "title": "THE KING'S RANSOM",
+   "author": "Janet Evanovich",
+   "publisher": "Atria",
+   "isbn13": "9781668027479",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 10,
+   "title": "GONE BEFORE GOODBYE",
+   "author": "Reese Witherspoon and Harlan Coben",
+   "publisher": "Grand Central",
+   "isbn13": "9781538774700",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 11,
+   "title": "QUICKSILVER",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774205",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 12,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 13,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 14,
+   "title": "INGRAM",
+   "author": "Louis C.K.",
+   "publisher": "BenBella",
+   "isbn13": "9781637747902",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "BRIGANDS & BREADKNIVES",
+   "author": "Travis Baldree",
+   "publisher": "Tor",
+   "isbn13": "9781250334886",
+   "weeks_on_list": 1
+  }
+ ]
+}

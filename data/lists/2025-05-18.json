@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-05-18",
+ "bestsellers_date": "2025-05-03",
+ "books": [
+  {
+   "rank": 1,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 2,
+   "title": "25 ALIVE",
+   "author": "James Patterson and Maxine Paetro",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316569774",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "ENIGMA",
+   "author": "RuNyx",
+   "publisher": "Bramble",
+   "isbn13": "9781250334237",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "A MIND OF HER OWN",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498705",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE PERFECT DIVORCE",
+   "author": "Jeneva Rose",
+   "publisher": "Blackstone",
+   "isbn13": "9798874620936",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374189",
+   "weeks_on_list": 15
+  },
+  {
+   "rank": 7,
+   "title": "STRANGERS IN TIME",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538742051",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "THE AMALFI CURSE",
+   "author": "Sarah Penner",
+   "publisher": "Park Row",
+   "isbn13": "9780778387886",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "SAY YOU'LL REMEMBER ME",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "isbn13": "9781538759196",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 10,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 11,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374172",
+   "weeks_on_list": 78
+  },
+  {
+   "rank": 12,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 27
+  },
+  {
+   "rank": 13,
+   "title": "THE WOMEN",
+   "author": "Kristin Hannah",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250178633",
+   "weeks_on_list": 65
+  },
+  {
+   "rank": 14,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 44
+  },
+  {
+   "rank": 15,
+   "title": "THE GOD OF THE WOODS",
+   "author": "Liz Moore",
+   "publisher": "Riverhead",
+   "isbn13": "9780593418918",
+   "weeks_on_list": 42
+  }
+ ]
+}

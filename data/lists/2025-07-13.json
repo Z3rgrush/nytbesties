@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-07-13",
+ "bestsellers_date": "2025-06-28",
+ "books": [
+  {
+   "rank": 1,
+   "title": "DON'T LET HIM IN",
+   "author": "Lisa Jewell",
+   "publisher": "Atria",
+   "isbn13": "9781668033876",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 3,
+   "title": "A MOTHER'S LOVE",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498736",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 5,
+   "title": "BURY OUR BONES IN THE MIDNIGHT SOIL",
+   "author": "V.E. Schwab",
+   "publisher": "Tor",
+   "isbn13": "9781250320520",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 6,
+   "title": "THE FIRST GENTLEMAN",
+   "author": "Bill Clinton and James Patterson",
+   "publisher": "Little, Brown and Knopf",
+   "isbn13": "9780316565103",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 7,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 8,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 9,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 23
+  },
+  {
+   "rank": 10,
+   "title": "THE DRAGON REPUBLIC",
+   "author": "R.F. Kuang",
+   "publisher": "Harper Voyager",
+   "isbn13": "9780063432932",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 12,
+   "title": "THE RIVER IS WAITING",
+   "author": "Wally Lamb",
+   "publisher": "Marysue Rucci",
+   "isbn13": "9781668006399",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 13,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 30
+  },
+  {
+   "rank": 14,
+   "title": "THE EMPEROR OF GLADNESS",
+   "author": "Ocean Vuong",
+   "publisher": "Penguin Press",
+   "isbn13": "9780593831878",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 15,
+   "title": "THE KNIGHT AND THE MOTH",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316582704",
+   "weeks_on_list": 6
+  }
+ ]
+}

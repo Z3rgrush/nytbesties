@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-11-09",
+ "bestsellers_date": "2025-10-25",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE PROVING GROUND",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316563826",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE THINGS GODS BREAK",
+   "author": "Abigail Owen",
+   "publisher": "Red Tower",
+   "isbn13": "9781649378538",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 5,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 6,
+   "title": "REMAIN",
+   "author": "Nicholas Sparks with M. Night Shyamalan",
+   "publisher": "Random House",
+   "isbn13": "9798217154043",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 7,
+   "title": "GONE BEFORE GOODBYE",
+   "author": "Reese Witherspoon and Harlan Coben",
+   "publisher": "Grand Central",
+   "isbn13": "9781538774700",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 8,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 9,
+   "title": "KING SORROW",
+   "author": "Joe Hill",
+   "publisher": "Morrow",
+   "isbn13": "9780062200600",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 11,
+   "title": "THE CHRISTMAS RING",
+   "author": "Karen Kingsbury",
+   "publisher": "Thomas Nelson",
+   "isbn13": "9781400354764",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 13,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379290",
+   "weeks_on_list": 98
+  },
+  {
+   "rank": 14,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379399",
+   "weeks_on_list": 82
+  },
+  {
+   "rank": 15,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374189",
+   "weeks_on_list": 38
+  }
+ ]
+}

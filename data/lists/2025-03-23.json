@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-03-23",
+ "bestsellers_date": "2025-03-08",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 2,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374172",
+   "weeks_on_list": 70
+  },
+  {
+   "rank": 3,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "FAR FROM HOME",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498675",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "BLOOD MOON",
+   "author": "Sandra Brown",
+   "publisher": "Grand Central",
+   "isbn13": "9781538742983",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "THE RAGPICKER KING",
+   "author": "Cassandra Clare",
+   "publisher": "Del Rey",
+   "isbn13": "9780525620020",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374042",
+   "weeks_on_list": 87
+  },
+  {
+   "rank": 8,
+   "title": "BATTLE MOUNTAIN",
+   "author": "C.J. Box",
+   "publisher": "Putnam",
+   "isbn13": "9780593851050",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 36
+  },
+  {
+   "rank": 10,
+   "title": "DREAM COUNT",
+   "author": "Chimamanda Ngozi Adichie",
+   "publisher": "Knopf",
+   "isbn13": "9780593802724",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "THE WOMEN",
+   "author": "Kristin Hannah",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250178633",
+   "weeks_on_list": 57
+  },
+  {
+   "rank": 12,
+   "title": "THE NIGHTINGALE",
+   "author": "Kristin Hannah",
+   "publisher": "St. Martin\u2019s",
+   "isbn13": "9781250370112",
+   "weeks_on_list": 85
+  },
+  {
+   "rank": 13,
+   "title": "THE GOD OF THE WOODS",
+   "author": "Liz Moore",
+   "publisher": "Riverhead",
+   "isbn13": "9780593418918",
+   "weeks_on_list": 34
+  },
+  {
+   "rank": 14,
+   "title": "WILD DARK SHORE",
+   "author": "Charlotte McConaghy",
+   "publisher": "Flatiron",
+   "isbn13": "9781250827951",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 19
+  }
+ ]
+}

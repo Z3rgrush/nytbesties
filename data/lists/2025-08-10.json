@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-08-10",
+ "bestsellers_date": "2025-07-26",
+ "books": [
+  {
+   "rank": 1,
+   "title": "NOT QUITE DEAD YET",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780593977057",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE HAMPTONS LAWYER",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780316569934",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 4,
+   "title": "THE ENCHANTED GREENHOUSE",
+   "author": "Sarah Beth Durst",
+   "publisher": "Bramble",
+   "isbn13": "9781250333988",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "ARCANA ACADEMY",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780593726341",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "AN INSIDE JOB",
+   "author": "Daniel Silva",
+   "publisher": "Harper",
+   "isbn13": "9780063384217",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 7,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 27
+  },
+  {
+   "rank": 8,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 9,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 34
+  },
+  {
+   "rank": 10,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 12
+  },
+  {
+   "rank": 11,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 18
+  },
+  {
+   "rank": 12,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 13,
+   "title": "ROSE IN CHAINS",
+   "author": "Julie Soto",
+   "publisher": "Forever",
+   "isbn13": "9781538771228",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "THE WOMAN IN SUITE 11",
+   "author": "Ruth Ware",
+   "publisher": "Gallery/Scout",
+   "isbn13": "9781668025628",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 50
+  }
+ ]
+}

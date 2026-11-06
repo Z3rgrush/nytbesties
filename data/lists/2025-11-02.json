@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-11-02",
+ "bestsellers_date": "2025-10-18",
+ "books": [
+  {
+   "rank": 1,
+   "title": "REMAIN",
+   "author": "Nicholas Sparks with M. Night Shyamalan",
+   "publisher": "Random House",
+   "isbn13": "9798217154043",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "GONE BEFORE GOODBYE",
+   "author": "Reese Witherspoon and Harlan Coben",
+   "publisher": "Grand Central",
+   "isbn13": "9781538774700",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 4,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 5,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 6,
+   "title": "RED RISING",
+   "author": "Pierce Brown",
+   "publisher": "Del Rey",
+   "isbn13": "9780593871522",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 8,
+   "title": "LIGHTS OUT",
+   "author": "Navessa Allen",
+   "publisher": "Slowburn",
+   "isbn13": "9781638933700",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "THE PICASSO HEIST",
+   "author": "James Patterson and Howard Roughan",
+   "publisher": "Little, Brown",
+   "isbn13": "9781538758434",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 10,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 11,
+   "title": "DUNGEON CRAWLER CARL",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820247",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 12,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379290",
+   "weeks_on_list": 97
+  },
+  {
+   "rank": 13,
+   "title": "BOLEYN TRAITOR",
+   "author": "Philippa Gregory",
+   "publisher": "Morrow",
+   "isbn13": "9780063439689",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "CRY HAVOC",
+   "author": "Jack Carr",
+   "publisher": "Atria/Emily Bestler",
+   "isbn13": "9781668095256",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 15,
+   "title": "STAR WARS: REVENGE OF THE SITH: EPISODE III",
+   "author": "Matthew Stover",
+   "publisher": "Random House Worlds",
+   "isbn13": "9798217090983",
+   "weeks_on_list": 1
+  }
+ ]
+}

@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-11-16",
+ "bestsellers_date": "2025-11-01",
+ "books": [
+  {
+   "rank": 1,
+   "title": "THE BLACK WOLF",
+   "author": "Louise Penny",
+   "publisher": "Minotaur",
+   "isbn13": "9781250328175",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "BONDS OF HERCULES",
+   "author": "Jasmine Mas",
+   "publisher": "Canary Street",
+   "isbn13": "9781335146984",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 5,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 6
+  },
+  {
+   "rank": 6,
+   "title": "GONE BEFORE GOODBYE",
+   "author": "Reese Witherspoon and Harlan Coben",
+   "publisher": "Grand Central",
+   "isbn13": "9781538774700",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 7,
+   "title": "REMAIN",
+   "author": "Nicholas Sparks with M. Night Shyamalan",
+   "publisher": "Random House",
+   "isbn13": "9798217154043",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 8,
+   "title": "THE PROVING GROUND",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316563826",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 9,
+   "title": "TWICE",
+   "author": "Mitch Albom",
+   "publisher": "Harper",
+   "isbn13": "9780062406682",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 10,
+   "title": "THE INTRUDER",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "isbn13": "9781464260919",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 11,
+   "title": "THE THINGS GODS BREAK",
+   "author": "Abigail Owen",
+   "publisher": "Red Tower",
+   "isbn13": "9781649378538",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 12,
+   "title": "THE EVERLASTING",
+   "author": "Alix E. Harrow",
+   "publisher": "Tor",
+   "isbn13": "9781250799081",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "THE TIN MEN",
+   "author": "Nelson DeMille and Alex DeMille",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781501101878",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "WRECK",
+   "author": "Catherine Newman",
+   "publisher": "Harper",
+   "isbn13": "9780063453913",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "TOM'S CROSSING",
+   "author": "Mark Z. Danielewski",
+   "publisher": "Pantheon",
+   "isbn13": "9781524747718",
+   "weeks_on_list": 1
+  }
+ ]
+}

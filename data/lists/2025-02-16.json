@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-02-16",
+ "bestsellers_date": "2025-02-01",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 2,
+   "title": "IRON FLAME",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374172",
+   "weeks_on_list": 65
+  },
+  {
+   "rank": 3,
+   "title": "THE NIGHT IS DEFYING",
+   "author": "Chloe C. Pe\u00f1aranda",
+   "publisher": "Bramble",
+   "isbn13": "9781250355508",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "JAMES",
+   "author": "Percival Everett",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550369",
+   "weeks_on_list": 31
+  },
+  {
+   "rank": 5,
+   "title": "THE WOMEN",
+   "author": "Kristin Hannah",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250178633",
+   "weeks_on_list": 52
+  },
+  {
+   "rank": 6,
+   "title": "FOURTH WING",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649374042",
+   "weeks_on_list": 82
+  },
+  {
+   "rank": 7,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 14
+  },
+  {
+   "rank": 8,
+   "title": "THE GOD OF THE WOODS",
+   "author": "Liz Moore",
+   "publisher": "Riverhead",
+   "isbn13": "9780593418918",
+   "weeks_on_list": 29
+  },
+  {
+   "rank": 9,
+   "title": "WITCHCRAFT FOR WAYWARD GIRLS",
+   "author": "Grady Hendrix",
+   "publisher": "Berkley",
+   "isbn13": "9780593548981",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 10,
+   "title": "ALL THE COLORS OF THE DARK",
+   "author": "Chris Whitaker",
+   "publisher": "Crown",
+   "isbn13": "9780593798874",
+   "weeks_on_list": 22
+  },
+  {
+   "rank": 11,
+   "title": "INTERMEZZO",
+   "author": "Sally Rooney",
+   "publisher": "Farrar, Straus and Giroux",
+   "isbn13": "9780374602635",
+   "weeks_on_list": 17
+  },
+  {
+   "rank": 12,
+   "title": "REMARKABLY BRIGHT CREATURES",
+   "author": "Shelby Van Pelt",
+   "publisher": "Ecco",
+   "isbn13": "9780063204157",
+   "weeks_on_list": 62
+  },
+  {
+   "rank": 13,
+   "title": "PRESUMED GUILTY",
+   "author": "Scott Turow",
+   "publisher": "Grand Central",
+   "isbn13": "9781538706367",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "SMALL THINGS LIKE THESE",
+   "author": "Claire Keegan",
+   "publisher": "Grove",
+   "isbn13": "9780802158741",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 15,
+   "title": "COUNTING MIRACLES",
+   "author": "Nicholas Sparks",
+   "publisher": "Random House",
+   "isbn13": "9780593449592",
+   "weeks_on_list": 18
+  }
+ ]
+}

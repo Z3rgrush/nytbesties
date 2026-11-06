@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-08-17",
+ "bestsellers_date": "2025-08-02",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 2,
+   "title": "NOT QUITE DEAD YET",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780593977057",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 3,
+   "title": "SHE DIDN'T SEE IT COMING",
+   "author": "Shari Lapena",
+   "publisher": "Pamela Dorman",
+   "isbn13": "9780593832448",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE DEAL",
+   "author": "Elle Kennedy",
+   "publisher": "Bloom",
+   "isbn13": "9781464241765",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "YOU BELONG HERE",
+   "author": "Megan Miranda",
+   "publisher": "Marysue Rucci",
+   "isbn13": "9781668080979",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 7,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 28
+  },
+  {
+   "rank": 8,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 10
+  },
+  {
+   "rank": 9,
+   "title": "THE HAMPTONS LAWYER",
+   "author": "",
+   "publisher": "",
+   "isbn13": "9780316569934",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "WRATH OF THE DRAGONS",
+   "author": "Olivia Rose Darling",
+   "publisher": "Delacorte",
+   "isbn13": "9780593873922",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 35
+  },
+  {
+   "rank": 12,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 19
+  },
+  {
+   "rank": 13,
+   "title": "AN INSIDE JOB",
+   "author": "Daniel Silva",
+   "publisher": "Harper",
+   "isbn13": "9780063384217",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 14,
+   "title": "THE ENCHANTED GREENHOUSE",
+   "author": "Sarah Beth Durst",
+   "publisher": "Bramble",
+   "isbn13": "9781250333988",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 15,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 15
+  }
+ ]
+}

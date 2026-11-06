@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-12-07",
+ "bestsellers_date": "2025-11-22",
+ "books": [
+  {
+   "rank": 1,
+   "title": "BRIMSTONE",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774229",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE SEVEN RINGS",
+   "author": "Nora Roberts",
+   "publisher": "St. Martin's",
+   "isbn13": "9781250288790",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "QUICKSILVER",
+   "author": "Callie Hart",
+   "publisher": "Forever",
+   "isbn13": "9781538774205",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 4,
+   "title": "RETURN OF THE SPIDER",
+   "author": "James Patterson",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316569569",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "THE WIDOW",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385548984",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 6,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 7,
+   "title": "NASH FALLS",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538757987",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 8,
+   "title": "THE BOND THAT BURNS",
+   "author": "Briar Boleyn",
+   "publisher": "MIRA",
+   "isbn13": "9780778306276",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "EXIT STRATEGY",
+   "author": "Lee Child and Andrew Child",
+   "publisher": "Bantam",
+   "isbn13": "9780593725849",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 9
+  },
+  {
+   "rank": 11,
+   "title": "THE COLOR OF HOPE",
+   "author": "Danielle Steel",
+   "publisher": "Delacorte",
+   "isbn13": "9780593498828",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "THE CORRESPONDENT",
+   "author": "Virginia Evans",
+   "publisher": "Crown",
+   "isbn13": "9780593798430",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 13,
+   "title": "I, MEDUSA",
+   "author": "Ayana Gray",
+   "publisher": "Random House",
+   "isbn13": "9780593733769",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "MONA'S EYES",
+   "author": "Thomas Schlesser",
+   "publisher": "Europa",
+   "isbn13": "9798889661115",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 15,
+   "title": "GONE BEFORE GOODBYE",
+   "author": "Reese Witherspoon and Harlan Coben",
+   "publisher": "Grand Central",
+   "isbn13": "9781538774700",
+   "weeks_on_list": 6
+  }
+ ]
+}

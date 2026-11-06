@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-08-03",
+ "bestsellers_date": "2025-07-19",
+ "books": [
+  {
+   "rank": 1,
+   "title": "AN INSIDE JOB",
+   "author": "Daniel Silva",
+   "publisher": "Harper",
+   "isbn13": "9780063384217",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE ENCHANTED GREENHOUSE",
+   "author": "Sarah Beth Durst",
+   "publisher": "Bramble",
+   "isbn13": "9781250333988",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 3,
+   "title": "THREE SHATTERED SOULS",
+   "author": "Mai Corland",
+   "publisher": "Red Tower",
+   "isbn13": "9781649379153",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "ATMOSPHERE",
+   "author": "Taylor Jenkins Reid",
+   "publisher": "Ballantine",
+   "isbn13": "9780593158715",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 5,
+   "title": "ROSE IN CHAINS",
+   "author": "Julie Soto",
+   "publisher": "Forever",
+   "isbn13": "9781538771228",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 6,
+   "title": "THE WEDDING PEOPLE",
+   "author": "Alison Espach",
+   "publisher": "Holt",
+   "isbn13": "9781250899576",
+   "weeks_on_list": 33
+  },
+  {
+   "rank": 7,
+   "title": "NEVER FLINCH",
+   "author": "Stephen King",
+   "publisher": "Scribner",
+   "isbn13": "9781668089330",
+   "weeks_on_list": 8
+  },
+  {
+   "rank": 8,
+   "title": "THE GIRL I WAS",
+   "author": "Jeneva Rose",
+   "publisher": "MIRA",
+   "isbn13": "9780778387480",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "ONYX STORM",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781649377159",
+   "weeks_on_list": 26
+  },
+  {
+   "rank": 10,
+   "title": "THE WOMAN IN SUITE 11",
+   "author": "Ruth Ware",
+   "publisher": "Gallery/Scout",
+   "isbn13": "9781668025628",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 11,
+   "title": "MY FRIENDS",
+   "author": "Fredrik Backman",
+   "publisher": "Atria",
+   "isbn13": "9781982112820",
+   "weeks_on_list": 11
+  },
+  {
+   "rank": 12,
+   "title": "BROKEN COUNTRY",
+   "author": "Clare Leslie Hall",
+   "publisher": "Simon & Schuster",
+   "isbn13": "9781668078181",
+   "weeks_on_list": 17
+  },
+  {
+   "rank": 13,
+   "title": "THE UNRAVELING OF JULIA",
+   "author": "Lisa Scottoline",
+   "publisher": "Grand Central",
+   "isbn13": "9781538769997",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 14,
+   "title": "GREAT BIG BEAUTIFUL LIFE",
+   "author": "Emily Henry",
+   "publisher": "Berkley",
+   "isbn13": "9780593441299",
+   "weeks_on_list": 13
+  },
+  {
+   "rank": 15,
+   "title": "THE IRRESISTIBLE URGE TO FALL FOR YOUR ENEMY",
+   "author": "Brigitte Knightley",
+   "publisher": "Ace",
+   "isbn13": "9780593819456",
+   "weeks_on_list": 2
+  }
+ ]
+}

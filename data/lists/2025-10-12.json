@@ -1,0 +1,126 @@
+{
+ "published_date": "2025-10-12",
+ "bestsellers_date": "2025-09-27",
+ "books": [
+  {
+   "rank": 1,
+   "title": "ALCHEMISED",
+   "author": "SenLinYu",
+   "publisher": "Del Rey",
+   "isbn13": "9780593972700",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 2,
+   "title": "THE SECRET OF SECRETS",
+   "author": "Dan Brown",
+   "publisher": "Doubleday",
+   "isbn13": "9780385546898",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 3,
+   "title": "TOURIST SEASON",
+   "author": "Brynne Weaver",
+   "publisher": "Slowburn",
+   "isbn13": "9781638932109",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
+   "title": "THE PRIMAL OF BLOOD AND BONE",
+   "author": "Jennifer L. Armentrout",
+   "publisher": "Blue Box",
+   "isbn13": "9781963135411",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 5,
+   "title": "ONE DARK WINDOW",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316597234",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 6,
+   "title": "TWO TWISTED CROWNS",
+   "author": "Rachel Gillig",
+   "publisher": "Orbit",
+   "isbn13": "9780316597227",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 7,
+   "title": "THIS INEVITABLE RUIN",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9798217190041",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 8,
+   "title": "CIRCLE OF DAYS",
+   "author": "Ken Follett",
+   "publisher": "Grand Central",
+   "isbn13": "9781538772775",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 9,
+   "title": "THE ACADEMY",
+   "author": "Elin Hilderbrand and Shelby Cunningham",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316567855",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 10,
+   "title": "ANATHEMA",
+   "author": "Keri Lake",
+   "publisher": "Bloom",
+   "isbn13": "9781464261169",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 11,
+   "title": "WHAT WE CAN KNOW",
+   "author": "Ian McEwan",
+   "publisher": "Knopf",
+   "isbn13": "9780593804728",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 12,
+   "title": "THE LONELINESS OF SONIA AND SUNNY",
+   "author": "Kiran Desai",
+   "publisher": "Hogarth",
+   "isbn13": "9780307700155",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 13,
+   "title": "KATABASIS",
+   "author": "R.F. Kuang",
+   "publisher": "Harper Voyager",
+   "isbn13": "9780063021471",
+   "weeks_on_list": 5
+  },
+  {
+   "rank": 14,
+   "title": "BUCKEYE",
+   "author": "Patrick Ryan",
+   "publisher": "Random House",
+   "isbn13": "9780593595039",
+   "weeks_on_list": 4
+  },
+  {
+   "rank": 15,
+   "title": "WE LOVE YOU, BUNNY",
+   "author": "Mona Awad",
+   "publisher": "Marysue Rucci",
+   "isbn13": "9781668059869",
+   "weeks_on_list": 1
+  }
+ ]
+}
