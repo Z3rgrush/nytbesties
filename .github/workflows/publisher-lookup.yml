@@ -6,10 +6,19 @@ on:
       publisher:
         description: "Publisher name as NYT prints it"
         required: true
+      start:
+        description: "List date to start from (walks backward)"
+        required: true
+        default: "2024-12-29"
+      stop_year:
+        description: "Earliest year to scan"
+        required: true
+        default: "2018"
 
 jobs:
   lookup:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -21,4 +30,4 @@ jobs:
           PUBLISHER: ${{ inputs.publisher }}
         run: |
           set -o pipefail
-          python scripts/publisher_history.py "$PUBLISHER" | tee -a "$GITHUB_STEP_SUMMARY"
+          python scripts/scan_publisher.py "$PUBLISHER" "${{ inputs.start }}" "${{ inputs.stop_year }}" | tee -a "$GITHUB_STEP_SUMMARY"
