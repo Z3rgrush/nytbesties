@@ -127,7 +127,7 @@
  ],
  "total_titles": 227,
  "total_publishers": 68,
- "generated_at": "2026-11-06T14:32Z",
+ "generated_at": "2026-11-06T14:41Z",
  "publishers": [
   {
    "publisher": "Crown",
@@ -175,6 +175,9 @@
    "concentration": 81.5,
    "effective_titles": 1.2,
    "top_title": "THE CORRESPONDENT",
+   "author_concentration": 81.5,
+   "effective_authors": 1.2,
+   "top_author": "Virginia Evans",
    "prev_rank_cumulative": 1
   },
   {
@@ -279,6 +282,9 @@
    "concentration": 19.7,
    "effective_titles": 5.1,
    "top_title": "CARL'S DOOMSDAY SCENARIO",
+   "author_concentration": 91.9,
+   "effective_authors": 1.1,
+   "top_author": "Matt Dinniman",
    "prev_rank_cumulative": 2
   },
   {
@@ -334,6 +340,9 @@
    "concentration": 61.6,
    "effective_titles": 1.6,
    "top_title": "YESTERYEAR",
+   "author_concentration": 61.6,
+   "effective_authors": 1.6,
+   "top_author": "Caro Claire Burke",
    "prev_rank_cumulative": 3
   },
   {
@@ -410,6 +419,9 @@
    "concentration": 27.8,
    "effective_titles": 3.6,
    "top_title": "THE WIDOW",
+   "author_concentration": 43.1,
+   "effective_authors": 2.3,
+   "top_author": "John Grisham",
    "prev_rank_cumulative": 5
   },
   {
@@ -444,6 +456,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE CALAMITY CLUB",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Kathryn Stockett",
    "prev_rank_cumulative": 4
   },
   {
@@ -513,6 +528,9 @@
    "concentration": 45.7,
    "effective_titles": 2.2,
    "top_title": "WHISTLER",
+   "author_concentration": 45.7,
+   "effective_authors": 2.2,
+   "top_author": "Ann Patchett",
    "prev_rank_cumulative": 6
   },
   {
@@ -638,6 +656,9 @@
    "concentration": 9.0,
    "effective_titles": 11.1,
    "top_title": "CROSS & SAMPSON",
+   "author_concentration": 54.0,
+   "effective_authors": 1.9,
+   "top_author": "James Patterson",
    "prev_rank_cumulative": 7
   },
   {
@@ -721,6 +742,9 @@
    "concentration": 48.8,
    "effective_titles": 2.0,
    "top_title": "ALCHEMISED",
+   "author_concentration": 48.8,
+   "effective_authors": 2.0,
+   "top_author": "SenLinYu",
    "prev_rank_cumulative": 8
   },
   {
@@ -783,6 +807,9 @@
    "concentration": 29.1,
    "effective_titles": 3.4,
    "top_title": "BRIMSTONE",
+   "author_concentration": 46.9,
+   "effective_authors": 2.1,
+   "top_author": "Callie Hart",
    "prev_rank_cumulative": 9
   },
   {
@@ -845,6 +872,9 @@
    "concentration": 44.2,
    "effective_titles": 2.3,
    "top_title": "THRESHING DAY",
+   "author_concentration": 49.1,
+   "effective_authors": 2.0,
+   "top_author": "Rebecca Yarros",
    "prev_rank_cumulative": 11
   },
   {
@@ -928,6 +958,9 @@
    "concentration": 30.8,
    "effective_titles": 3.2,
    "top_title": "HOLLOW BONES",
+   "author_concentration": 30.8,
+   "effective_authors": 3.2,
+   "top_author": "Jodi Picoult",
    "prev_rank_cumulative": 10
   },
   {
@@ -997,6 +1030,9 @@
    "concentration": 42.6,
    "effective_titles": 2.3,
    "top_title": "STARSIDE",
+   "author_concentration": 42.6,
+   "effective_authors": 2.3,
+   "top_author": "Alex Aster",
    "prev_rank_cumulative": 12
   },
   {
@@ -1038,6 +1074,9 @@
    "concentration": 50.2,
    "effective_titles": 2.0,
    "top_title": "THE WITCH",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Freida McFadden",
    "prev_rank_cumulative": 14
   },
   {
@@ -1114,6 +1153,9 @@
    "concentration": 21.0,
    "effective_titles": 4.8,
    "top_title": "HOPE RISES",
+   "author_concentration": 25.7,
+   "effective_authors": 3.9,
+   "top_author": "David Baldacci",
    "prev_rank_cumulative": 13
   },
   {
@@ -1176,6 +1218,9 @@
    "concentration": 28.4,
    "effective_titles": 3.5,
    "top_title": "THE FIRST TIME I SAW HIM",
+   "author_concentration": 28.4,
+   "effective_authors": 3.5,
+   "top_author": "Laura Dave",
    "prev_rank_cumulative": 15
   },
   {
@@ -1259,6 +1304,9 @@
    "concentration": 14.0,
    "effective_titles": 7.2,
    "top_title": "MAD MABEL",
+   "author_concentration": 16.9,
+   "effective_authors": 5.9,
+   "top_author": "J.D. Robb",
    "prev_rank_cumulative": 16
   },
   {
@@ -1300,6 +1348,9 @@
    "concentration": 93.0,
    "effective_titles": 1.1,
    "top_title": "MY HUSBAND'S WIFE",
+   "author_concentration": 93.0,
+   "effective_authors": 1.1,
+   "top_author": "Alice Feeney",
    "prev_rank_cumulative": 16
   },
   {
@@ -1334,6 +1385,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "JUDGE STONE",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Viola Davis",
    "prev_rank_cumulative": 18
   },
   {
@@ -1410,6 +1464,9 @@
    "concentration": 17.5,
    "effective_titles": 5.7,
    "top_title": "FELICIA'S FAVORITES",
+   "author_concentration": 90.4,
+   "effective_authors": 1.1,
+   "top_author": "Danielle Steel",
    "prev_rank_cumulative": 19
   },
   {
@@ -1451,6 +1508,9 @@
    "concentration": 78.1,
    "effective_titles": 1.3,
    "top_title": "OUR PERFECT STORM",
+   "author_concentration": 78.1,
+   "effective_authors": 1.3,
+   "top_author": "Carley Fortune",
    "prev_rank_cumulative": 20
   },
   {
@@ -1527,6 +1587,9 @@
    "concentration": 17.8,
    "effective_titles": 5.6,
    "top_title": "THE MOST DANGEROUS GAMES",
+   "author_concentration": 17.8,
+   "effective_authors": 5.6,
+   "top_author": "MrBeast",
    "prev_rank_cumulative": 21
   },
   {
@@ -1568,6 +1631,9 @@
    "concentration": 50.5,
    "effective_titles": 2.0,
    "top_title": "HOLLYWOOD, ENDING",
+   "author_concentration": 50.5,
+   "effective_authors": 2.0,
+   "top_author": "John Green",
    "prev_rank_cumulative": 21
   },
   {
@@ -1616,6 +1682,9 @@
    "concentration": 44.3,
    "effective_titles": 2.3,
    "top_title": "THE CROSSROADS",
+   "author_concentration": 44.3,
+   "effective_authors": 2.3,
+   "top_author": "C.J. Box",
    "prev_rank_cumulative": 21
   },
   {
@@ -1685,6 +1754,9 @@
    "concentration": 30.1,
    "effective_titles": 3.3,
    "top_title": "VIGIL",
+   "author_concentration": 30.1,
+   "effective_authors": 3.3,
+   "top_author": "George Saunders",
    "prev_rank_cumulative": 24
   },
   {
@@ -1740,6 +1812,9 @@
    "concentration": 33.1,
    "effective_titles": 3.0,
    "top_title": "THE SHAMPOO EFFECT",
+   "author_concentration": 33.1,
+   "effective_authors": 3.0,
+   "top_author": "Jenny Jackson",
    "prev_rank_cumulative": 25
   },
   {
@@ -1802,6 +1877,9 @@
    "concentration": 22.5,
    "effective_titles": 4.4,
    "top_title": "IT COULD HAVE BEEN HER",
+   "author_concentration": 22.5,
+   "effective_authors": 4.4,
+   "top_author": "Lisa Jewell",
    "prev_rank_cumulative": 26
   },
   {
@@ -1871,6 +1949,9 @@
    "concentration": 17.7,
    "effective_titles": 5.7,
    "top_title": "SEA OF CHARMS",
+   "author_concentration": 24.7,
+   "effective_authors": 4.0,
+   "top_author": "Carissa Broadbent",
    "prev_rank_cumulative": 27
   },
   {
@@ -1905,6 +1986,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "MONA'S EYES",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Thomas Schlesser",
    "prev_rank_cumulative": 27
   },
   {
@@ -1960,6 +2044,9 @@
    "concentration": 26.2,
    "effective_titles": 3.8,
    "top_title": "THE WINGS THAT BIND",
+   "author_concentration": 39.6,
+   "effective_authors": 2.5,
+   "top_author": "Briar Boleyn",
    "prev_rank_cumulative": 29
   },
   {
@@ -2001,6 +2088,9 @@
    "concentration": 63.9,
    "effective_titles": 1.6,
    "top_title": "THE KNAVE AND THE MOON",
+   "author_concentration": 63.9,
+   "effective_authors": 1.6,
+   "top_author": "Rachel Gillig",
    "prev_rank_cumulative": 30
   },
   {
@@ -2056,6 +2146,9 @@
    "concentration": 27.5,
    "effective_titles": 3.6,
    "top_title": "THE THRONE OF BROKEN GODS",
+   "author_concentration": 45.5,
+   "effective_authors": 2.2,
+   "top_author": "Amber V. Nicole",
    "prev_rank_cumulative": 30
   },
   {
@@ -2097,6 +2190,9 @@
    "concentration": 52.8,
    "effective_titles": 1.9,
    "top_title": "THE POISON DAUGHTER",
+   "author_concentration": 52.8,
+   "effective_authors": 1.9,
+   "top_author": "Sheila Masterson",
    "prev_rank_cumulative": 32
   },
   {
@@ -2152,6 +2248,9 @@
    "concentration": 35.4,
    "effective_titles": 2.8,
    "top_title": "FURY BOUND",
+   "author_concentration": 62.9,
+   "effective_authors": 1.6,
+   "top_author": "Sable Sorensen",
    "prev_rank_cumulative": 32
   },
   {
@@ -2221,6 +2320,9 @@
    "concentration": 22.6,
    "effective_titles": 4.4,
    "top_title": "ISLES OF THE EMBERDARK",
+   "author_concentration": 22.6,
+   "effective_authors": 4.4,
+   "top_author": "Brandon Sanderson",
    "prev_rank_cumulative": 32
   },
   {
@@ -2269,6 +2371,9 @@
    "concentration": 38.1,
    "effective_titles": 2.6,
    "top_title": "MISS WOLCOTT'S GHOST",
+   "author_concentration": 57.6,
+   "effective_authors": 1.7,
+   "top_author": "Louise Penny",
    "prev_rank_cumulative": 39
   },
   {
@@ -2310,6 +2415,9 @@
    "concentration": 90.3,
    "effective_titles": 1.1,
    "top_title": "BETWEEN TWO FIRES",
+   "author_concentration": 90.3,
+   "effective_authors": 1.1,
+   "top_author": "Christopher Buehlman",
    "prev_rank_cumulative": 35
   },
   {
@@ -2386,6 +2494,9 @@
    "concentration": 18.1,
    "effective_titles": 5.5,
    "top_title": "THE NIGHT PRINCE",
+   "author_concentration": 31.2,
+   "effective_authors": 3.2,
+   "top_author": "Emily McIntire",
    "prev_rank_cumulative": 36
   },
   {
@@ -2434,6 +2545,9 @@
    "concentration": 50.5,
    "effective_titles": 2.0,
    "top_title": "THE MIDNIGHT TRAIN",
+   "author_concentration": 50.5,
+   "effective_authors": 2.0,
+   "top_author": "Matt Haig",
    "prev_rank_cumulative": 36
   },
   {
@@ -2489,6 +2603,9 @@
    "concentration": 25.9,
    "effective_titles": 3.9,
    "top_title": "THE FOURTH OPTION",
+   "author_concentration": 34.6,
+   "effective_authors": 2.9,
+   "top_author": "Brad Thor",
    "prev_rank_cumulative": 36
   },
   {
@@ -2523,6 +2640,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "IT'S NOT HER",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Mary Kubica",
    "prev_rank_cumulative": 40
   },
   {
@@ -2564,6 +2684,9 @@
    "concentration": 69.2,
    "effective_titles": 1.4,
    "top_title": "CHAIN REACTION",
+   "author_concentration": 69.2,
+   "effective_authors": 1.4,
+   "top_author": "Lee Child",
    "prev_rank_cumulative": 46
   },
   {
@@ -2598,6 +2721,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "AMERICAN HAGWON",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Min Jin Lee",
    "prev_rank_cumulative": 41
   },
   {
@@ -2632,6 +2758,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE ALTAR OF PERGAMON",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Jonathan Cahn",
    "prev_rank_cumulative": 41
   },
   {
@@ -2666,6 +2795,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "SOMETIMES I SCARE MYSELF",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Jeneva Rose",
    "prev_rank_cumulative": 43
   },
   {
@@ -2714,6 +2846,9 @@
    "concentration": 40.1,
    "effective_titles": 2.5,
    "top_title": "THE DISAPPEARERS",
+   "author_concentration": 40.1,
+   "effective_authors": 2.5,
+   "top_author": "Marlon James",
    "prev_rank_cumulative": 44
   },
   {
@@ -2748,6 +2883,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "DAGGERMOUTH",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "H.M. Wolfe",
    "prev_rank_cumulative": 45
   },
   {
@@ -2789,6 +2927,9 @@
    "concentration": 55.6,
    "effective_titles": 1.8,
    "top_title": "LIGHT WIELDER",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Rachel Schneider",
    "prev_rank_cumulative": 46
   },
   {
@@ -2830,6 +2971,9 @@
    "concentration": 50.8,
    "effective_titles": 2.0,
    "top_title": "BALDUR'S GATE 3: ASTARION",
+   "author_concentration": 50.8,
+   "effective_authors": 2.0,
+   "top_author": "T. Kingfisher",
    "prev_rank_cumulative": 46
   },
   {
@@ -2864,6 +3008,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "DEAD BEAT",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Leigh Bardugo",
    "prev_rank_cumulative": 49
   },
   {
@@ -2898,6 +3045,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE THINGS WE LEAVE UNFINISHED",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Rebecca Yarros",
    "prev_rank_cumulative": 50
   },
   {
@@ -2932,6 +3082,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "A COURT OF SPLINTERED HARMONY",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Sarah J. Maas",
    "prev_rank_cumulative": null
   },
   {
@@ -2980,6 +3133,9 @@
    "concentration": 45.5,
    "effective_titles": 2.2,
    "top_title": "MEET ME IN PARIS",
+   "author_concentration": 45.5,
+   "effective_authors": 2.2,
+   "top_author": "Kristin Harmel",
    "prev_rank_cumulative": 51
   },
   {
@@ -3021,6 +3177,9 @@
    "concentration": 50.0,
    "effective_titles": 2.0,
    "top_title": "JOHN OF JOHN",
+   "author_concentration": 50.0,
+   "effective_authors": 2.0,
+   "top_author": "Douglas Stuart",
    "prev_rank_cumulative": 52
   },
   {
@@ -3055,6 +3214,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "BURN DOWN MASTER'S HOUSE",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Clay Cane",
    "prev_rank_cumulative": 52
   },
   {
@@ -3089,6 +3251,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "HOLLOW",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Celina Myers",
    "prev_rank_cumulative": 54
   },
   {
@@ -3130,6 +3295,9 @@
    "concentration": 83.5,
    "effective_titles": 1.2,
    "top_title": "UPWARD BOUND",
+   "author_concentration": 83.5,
+   "effective_authors": 1.2,
+   "top_author": "Woody Brown",
    "prev_rank_cumulative": 55
   },
   {
@@ -3171,6 +3339,9 @@
    "concentration": 50.2,
    "effective_titles": 2.0,
    "top_title": "A FORSAKEN PROPHECY",
+   "author_concentration": 50.2,
+   "effective_authors": 2.0,
+   "top_author": "Stacey McEwan",
    "prev_rank_cumulative": 55
   },
   {
@@ -3205,6 +3376,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE BUTCHER LEGACY",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Alaina Urquhart",
    "prev_rank_cumulative": 55
   },
   {
@@ -3246,6 +3420,9 @@
    "concentration": 65.4,
    "effective_titles": 1.5,
    "top_title": "TEMPEST",
+   "author_concentration": 65.4,
+   "effective_authors": 1.5,
+   "top_author": "Victoria Aveyard",
    "prev_rank_cumulative": 55
   },
   {
@@ -3280,6 +3457,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "RETURN TO THE SHACK",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Wm",
    "prev_rank_cumulative": 55
   },
   {
@@ -3314,6 +3494,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "PARADOX",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Douglas Preston",
    "prev_rank_cumulative": 60
   },
   {
@@ -3348,6 +3531,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "HEATED RIVALRY",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Rachel Reid",
    "prev_rank_cumulative": 61
   },
   {
@@ -3382,6 +3568,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "BENEATH",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Ariel Sullivan",
    "prev_rank_cumulative": 62
   },
   {
@@ -3416,6 +3605,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE GOAL",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Elle Kennedy",
    "prev_rank_cumulative": 62
   },
   {
@@ -3450,6 +3642,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE CARETAKER",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Marcus Kliewer",
    "prev_rank_cumulative": 62
   },
   {
@@ -3484,6 +3679,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "THE WRETCHED DIVINE",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Adalyn Grace",
    "prev_rank_cumulative": 65
   },
   {
@@ -3518,6 +3716,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "HE WHO FIGHTS WITH MONSTERS, BOOK 1: OUTWORLDER",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Travis Deverell",
    "prev_rank_cumulative": 66
   },
   {
@@ -3552,6 +3753,9 @@
    "concentration": 100.0,
    "effective_titles": 1.0,
    "top_title": "EVERYTHING WAS BEAUTIFUL AND NOTHING HURT",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Ben Reeves",
    "prev_rank_cumulative": 67
   }
  ],

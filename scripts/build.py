@@ -12,6 +12,7 @@ Scoring follows "Best of the Best Sellers" (Publiography, Feb 2026):
 Publishers are named exactly as the NYT lists them.
 """
 import json
+import re
 import os
 from collections import defaultdict
 from datetime import datetime, timezone
@@ -66,6 +67,12 @@ def compete_rank(items, key, reverse=True):
     for rank, _ in out:
         counts[rank] += 1
     return [(rank, counts[rank] > 1, item) for rank, item in out]
+
+
+def lead_author(name: str) -> str:
+    """First-listed author, so "James Patterson and Mike Lupica" groups with
+    James Patterson's other books."""
+    return re.split(r"\s+(?:and|with|&)\s+|,\s*", name.strip(), maxsplit=1)[0].strip() or "Unknown"
 
 
 def head_to_head(week_pts: dict) -> dict:
@@ -168,6 +175,15 @@ def score(lists: list, year: int = SEASON_YEAR) -> dict:
         row["concentration"] = round(100 * hhi, 1)
         row["effective_titles"] = round(1 / hhi, 1) if hhi else 0
         row["top_title"] = row["books"][0]["title"]
+        # Same measure grouped by lead author, so a series (or a prolific
+        # author's several books) counts as one source of points.
+        by_author = defaultdict(int)
+        for b in row["books"]:
+            by_author[lead_author(b["author"])] += b["list_points"]
+        ahhi = sum((v / total) ** 2 for v in by_author.values()) if total else 0
+        row["author_concentration"] = round(100 * ahhi, 1)
+        row["effective_authors"] = round(1 / ahhi, 1) if ahhi else 0
+        row["top_author"] = max(by_author, key=by_author.get) if by_author else ""
 
     # Movement since last week on the headline (cumulative) ranking.
     if len(lists) > 1:

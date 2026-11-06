@@ -350,7 +350,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><b>Appearances</b>: one point for every weekly slot a publisher fills.</li>
         <li><b>Titles</b>: distinct books a publisher has placed on the list.</li>
         <li><b>Average rank</b>: mean chart position across every appearance. Lower is better.</li>
-        <li><b>Concentration</b>: how concentrated a publisher's List Rank points are across its titles, measured with the Herfindahl index of each title's share of points. 100% means every point came from one title. A publisher with points split evenly across four titles scores 25%.</li>
+        <li><b>Title concentration</b>: how concentrated a publisher's List Rank points are across its titles, measured with the Herfindahl index of each title's share of points. 100% means every point came from one title. A publisher with points split evenly across four titles scores 25%.</li>
+        <li><b>Author concentration</b>: the same measure grouped by lead author (the first author listed), so a series or a prolific author's several books count as one source.</li>
         <li>Publishers are named exactly as the NYT lists them, so imprints such as Little, Brown and Mulholland are counted separately. "T" marks a tie.</li>
         <li>A list counts toward __SEASON__ if its NYT list date falls in __SEASON__.</li>
       </ul>
@@ -385,7 +386,7 @@ function init(){
   if (!D.weeks){
     $('asof').textContent = `The season starts with the first list dated in ${D.season}. Check back then.`;
     for (const id of ['topPubs','topTitles']) $(id).innerHTML = '<li class="empty">No lists yet</li>';
-    $('full').querySelector('tbody').innerHTML = '<tr><td colspan="10" class="empty">No lists yet</td></tr>';
+    $('full').querySelector('tbody').innerHTML = '<tr><td colspan="11" class="empty">No lists yet</td></tr>';
     $('weekDesc').textContent = 'No lists yet.';
     renderTabs(); return;
   }
@@ -467,7 +468,8 @@ const COLS = [
   {k:'titles', label:'Titles'},
   {k:'avg_rank', label:'Avg. rank', fmt:r => r.avg_rank.toFixed(2), low:true},
   {k:'weeks_at_1', label:'Wks at #1'},
-  {k:'concentration', label:'Concentration', tip:'How concentrated a publisher\'s List Rank points are across its titles. 100% means every point came from a single title; a low number means points are spread across many titles.', fmt:r => `<span title="Points spread like ${r.effective_titles} equal titles. Biggest: ${esc(titleCase(r.top_title))}">${Math.round(r.concentration)}%</span>`},
+  {k:'concentration', label:'Title conc.', tip:'Title concentration: how concentrated a publisher\'s List Rank points are across its titles. 100% means every point came from a single title; a low number means points are spread across many titles.', fmt:r => `<span title="Points spread like ${r.effective_titles} equal titles. Biggest: ${esc(titleCase(r.top_title))}">${Math.round(r.concentration)}%</span>`},
+  {k:'author_concentration', label:'Author conc.', tip:'Author concentration: the same measure grouped by lead author, so a series or an author\'s several books count as one. 100% means every point came from one author.', fmt:r => `<span title="Points spread like ${r.effective_authors} equal authors. Biggest: ${esc(r.top_author)}">${Math.round(r.author_concentration)}%</span>`},
 ];
 let sortK = 'rank_cumulative', sortDir = 1;
 function renderFull(){
@@ -488,8 +490,8 @@ function renderFull(){
   });
   $('full').querySelector('tbody').innerHTML = rows.length ? rows.map(r =>
     `<tr class="xp" tabindex="0" role="button" aria-expanded="${openFull.has(r.publisher)}" data-pub="${esc(r.publisher)}">` + COLS.map(c => `<td${c.cls ? ` class="${c.cls}"` : ''}>${c.fmt ? c.fmt(r) : r[c.k].toLocaleString()}${c.k === 'publisher' ? '<span class="caret">▶</span>' : ''}</td>`).join('') + '</tr>'
-    + (openFull.has(r.publisher) ? `<tr class="booksrow"><td colspan="10">${booksTable(r)}</td></tr>` : '')).join('')
-    : '<tr><td colspan="10" class="empty">No publisher matches.</td></tr>';
+    + (openFull.has(r.publisher) ? `<tr class="booksrow"><td colspan="11">${booksTable(r)}</td></tr>` : '')).join('')
+    : '<tr><td colspan="11" class="empty">No publisher matches.</td></tr>';
 }
 $('search').addEventListener('input', () => D.weeks && renderFull());
 bindToggle($('topPubs'), openTop, renderTabs);
