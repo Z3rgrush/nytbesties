@@ -8,6 +8,7 @@ import json
 import os
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -19,8 +20,12 @@ def main() -> int:
     offset, books = 0, []
     while True:
         q = urllib.parse.urlencode({"publisher": pub, "offset": offset, "api-key": key})
-        with urllib.request.urlopen(URL.format(q=q), timeout=30) as r:
-            data = json.load(r)
+        try:
+            with urllib.request.urlopen(URL.format(q=q), timeout=30) as r:
+                data = json.load(r)
+        except urllib.error.HTTPError as err:
+            print(f"HTTP {err.code}: {err.read().decode(errors='replace')[:500]}")
+            return 1
         books += data["results"]
         offset += 20
         if offset >= data.get("num_results", 0) or not data["results"]:

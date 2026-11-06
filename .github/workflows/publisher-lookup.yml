@@ -19,4 +19,6 @@ jobs:
         env:
           NYT_API_KEY: ${{ secrets.NYT_API_KEY }}
           PUBLISHER: ${{ inputs.publisher }}
-        run: python scripts/publisher_history.py "$PUBLISHER" | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          set -o pipefail
+          python scripts/publisher_history.py "$PUBLISHER" | tee -a "$GITHUB_STEP_SUMMARY"
