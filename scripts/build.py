@@ -8,7 +8,7 @@ Scoring follows "Best of the Best Sellers" (Publiography, Feb 2026):
   4. List Rank points #1 = 15 points ... #15 = 1 point, summed over the year
   5. Cumulative Rank  each week, publishers are ordered by that week's List Rank
                       points; the best of N publishers gets N, the worst gets 1.
-                      Publishers tied in a week share the higher score.
+                      Publishers tied in a week share the lower score.
 Publishers are named exactly as the NYT lists them.
 """
 import json
@@ -20,6 +20,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 LIST_DIR = ROOT / "data" / "lists"
 SEASON_YEAR = int(os.environ.get("SEASON_YEAR", "2026"))
+# Finished seasons shown on their own "Results" tab.
+PAST_YEARS = [int(y) for y in os.environ.get("PAST_YEARS", "2025").split(",") if y.strip()]
 SLOTS = 15
 
 
@@ -27,10 +29,27 @@ def points(rank: int) -> int:
     return max(SLOTS + 1 - rank, 0)
 
 
-def load_lists() -> list:
+CORRECTIONS_FILE = ROOT / "data" / "corrections.json"
+
+
+def clean(book: dict, fixes: dict) -> dict:
+    """Fill blanks the API left using data/corrections.json, and normalize
+    curly apostrophes so "St. Martin’s" and "St. Martin's" are one publisher."""
+    fix = fixes.get(book.get("isbn13") or "", {})
+    for field in ("author", "publisher"):
+        if not book.get(field) and fix.get(field):
+            book[field] = fix[field]
+        book[field] = (book.get(field) or "").replace("\u2019", "'").strip() or "Unknown"
+    return book
+
+
+def load_lists(year: int = SEASON_YEAR) -> list:
+    fixes = json.loads(CORRECTIONS_FILE.read_text()) if CORRECTIONS_FILE.exists() else {}
     lists = []
-    for path in sorted(LIST_DIR.glob(f"{SEASON_YEAR}-*.json")):
-        lists.append(json.loads(path.read_text()))
+    for path in sorted(LIST_DIR.glob(f"{year}-*.json")):
+        lst = json.loads(path.read_text())
+        lst["books"] = [clean(b, fixes) for b in lst["books"]]
+        lists.append(lst)
     return lists
 
 
@@ -49,7 +68,19 @@ def compete_rank(items, key, reverse=True):
     return [(rank, counts[rank] > 1, item) for rank, item in out]
 
 
-def score(lists: list) -> dict:
+def head_to_head(week_pts: dict) -> dict:
+    """Cumulative Rank points for one week. With N publishers on the list the
+    best scores N and the worst 1. Publishers tied on List Rank points share
+    the lower score, which reproduces the published 2025 results exactly."""
+    n = len(week_pts)
+    ranked = compete_rank(list(week_pts.items()), key=lambda kv: kv[1])
+    counts = defaultdict(int)
+    for rank, _, _ in ranked:
+        counts[rank] += 1
+    return {pub: n + 1 - (rank + counts[rank] - 1) for rank, _, (pub, _) in ranked}
+
+
+def score(lists: list, year: int = SEASON_YEAR) -> dict:
     pubs = defaultdict(lambda: {
         "appearances": 0, "rank_sum": 0, "list_points": 0, "cumulative": 0,
         "books": {}, "weeks_at_1": 0, "best_rank": 99,
@@ -91,10 +122,10 @@ def score(lists: list) -> dict:
             t["last_rank"] = b["rank"]
 
         n = len(week_pts)
-        ranked = compete_rank(list(week_pts.items()), key=lambda kv: kv[1])
+        scores = head_to_head(week_pts)
         week_rows = []
-        for rank, tied, (pub, pts) in ranked:
-            cum = n + 1 - rank
+        for pub, pts in sorted(week_pts.items(), key=lambda kv: -kv[1]):
+            cum = scores[pub]
             pubs[pub]["cumulative"] += cum
             week_rows.append({"publisher": pub, "list_points": pts, "cumulative": cum})
         weekly.append({"published_date": lst["published_date"], "publishers": n, "rows": week_rows})
@@ -144,7 +175,7 @@ def score(lists: list) -> dict:
         row["on_latest"] = row["last_week"] == latest
 
     return {
-        "season": SEASON_YEAR,
+        "season": year,
         "list": "Hardcover Fiction",
         "weeks": len(lists),
         "latest_list": latest,
@@ -165,14 +196,53 @@ def score_prev(lists: list) -> dict:
         week_pts = defaultdict(int)
         for b in lst["books"]:
             week_pts[b["publisher"]] += points(b["rank"])
-        n = len(week_pts)
-        for rank, _, (pub, _) in compete_rank(list(week_pts.items()), key=lambda kv: kv[1]):
-            totals[pub] += n + 1 - rank
+        for pub, sc in head_to_head(week_pts).items():
+            totals[pub] += sc
     return {pub: rank for rank, _, (pub, _) in compete_rank(list(totals.items()), key=lambda kv: kv[1])}
+
+
+def weekly_ranks(lists: list) -> list:
+    """Each publisher's Cumulative Rank standing after every week."""
+    totals = defaultdict(int)
+    out = []
+    for lst in lists:
+        week_pts = defaultdict(int)
+        for b in lst["books"]:
+            week_pts[b["publisher"]] += points(b["rank"])
+        for pub, sc in head_to_head(week_pts).items():
+            totals[pub] += sc
+        standings = {pub: rank for rank, _, (pub, _) in compete_rank(list(totals.items()), key=lambda kv: kv[1])}
+        out.append((lst["published_date"], standings))
+    return out
+
+
+def past_season(year: int):
+    lists = load_lists(year)
+    if not lists:
+        return None
+    board = score(lists, year)
+    top = [p for p in board["publishers"] if p["rank_cumulative"] <= 10]
+    keep = ("publisher", "rank_cumulative", "tied_cumulative", "cumulative", "list_points",
+            "appearances", "titles", "avg_rank", "weeks_at_1", "best_rank", "share")
+    names = [p["publisher"] for p in top]
+    weeks = weekly_ranks(lists)
+    return {
+        "season": year,
+        "weeks": len(lists),
+        "first_list": lists[0]["published_date"],
+        "last_list": lists[-1]["published_date"],
+        "total_publishers": board["total_publishers"],
+        "total_titles": board["total_titles"],
+        "top_title": {k: board["titles"][0][k] for k in ("title", "author", "publisher", "list_points", "weeks")},
+        "top": [{k: p[k] for k in keep} | {"books": p["books"][:5]} for p in top],
+        "dates": [d for d, _ in weeks],
+        "ranks": {name: [st.get(name) for _, st in weeks] for name in names},
+    }
 
 
 def main() -> None:
     board = score(load_lists())
+    board["past"] = [ps for ps in (past_season(y) for y in PAST_YEARS) if ps]
     (ROOT / "data" / "scoreboard.json").write_text(json.dumps(board, indent=1) + "\n")
     template = (ROOT / "scripts" / "template.html").read_text()
     payload = json.dumps(board, separators=(",", ":")).replace("</", "<\\/")
@@ -180,6 +250,8 @@ def main() -> None:
     (ROOT / "docs").mkdir(exist_ok=True)
     (ROOT / "docs" / "index.html").write_text(html)
     print(f"Built scoreboard: {board['weeks']} week(s), {board['total_publishers']} publishers, {board['total_titles']} titles")
+    for ps in board["past"]:
+        print(f"  {ps['season']} results: {ps['weeks']} week(s), leader {ps['top'][0]['publisher']}")
 
 
 if __name__ == "__main__":

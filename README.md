@@ -31,7 +31,7 @@ You can also run it by hand from the Actions tab (**Update scoreboard → Run wo
 
 | Approach | Rule |
 |---|---|
-| Cumulative Rank | Each week, publishers are ordered by that week's List Rank points. With N publishers on the list, the best scores N and the worst 1. Ties share the higher score. Summed over the year. |
+| Cumulative Rank | Each week, publishers are ordered by that week's List Rank points. With N publishers on the list, the best scores N and the worst 1. Ties share the lower score. Summed over the year. |
 | List Rank points | #1 = 15 points ... #15 = 1 point, summed over every appearance. |
 | Appearances | One point per weekly slot. |
 | Titles | Distinct books placed on the list. |

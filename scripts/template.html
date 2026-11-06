@@ -97,6 +97,7 @@ tr.booksrow:hover{background:transparent}
 tr.booksrow .tablewrap{max-width:760px;margin-left:40px}
 @media (max-width:520px){tr.booksrow .tablewrap{margin-left:0}}
 .billing,.clouds{display:none}
+:root{--v-nav:var(--ink);--v-fg:var(--ink);--v-acc:var(--hl);--v-acc-ink:var(--hl-ink);--v-muted:var(--muted);--v-line:var(--line);--v-tip:var(--bg);--v-font:Archivo,"Helvetica Neue",Arial,sans-serif}
 .skin-toggle{border-color:var(--ink);color:var(--ink)}
 .skin-toggle [aria-pressed="true"]{background:var(--hl);color:var(--hl-ink)}
 </style>
@@ -236,11 +237,41 @@ tr.booksrow:hover{background:transparent}
 tr.booksrow .tablewrap{max-width:760px;margin-left:40px}
 @media (max-width:520px){.stats{grid-template-columns:1fr 1fr}.stat b.txt{font-size:19px}.stat:last-child{grid-column:1/-1}tr.booksrow .tablewrap{margin-left:0} h1{-webkit-text-stroke:2px var(--ink);text-shadow:4px 4px 0 var(--pink)} h1 .yr{text-shadow:4px 4px 0 var(--teal)} .card{box-shadow:6px 6px 0 var(--pink)}}
 .kc{display:none}
+:root{--v-nav:var(--fg);--v-fg:var(--card-ink);--v-acc:var(--orange);--v-acc-ink:var(--ink);--v-muted:var(--card-muted);--v-line:var(--line);--v-tip:var(--card);--v-font:"Unbounded","Arial Black",system-ui,sans-serif}
+.views button{border-radius:999px}
 .skin-toggle{border-color:var(--edge);color:var(--fg)}
 .skin-toggle [aria-pressed="true"]{background:var(--orange);color:var(--ink)}
 </style>
 <style>
-.skin-bar{display:flex;justify-content:flex-end;margin-bottom:10px}
+.skin-bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:10px}
+.views{display:flex;gap:6px;flex-wrap:wrap}
+.views button{font:700 11px/1 var(--v-font);text-transform:uppercase;letter-spacing:.06em;color:var(--v-nav);background:transparent;border:2px solid var(--v-nav);padding:8px 12px;cursor:pointer}
+.views button[aria-selected="true"]{background:var(--v-acc);color:var(--v-acc-ink);border-color:var(--v-acc)}
+.views button:focus-visible{outline:3px solid var(--v-acc);outline-offset:2px}
+.past-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.7fr);gap:28px 40px}
+@media (max-width:900px){.past-grid{grid-template-columns:minmax(0,1fr)}}
+.chartbox{position:relative;color:var(--v-fg);min-width:0}
+.bump{display:block;width:100%;height:auto;overflow:visible;font-family:var(--v-font)}
+.bump .grid line{stroke:var(--v-line);stroke-width:1}
+.bump text{fill:currentColor;font-size:11px}
+.bump .tick{fill:var(--v-muted);font-size:10.5px}
+.bump .line{fill:none;stroke:var(--v-muted);stroke-width:1.75;opacity:.5;stroke-linejoin:round;stroke-linecap:round;transition:opacity .15s}
+.bump.has-hi .line{opacity:.18}
+.bump .line.hi{stroke:var(--v-acc);opacity:1;stroke-width:3.5}
+.bump .hit{fill:none;stroke:transparent;stroke-width:14;cursor:pointer}
+.bump .lab{cursor:pointer;font-size:11.5px}
+.bump .lab.hi{font-weight:700}
+.bump .lab .rkn{fill:var(--v-muted)}
+.bump .enddot{fill:var(--v-acc)}
+.bump .cross{stroke:var(--v-fg);stroke-width:1;stroke-dasharray:3 3}
+.tip{position:absolute;top:0;pointer-events:none;background:var(--v-tip);color:var(--v-fg);border:2px solid var(--v-fg);padding:8px 10px;font:12px/1.45 var(--v-font);min-width:170px;z-index:2}
+.tip b{display:block;margin-bottom:4px;font-size:11px;text-transform:uppercase;letter-spacing:.05em}
+.tip div{display:flex;justify-content:space-between;gap:12px}
+.tip .me{font-weight:700;color:var(--v-fg);text-decoration:underline;text-decoration-color:var(--v-acc);text-decoration-thickness:3px}
+.chart-note{font-size:12.5px;color:var(--v-muted);margin:10px 0 0}
+#pastTop li{cursor:pointer}
+#pastTop li[aria-pressed="true"] .nm{text-decoration:underline;text-decoration-color:var(--v-acc);text-decoration-thickness:3px;text-underline-offset:3px}
+@media (prefers-reduced-motion:reduce){.bump .line{transition:none}}
 .skin-toggle{display:inline-flex;border:2px solid;font:700 11px/1 system-ui,sans-serif;text-transform:uppercase;letter-spacing:.06em}
 .skin-toggle button{font:inherit;text-transform:inherit;letter-spacing:inherit;color:inherit;background:transparent;border:0;padding:7px 12px;cursor:pointer}
 .skin-toggle button:focus-visible{outline:3px solid currentColor;outline-offset:-5px}
@@ -254,7 +285,7 @@ window.__skin=v;})();
 </head>
 <body>
 <div class="wrap">
-  <div class="skin-bar"><div class="skin-toggle" role="group" aria-label="Page style"><button type="button" data-skin="classic" aria-pressed="true">Classic</button><button type="button" data-skin="poster" aria-pressed="false">Retro</button></div></div>
+  <div class="skin-bar"><div class="views" role="tablist" aria-label="Season" id="views"></div><div class="skin-toggle" role="group" aria-label="Page style"><button type="button" data-skin="classic" aria-pressed="true">Classic</button><button type="button" data-skin="poster" aria-pressed="false">Retro</button></div></div>
   <header>
     <div class="kicker kc">Publiography · NYT Hardcover Fiction</div>
     <h1>NYT Bestseller Scoreboard <span class="yr">__SEASON__</span></h1>
@@ -263,6 +294,7 @@ window.__skin=v;})();
   </header>
   <div class="clouds" aria-hidden="true"></div>
 
+  <div id="view-season">
   <section class="stats" id="stats"></section>
 
   <div class="grid">
@@ -296,7 +328,7 @@ window.__skin=v;})();
     <details>
       <summary>How the scoring works</summary>
       <ul>
-        <li><b>Cumulative Rank</b> (headline): each week, publishers on the list are ordered by that week's List Rank points. With N publishers on the list, the best scores N and the worst scores 1. Publishers tied in a week share the higher score. Weekly scores add up over the year.</li>
+        <li><b>Cumulative Rank</b> (headline): each week, publishers on the list are ordered by that week's List Rank points. With N publishers on the list, the best scores N and the worst scores 1. Publishers tied in a week share the lower score. Weekly scores add up over the year.</li>
         <li><b>List Rank points</b>: #1 earns 15 points, #2 earns 14, down to 1 point for #15, summed over every appearance.</li>
         <li><b>Appearances</b>: one point for every weekly slot a publisher fills.</li>
         <li><b>Titles</b>: distinct books a publisher has placed on the list.</li>
@@ -306,6 +338,9 @@ window.__skin=v;})();
       </ul>
     </details>
   </section>
+
+  </div>
+  <div id="view-past" hidden></div>
 
   <footer>
     Data: The New York Times Books API. Methodology from <a href="https://publiography.beehiiv.com/p/best-of-the-best-sellers-0d0656eaee377845">“Best of the Best Sellers”</a>. Updated <span id="gen"></span>.
@@ -447,7 +482,121 @@ function renderWeek(){
     `<tr><td class="rk">${b.rank}</td><td><b>${esc(titleCase(b.title))}</b> <span class="tie">${esc(b.author)}</span></td><td>${esc(b.publisher)}</td><td class="rk">${b.weeks_on_list > 1 ? b.weeks_on_list + ' wks' : 'New'}</td></tr>`).join('');
 }
 
+
+// ---- Season views: the live season and finished seasons ----
+const PAST = D.past || [];
+const header0 = {};
+function renderViews(){
+  const opts = [{id:'season', label:`${D.season} Season`}].concat(PAST.map(p => ({id:String(p.season), label:`${p.season} Results`})));
+  $('views').innerHTML = opts.map(o => `<button type="button" role="tab" data-view="${o.id}">${esc(o.label)}</button>`).join('');
+  $('views').onclick = e => { const b = e.target.closest('button'); if (b) setView(b.dataset.view, true); };
+}
+function setView(id, push){
+  const ps = PAST.find(p => String(p.season) === id);
+  if (!ps) id = 'season';
+  if (!header0.yr){ header0.yr = document.querySelector('h1 .yr').textContent; header0.asof = $('asof').textContent; header0.bill = $('billdate').textContent; }
+  document.querySelectorAll('#views button').forEach(b => b.setAttribute('aria-selected', b.dataset.view === id));
+  $('view-season').hidden = !!ps; $('view-past').hidden = !ps;
+  if (ps){
+    document.querySelector('h1 .yr').textContent = ps.season;
+    $('asof').textContent = `Final standings for the ${ps.weeks} ${D.list} lists dated ${fmtDate(ps.first_list)} to ${fmtDate(ps.last_list)}`;
+    $('billdate').textContent = `Final · ${ps.weeks} weeks`;
+    renderPast(ps);
+  } else {
+    document.querySelector('h1 .yr').textContent = header0.yr; $('asof').textContent = header0.asof; $('billdate').textContent = header0.bill;
+  }
+  if (push){ try { history.replaceState(null, '', id === 'season' ? location.pathname : '#' + id); } catch(e){} }
+}
+let pastHi = null, pastHover = null, pastRO = null;
+function renderPast(ps){
+  const champ = ps.top[0];
+  pastHi = pastHi && ps.ranks[pastHi] ? pastHi : champ.publisher;
+  $('view-past').innerHTML = `
+  <section class="stats">${[
+    [ps.weeks, 'weeks scored'], [ps.total_publishers, 'publishers on the list'], [ps.total_titles, 'titles on the list'],
+    [esc(champ.publisher), `${ps.season} champion`], [esc(titleCase(ps.top_title.title)), 'top title']
+  ].map(([b, t]) => `<div class="stat"><b${typeof b === 'string' ? ' class="txt"' : ''}>${b}</b><span>${t}</span></div>`).join('')}</section>
+  <div class="past-grid">
+    <section class="card">
+      <h2>${ps.season} top 10 publishers</h2>
+      <p class="sub">Final Cumulative Rank. Select a publisher to trace it on the chart.</p>
+      <ol class="top" id="pastTop"></ol>
+    </section>
+    <section class="card weekcard">
+      <h2>How the top 10 moved</h2>
+      <p class="sub">Each publisher's Cumulative Rank standing after every week of ${ps.season}. Hover for that week's order.</p>
+      <div class="chartbox" id="bump"></div>
+      <p class="chart-note">Ranks below 15th are drawn on the bottom line. A line starts the week a publisher first reached the list.</p>
+    </section>
+  </div>`;
+  const ol = $('pastTop');
+  ol.innerHTML = ps.top.map(r => `<li role="button" tabindex="0" aria-pressed="${r.publisher === pastHi}" data-pub="${esc(r.publisher)}"><span class="pos">${rk(r.rank_cumulative, r.tied_cumulative)}</span>
+    <div class="name"><span class="nm">${esc(r.publisher)}</span><small>${r.titles} title${r.titles===1?'':'s'} · ${r.appearances} appearances · ${r.weeks_at_1} wk${r.weeks_at_1===1?'':'s'} at #1</small></div>
+    <div class="val">${r.cumulative.toLocaleString()}<small>pts</small></div></li>`).join('');
+  const pick = e => { const li = e.target.closest('li[data-pub]'); if (!li) return; pastHi = li.dataset.pub;
+    ol.querySelectorAll('li').forEach(x => x.setAttribute('aria-pressed', x.dataset.pub === pastHi)); drawBump(ps); };
+  ol.onclick = pick;
+  ol.onkeydown = e => { if (e.key === 'Enter' || e.key === ' '){ e.preventDefault(); pick(e); } };
+  ol.onmouseover = e => { const li = e.target.closest('li[data-pub]'); if (li && pastHover !== li.dataset.pub){ pastHover = li.dataset.pub; drawBump(ps); } };
+  ol.onmouseleave = () => { pastHover = null; drawBump(ps); };
+  drawBump(ps);
+  if (pastRO) pastRO.disconnect();
+  if (window.ResizeObserver){ let w = 0; pastRO = new ResizeObserver(en => { const nw = Math.round(en[0].contentRect.width); if (nw !== w){ w = nw; drawBump(ps); } }); pastRO.observe($('bump')); }
+}
+function drawBump(ps){
+  const box = $('bump'); if (!box) return;
+  const W = Math.max(300, box.clientWidth || 640), narrow = W < 520;
+  const CAP = 15, H = narrow ? 300 : 380;
+  const m = {l: 30, r: narrow ? 104 : 140, t: 10, b: 28};
+  const n = ps.dates.length, iw = W - m.l - m.r, ih = H - m.t - m.b;
+  const x = i => m.l + iw * i / Math.max(1, n - 1);
+  const y = r => m.t + ih * (Math.min(r, CAP + 1) - 1) / CAP;
+  const active = pastHover || pastHi;
+  let g = '<g class="grid">';
+  for (const r of [1, 5, 10, 15]) g += `<line x1="${m.l}" x2="${m.l+iw}" y1="${y(r)}" y2="${y(r)}"/>`;
+  g += '</g>';
+  let ticks = [1, 5, 10, 15].map(r => `<text class="tick" x="${m.l-8}" y="${y(r)+4}" text-anchor="end">${r}</text>`).join('')
+    + `<text class="tick" x="${m.l-8}" y="${y(CAP+1)+4}" text-anchor="end">16+</text>`;
+  let lastM = -1;
+  ps.dates.forEach((d, i) => { const mo = +d.slice(5, 7); if (mo !== lastM){ lastM = mo; if (!narrow || mo % 3 === 1)
+    ticks += `<text class="tick" x="${x(i)}" y="${H-8}" text-anchor="middle">${new Date(d+'T12:00:00').toLocaleDateString('en-US',{month:'short'})}</text>`; } });
+  const names = ps.top.map(t => t.publisher).slice().reverse();  // draw #1 last
+  const pathFor = arr => { let d = '', pen = false; arr.forEach((r, i) => { if (r == null){ pen = false; return; } d += (pen ? 'L' : 'M') + x(i).toFixed(1) + ' ' + y(r).toFixed(1); pen = true; }); return d; };
+  let lines = '', hits = '';
+  names.filter(p => p !== active).concat(active && ps.ranks[active] ? [active] : []).forEach(p => {
+    const d = pathFor(ps.ranks[p]);
+    lines += `<path class="line${p === active ? ' hi' : ''}" d="${d}"/>`;
+    hits += `<path class="hit" data-pub="${esc(p)}" d="${d}"><title>${esc(p)}</title></path>`;
+  });
+  let labs = '';
+  let prevY = -1e9;
+  ps.top.slice().sort((a, b) => a.rank_cumulative - b.rank_cumulative).forEach(t => { const yy = Math.max(y(t.rank_cumulative), prevY + 14); prevY = yy;
+    labs += `<text class="lab${t.publisher === active ? ' hi' : ''}" data-pub="${esc(t.publisher)}" x="${m.l+iw+10}" y="${yy+4}"><tspan class="rkn">${rk(t.rank_cumulative, t.tied_cumulative)}</tspan> ${esc(t.publisher)}</text>`; });
+  let dot = '';
+  if (active && ps.ranks[active]){ const arr = ps.ranks[active]; dot = `<circle class="enddot" cx="${x(n-1)}" cy="${y(arr[n-1])}" r="4.5"/>`; }
+  box.innerHTML = `<svg class="bump${active ? ' has-hi' : ''}" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Weekly Cumulative Rank of the ${ps.season} top 10 publishers">${g}${ticks}<line class="cross" x1="0" x2="0" y1="${m.t}" y2="${m.t+ih}" visibility="hidden"/>${lines}${hits}${dot}${labs}</svg><div class="tip" hidden></div>`;
+  const svg = box.querySelector('svg'), cross = svg.querySelector('.cross'), tip = box.querySelector('.tip');
+  svg.addEventListener('pointerover', e => { const t = e.target.closest('[data-pub]'); if (t && pastHover !== t.dataset.pub){ pastHover = t.dataset.pub; drawBump(ps); } });
+  svg.addEventListener('click', e => { const t = e.target.closest('[data-pub]'); if (t){ pastHi = t.dataset.pub;
+    document.querySelectorAll('#pastTop li').forEach(x => x.setAttribute('aria-pressed', x.dataset.pub === pastHi)); pastHover = null; drawBump(ps); } });
+  svg.addEventListener('pointerleave', () => { cross.setAttribute('visibility', 'hidden'); tip.hidden = true; if (pastHover){ pastHover = null; drawBump(ps); } });
+  svg.addEventListener('pointermove', e => {
+    const r = svg.getBoundingClientRect(), px = (e.clientX - r.left) * W / r.width;
+    if (px < m.l - 4 || px > m.l + iw + 4){ cross.setAttribute('visibility', 'hidden'); tip.hidden = true; return; }
+    const i = Math.max(0, Math.min(n - 1, Math.round((px - m.l) / iw * (n - 1))));
+    cross.setAttribute('x1', x(i)); cross.setAttribute('x2', x(i)); cross.setAttribute('visibility', 'visible');
+    const rows = ps.top.map(t => [t.publisher, ps.ranks[t.publisher][i]]).sort((a, b) => (a[1] ?? 999) - (b[1] ?? 999));
+    tip.innerHTML = `<b>Week ${i+1} · ${fmtDate(ps.dates[i])}</b>` + rows.map(([p, v]) => `<div class="${p === active ? 'me' : ''}"><span>${esc(p)}</span><span>${v == null ? '–' : '#' + v}</span></div>`).join('');
+    tip.hidden = false;
+    const left = x(i) / W * r.width, tw = tip.offsetWidth;
+    tip.style.left = Math.max(0, Math.min(r.width - tw, left + (left > r.width / 2 ? -tw - 12 : 12))) + 'px';
+  });
+}
+
 init();
+renderViews();
+setView(location.hash.slice(1) || 'season', false);
+window.addEventListener('hashchange', () => setView(location.hash.slice(1) || 'season', false));
 __applySkin(window.__skin);
 document.querySelector('.skin-toggle').addEventListener('click',function(e){var b=e.target.closest('button');if(b)__applySkin(b.dataset.skin)});
 </script>

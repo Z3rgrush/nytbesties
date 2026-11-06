@@ -1,0 +1,6 @@
+{
+ "_note": "Fixes for entries the NYT API returned with a blank or inconsistent field, keyed by ISBN-13. Applied at build time.",
+ "9780593977057": {"author": "Holly Jackson", "publisher": "Bantam"},
+ "9780316569934": {"author": "James Patterson and Mike Lupica", "publisher": "Little, Brown"},
+ "9780593726341": {"author": "Elise Kova", "publisher": "Del Rey"}
+}
