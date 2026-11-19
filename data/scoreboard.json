@@ -1,8 +1,8 @@
 {
  "season": 2026,
  "list": "Hardcover Fiction",
- "weeks": 47,
- "latest_list": "2026-11-22",
+ "weeks": 48,
+ "latest_list": "2026-11-29",
  "latest_books": [
   {
    "rank": 1,
@@ -10,39 +10,39 @@
    "author": "Sarah J. Maas",
    "publisher": "Bloomsbury",
    "isbn13": "9781639739134",
-   "weeks_on_list": 2
+   "weeks_on_list": 3
   },
   {
    "rank": 2,
-   "title": "THRESHING DAY",
-   "author": "Rebecca Yarros",
-   "publisher": "Red Tower",
-   "isbn13": "9781682818084",
-   "weeks_on_list": 6
+   "title": "SPLIT SECOND",
+   "author": "Janet Evanovich",
+   "publisher": "Atria",
+   "isbn13": "9781668069707",
+   "weeks_on_list": 1
   },
   {
    "rank": 3,
+   "title": "ALL IN",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "isbn13": "9781538758069",
+   "weeks_on_list": 1
+  },
+  {
+   "rank": 4,
    "title": "THE CALAMITY CLUB",
    "author": "Kathryn Stockett",
    "publisher": "Spiegel & Grau",
    "isbn13": "9781954118812",
-   "weeks_on_list": 27
-  },
-  {
-   "rank": 4,
-   "title": "THE FRENCH ILLUSION",
-   "author": "John Grisham",
-   "publisher": "Doubleday",
-   "isbn13": "9780385550543",
-   "weeks_on_list": 6
+   "weeks_on_list": 28
   },
   {
    "rank": 5,
-   "title": "THE HOLLOW",
-   "author": "Michael Connelly",
-   "publisher": "Little, Brown",
-   "isbn13": "9780316563857",
-   "weeks_on_list": 2
+   "title": "THRESHING DAY",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "isbn13": "9781682818091",
+   "weeks_on_list": 7
   },
   {
    "rank": 6,
@@ -50,139 +50,88 @@
    "author": "Freida McFadden",
    "publisher": "Poisoned Pen",
    "isbn13": "9781464249648",
-   "weeks_on_list": 5
+   "weeks_on_list": 6
   },
   {
    "rank": 7,
+   "title": "THE FRENCH ILLUSION",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "isbn13": "9780385550543",
+   "weeks_on_list": 7
+  },
+  {
+   "rank": 8,
    "title": "A MARRIED LITTLE CHRISTMAS",
    "author": "Abby Jimenez",
    "publisher": "Forever",
    "isbn13": "9781538780046",
-   "weeks_on_list": 3
-  },
-  {
-   "rank": 8,
-   "title": "DEFY THE DUSK",
-   "author": "Danielle L. Jensen",
-   "publisher": "Del Rey",
-   "isbn13": "9780593975121",
-   "weeks_on_list": 1
+   "weeks_on_list": 4
   },
   {
    "rank": 9,
+   "title": "THE HOLLOW",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "isbn13": "9780316563857",
+   "weeks_on_list": 3
+  },
+  {
+   "rank": 10,
    "title": "THE PIRATE QUEEN",
    "author": "Ariel Lawhon",
    "publisher": "Doubleday",
    "isbn13": "9780385550345",
-   "weeks_on_list": 6
+   "weeks_on_list": 7
   },
   {
-   "rank": 10,
+   "rank": 11,
    "title": "THE GIFT",
    "author": "Freida McFadden",
    "publisher": "Poisoned Pen",
    "isbn13": "9781464249655",
+   "weeks_on_list": 2
+  },
+  {
+   "rank": 12,
+   "title": "WHALE HARBOR",
+   "author": "Mary Beth Keane",
+   "publisher": "Scribner",
+   "isbn13": "9781668224632",
    "weeks_on_list": 1
   },
   {
-   "rank": 11,
+   "rank": 13,
    "title": "PARTITA",
    "author": "Barbara Kingsolver",
    "publisher": "Harper",
    "isbn13": "9780063577541",
-   "weeks_on_list": 5
-  },
-  {
-   "rank": 12,
-   "title": "THE FAMILY CROSS",
-   "author": "James Patterson",
-   "publisher": "Little, Brown",
-   "isbn13": "9780316569743",
-   "weeks_on_list": 3
-  },
-  {
-   "rank": 13,
-   "title": "THE GAME",
-   "author": "Sadie Kincaid",
-   "publisher": "MIRA",
-   "isbn13": "9780778306122",
-   "weeks_on_list": 1
+   "weeks_on_list": 6
   },
   {
    "rank": 14,
-   "title": "CHAIN REACTION",
-   "author": "Lee Child and Andrew Child",
-   "publisher": "Bantam",
-   "isbn13": "9798217375158",
-   "weeks_on_list": 3
+   "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
+   "author": "Matt Dinniman",
+   "publisher": "Ace",
+   "isbn13": "9780593820285",
+   "weeks_on_list": 33
   },
   {
    "rank": 15,
-   "title": "THEO OF GOLDEN",
-   "author": "Allen Levi",
-   "publisher": "Atria",
-   "isbn13": "9781668240212",
-   "weeks_on_list": 3
+   "title": "YESTERYEAR",
+   "author": "Caro Claire Burke",
+   "publisher": "Knopf",
+   "isbn13": "9780593804216",
+   "weeks_on_list": 29
   }
  ],
- "total_titles": 230,
+ "total_titles": 233,
  "total_publishers": 68,
- "generated_at": "2026-11-12T11:38Z",
+ "generated_at": "2026-11-19T11:58Z",
  "publishers": [
   {
-   "publisher": "Crown",
-   "appearances": 44,
-   "titles": 3,
-   "books": [
-    {
-     "title": "THE CORRESPONDENT",
-     "author": "Virginia Evans",
-     "weeks": 38,
-     "list_points": 449,
-     "best_rank": 1
-    },
-    {
-     "title": "BIG LITTLE TRUTHS",
-     "author": "Liane Moriarty",
-     "weeks": 4,
-     "list_points": 29,
-     "best_rank": 1
-    },
-    {
-     "title": "PHOEBE BERMAN'S GONNA LOSE IT",
-     "author": "Brooke Averick",
-     "weeks": 2,
-     "list_points": 21,
-     "best_rank": 2
-    }
-   ],
-   "avg_rank": 4.66,
-   "list_points": 499,
-   "cumulative": 325,
-   "weeks_at_1": 9,
-   "best_rank": 1,
-   "share": 6.2,
-   "rank_cumulative": 1,
-   "tied_cumulative": false,
-   "rank_list_points": 2,
-   "tied_list_points": false,
-   "rank_appearances": 2,
-   "tied_appearances": false,
-   "rank_titles": 26,
-   "tied_titles": true,
-   "rank_avg_rank": 6,
-   "tied_avg_rank": false,
-   "concentration": 81.5,
-   "effective_titles": 1.2,
-   "top_title": "THE CORRESPONDENT",
-   "author_concentration": 81.5,
-   "effective_authors": 1.2,
-   "top_author": "Virginia Evans",
-   "prev_rank_cumulative": 1
-  },
-  {
    "publisher": "Ace",
-   "appearances": 126,
+   "appearances": 127,
    "titles": 11,
    "books": [
     {
@@ -195,8 +144,8 @@
     {
      "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
      "author": "Matt Dinniman",
-     "weeks": 32,
-     "list_points": 169,
+     "weeks": 33,
+     "list_points": 171,
      "best_rank": 6
     },
     {
@@ -263,13 +212,13 @@
      "best_rank": 15
     }
    ],
-   "avg_rank": 10.87,
-   "list_points": 646,
-   "cumulative": 324,
+   "avg_rank": 10.9,
+   "list_points": 648,
+   "cumulative": 326,
    "weeks_at_1": 2,
    "best_rank": 1,
-   "share": 17.9,
-   "rank_cumulative": 2,
+   "share": 17.6,
+   "rank_cumulative": 1,
    "tied_cumulative": false,
    "rank_list_points": 1,
    "tied_list_points": false,
@@ -288,15 +237,66 @@
    "prev_rank_cumulative": 2
   },
   {
+   "publisher": "Crown",
+   "appearances": 44,
+   "titles": 3,
+   "books": [
+    {
+     "title": "THE CORRESPONDENT",
+     "author": "Virginia Evans",
+     "weeks": 38,
+     "list_points": 449,
+     "best_rank": 1
+    },
+    {
+     "title": "BIG LITTLE TRUTHS",
+     "author": "Liane Moriarty",
+     "weeks": 4,
+     "list_points": 29,
+     "best_rank": 1
+    },
+    {
+     "title": "PHOEBE BERMAN'S GONNA LOSE IT",
+     "author": "Brooke Averick",
+     "weeks": 2,
+     "list_points": 21,
+     "best_rank": 2
+    }
+   ],
+   "avg_rank": 4.66,
+   "list_points": 499,
+   "cumulative": 325,
+   "weeks_at_1": 9,
+   "best_rank": 1,
+   "share": 6.1,
+   "rank_cumulative": 2,
+   "tied_cumulative": false,
+   "rank_list_points": 2,
+   "tied_list_points": false,
+   "rank_appearances": 2,
+   "tied_appearances": false,
+   "rank_titles": 26,
+   "tied_titles": true,
+   "rank_avg_rank": 6,
+   "tied_avg_rank": false,
+   "concentration": 81.5,
+   "effective_titles": 1.2,
+   "top_title": "THE CORRESPONDENT",
+   "author_concentration": 81.5,
+   "effective_authors": 1.2,
+   "top_author": "Virginia Evans",
+   "prev_rank_cumulative": 1
+  },
+  {
    "publisher": "Knopf",
-   "appearances": 40,
+   "appearances": 41,
    "titles": 4,
    "books": [
     {
      "title": "YESTERYEAR",
      "author": "Caro Claire Burke",
-     "weeks": 28,
-     "list_points": 336,
+     "weeks": 29,
+     "list_points": 337,
      "best_rank": 1
     },
     {
@@ -321,9 +321,9 @@
      "best_rank": 4
     }
    ],
-   "avg_rank": 5.1,
-   "list_points": 436,
-   "cumulative": 278,
+   "avg_rank": 5.34,
+   "list_points": 437,
+   "cumulative": 279,
    "weeks_at_1": 7,
    "best_rank": 1,
    "share": 5.7,
@@ -337,17 +337,17 @@
    "tied_titles": true,
    "rank_avg_rank": 8,
    "tied_avg_rank": false,
-   "concentration": 61.6,
+   "concentration": 61.7,
    "effective_titles": 1.6,
    "top_title": "YESTERYEAR",
-   "author_concentration": 61.6,
+   "author_concentration": 61.7,
    "effective_authors": 1.6,
    "top_author": "Caro Claire Burke",
    "prev_rank_cumulative": 3
   },
   {
    "publisher": "Doubleday",
-   "appearances": 38,
+   "appearances": 40,
    "titles": 7,
    "books": [
     {
@@ -367,15 +367,15 @@
     {
      "title": "THE FRENCH ILLUSION",
      "author": "John Grisham",
-     "weeks": 6,
-     "list_points": 72,
+     "weeks": 7,
+     "list_points": 81,
      "best_rank": 2
     },
     {
      "title": "THE PIRATE QUEEN",
      "author": "Ariel Lawhon",
-     "weeks": 6,
-     "list_points": 38,
+     "weeks": 7,
+     "list_points": 44,
      "best_rank": 4
     },
     {
@@ -400,49 +400,49 @@
      "best_rank": 14
     }
    ],
-   "avg_rank": 7.08,
-   "list_points": 339,
-   "cumulative": 219,
+   "avg_rank": 7.15,
+   "list_points": 354,
+   "cumulative": 230,
    "weeks_at_1": 1,
    "best_rank": 1,
-   "share": 5.4,
+   "share": 5.6,
    "rank_cumulative": 4,
    "tied_cumulative": false,
    "rank_list_points": 4,
    "tied_list_points": false,
    "rank_appearances": 4,
    "tied_appearances": false,
-   "rank_titles": 6,
+   "rank_titles": 7,
    "tied_titles": true,
-   "rank_avg_rank": 22,
+   "rank_avg_rank": 21,
    "tied_avg_rank": false,
-   "concentration": 26.6,
-   "effective_titles": 3.8,
+   "concentration": 25.9,
+   "effective_titles": 3.9,
    "top_title": "THE WIDOW",
-   "author_concentration": 42.9,
+   "author_concentration": 42.7,
    "effective_authors": 2.3,
    "top_author": "John Grisham",
    "prev_rank_cumulative": 4
   },
   {
    "publisher": "Spiegel & Grau",
-   "appearances": 27,
+   "appearances": 28,
    "titles": 1,
    "books": [
     {
      "title": "THE CALAMITY CLUB",
      "author": "Kathryn Stockett",
-     "weeks": 27,
-     "list_points": 323,
+     "weeks": 28,
+     "list_points": 335,
      "best_rank": 1
     }
    ],
    "avg_rank": 4.04,
-   "list_points": 323,
-   "cumulative": 211,
+   "list_points": 335,
+   "cumulative": 219,
    "weeks_at_1": 2,
    "best_rank": 1,
-   "share": 3.8,
+   "share": 3.9,
    "rank_cumulative": 5,
    "tied_cumulative": false,
    "rank_list_points": 5,
@@ -463,7 +463,7 @@
   },
   {
    "publisher": "Harper",
-   "appearances": 33,
+   "appearances": 34,
    "titles": 6,
    "books": [
     {
@@ -476,8 +476,8 @@
     {
      "title": "PARTITA",
      "author": "Barbara Kingsolver",
-     "weeks": 5,
-     "list_points": 43,
+     "weeks": 6,
+     "list_points": 46,
      "best_rank": 4
     },
     {
@@ -509,9 +509,9 @@
      "best_rank": 10
     }
    ],
-   "avg_rank": 6.67,
-   "list_points": 308,
-   "cumulative": 196,
+   "avg_rank": 6.85,
+   "list_points": 311,
+   "cumulative": 199,
    "weeks_at_1": 2,
    "best_rank": 1,
    "share": 4.7,
@@ -525,17 +525,17 @@
    "tied_titles": true,
    "rank_avg_rank": 17,
    "tied_avg_rank": false,
-   "concentration": 44.7,
-   "effective_titles": 2.2,
+   "concentration": 44.1,
+   "effective_titles": 2.3,
    "top_title": "WHISTLER",
-   "author_concentration": 44.7,
-   "effective_authors": 2.2,
+   "author_concentration": 44.1,
+   "effective_authors": 2.3,
    "top_author": "Ann Patchett",
    "prev_rank_cumulative": 6
   },
   {
    "publisher": "Little, Brown",
-   "appearances": 35,
+   "appearances": 36,
    "titles": 14,
    "books": [
     {
@@ -546,18 +546,18 @@
      "best_rank": 3
     },
     {
+     "title": "THE HOLLOW",
+     "author": "Michael Connelly",
+     "weeks": 3,
+     "list_points": 32,
+     "best_rank": 2
+    },
+    {
      "title": "THE COUNTRY ROAD MURDERS",
      "author": "James Patterson and Mike Lupica",
      "weeks": 3,
      "list_points": 26,
      "best_rank": 5
-    },
-    {
-     "title": "THE HOLLOW",
-     "author": "Michael Connelly",
-     "weeks": 2,
-     "list_points": 25,
-     "best_rank": 2
     },
     {
      "title": "ROCKET'S RED GLARE",
@@ -637,9 +637,9 @@
      "best_rank": 13
     }
    ],
-   "avg_rank": 7.83,
-   "list_points": 286,
-   "cumulative": 185,
+   "avg_rank": 7.86,
+   "list_points": 293,
+   "cumulative": 190,
    "weeks_at_1": 0,
    "best_rank": 2,
    "share": 5.0,
@@ -651,13 +651,13 @@
    "tied_appearances": false,
    "rank_titles": 1,
    "tied_titles": false,
-   "rank_avg_rank": 29,
+   "rank_avg_rank": 30,
    "tied_avg_rank": false,
-   "concentration": 8.8,
-   "effective_titles": 11.4,
+   "concentration": 8.9,
+   "effective_titles": 11.3,
    "top_title": "CROSS & SAMPSON",
-   "author_concentration": 51.4,
-   "effective_authors": 1.9,
+   "author_concentration": 49.7,
+   "effective_authors": 2.0,
    "top_author": "James Patterson",
    "prev_rank_cumulative": 7
   },
@@ -735,7 +735,7 @@
    "cumulative": 130,
    "weeks_at_1": 0,
    "best_rank": 2,
-   "share": 3.4,
+   "share": 3.3,
    "rank_cumulative": 8,
    "tied_cumulative": false,
    "rank_list_points": 8,
@@ -744,7 +744,7 @@
    "tied_appearances": false,
    "rank_titles": 3,
    "tied_titles": false,
-   "rank_avg_rank": 30,
+   "rank_avg_rank": 31,
    "tied_avg_rank": false,
    "concentration": 45.0,
    "effective_titles": 2.2,
@@ -756,7 +756,7 @@
   },
   {
    "publisher": "Forever",
-   "appearances": 21,
+   "appearances": 22,
    "titles": 5,
    "books": [
     {
@@ -776,8 +776,8 @@
     {
      "title": "A MARRIED LITTLE CHRISTMAS",
      "author": "Abby Jimenez",
-     "weeks": 3,
-     "list_points": 30,
+     "weeks": 4,
+     "list_points": 38,
      "best_rank": 3
     },
     {
@@ -795,40 +795,40 @@
      "best_rank": 11
     }
    ],
-   "avg_rank": 8.29,
-   "list_points": 162,
-   "cumulative": 123,
+   "avg_rank": 8.27,
+   "list_points": 170,
+   "cumulative": 129,
    "weeks_at_1": 1,
    "best_rank": 1,
-   "share": 3.0,
+   "share": 3.1,
    "rank_cumulative": 9,
    "tied_cumulative": false,
    "rank_list_points": 9,
    "tied_list_points": false,
    "rank_appearances": 9,
    "tied_appearances": false,
-   "rank_titles": 16,
+   "rank_titles": 18,
    "tied_titles": true,
-   "rank_avg_rank": 39,
-   "tied_avg_rank": false,
-   "concentration": 27.7,
-   "effective_titles": 3.6,
+   "rank_avg_rank": 38,
+   "tied_avg_rank": true,
+   "concentration": 27.0,
+   "effective_titles": 3.7,
    "top_title": "BRIMSTONE",
-   "author_concentration": 47.2,
+   "author_concentration": 47.7,
    "effective_authors": 2.1,
    "top_author": "Abby Jimenez",
    "prev_rank_cumulative": 9
   },
   {
    "publisher": "Red Tower",
-   "appearances": 14,
+   "appearances": 15,
    "titles": 5,
    "books": [
     {
      "title": "THRESHING DAY",
      "author": "Rebecca Yarros",
-     "weeks": 6,
-     "list_points": 86,
+     "weeks": 7,
+     "list_points": 97,
      "best_rank": 1
     },
     {
@@ -860,27 +860,27 @@
      "best_rank": 15
     }
    ],
-   "avg_rank": 6.29,
-   "list_points": 136,
-   "cumulative": 113,
+   "avg_rank": 6.2,
+   "list_points": 147,
+   "cumulative": 120,
    "weeks_at_1": 4,
    "best_rank": 1,
-   "share": 2.0,
+   "share": 2.1,
    "rank_cumulative": 10,
    "tied_cumulative": false,
-   "rank_list_points": 11,
+   "rank_list_points": 10,
    "tied_list_points": false,
-   "rank_appearances": 12,
+   "rank_appearances": 11,
    "tied_appearances": true,
-   "rank_titles": 16,
+   "rank_titles": 18,
    "tied_titles": true,
    "rank_avg_rank": 12,
    "tied_avg_rank": false,
-   "concentration": 47.5,
-   "effective_titles": 2.1,
+   "concentration": 50.0,
+   "effective_titles": 2.0,
    "top_title": "THRESHING DAY",
-   "author_concentration": 52.2,
-   "effective_authors": 1.9,
+   "author_concentration": 54.5,
+   "effective_authors": 1.8,
    "top_author": "Rebecca Yarros",
    "prev_rank_cumulative": 10
   },
@@ -951,10 +951,10 @@
    "cumulative": 104,
    "weeks_at_1": 0,
    "best_rank": 2,
-   "share": 2.7,
+   "share": 2.6,
    "rank_cumulative": 11,
    "tied_cumulative": false,
-   "rank_list_points": 10,
+   "rank_list_points": 11,
    "tied_list_points": false,
    "rank_appearances": 10,
    "tied_appearances": false,
@@ -972,14 +972,14 @@
   },
   {
    "publisher": "Poisoned Pen",
-   "appearances": 12,
+   "appearances": 14,
    "titles": 3,
    "books": [
     {
      "title": "THE WITCH",
      "author": "Freida McFadden",
-     "weeks": 5,
-     "list_points": 59,
+     "weeks": 6,
+     "list_points": 69,
      "best_rank": 1
     },
     {
@@ -992,34 +992,34 @@
     {
      "title": "THE GIFT",
      "author": "Freida McFadden",
-     "weeks": 1,
-     "list_points": 6,
+     "weeks": 2,
+     "list_points": 11,
      "best_rank": 10
     }
    ],
-   "avg_rank": 7.0,
-   "list_points": 108,
-   "cumulative": 86,
+   "avg_rank": 7.21,
+   "list_points": 123,
+   "cumulative": 97,
    "weeks_at_1": 1,
    "best_rank": 1,
-   "share": 1.7,
+   "share": 1.9,
    "rank_cumulative": 12,
    "tied_cumulative": false,
-   "rank_list_points": 13,
+   "rank_list_points": 12,
    "tied_list_points": false,
-   "rank_appearances": 15,
+   "rank_appearances": 13,
    "tied_appearances": true,
    "rank_titles": 26,
    "tied_titles": true,
-   "rank_avg_rank": 18,
-   "tied_avg_rank": true,
-   "concentration": 46.0,
+   "rank_avg_rank": 24,
+   "tied_avg_rank": false,
+   "concentration": 44.5,
    "effective_titles": 2.2,
    "top_title": "THE WITCH",
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Freida McFadden",
-   "prev_rank_cumulative": 13
+   "prev_rank_cumulative": 12
   },
   {
    "publisher": "Avon",
@@ -1077,26 +1077,26 @@
    "share": 2.1,
    "rank_cumulative": 13,
    "tied_cumulative": false,
-   "rank_list_points": 12,
+   "rank_list_points": 13,
    "tied_list_points": false,
    "rank_appearances": 11,
-   "tied_appearances": false,
+   "tied_appearances": true,
    "rank_titles": 11,
    "tied_titles": true,
    "rank_avg_rank": 38,
-   "tied_avg_rank": false,
+   "tied_avg_rank": true,
    "concentration": 42.6,
    "effective_titles": 2.3,
    "top_title": "STARSIDE",
    "author_concentration": 42.6,
    "effective_authors": 2.3,
    "top_author": "Alex Aster",
-   "prev_rank_cumulative": 12
+   "prev_rank_cumulative": 13
   },
   {
    "publisher": "Grand Central",
-   "appearances": 13,
-   "titles": 7,
+   "appearances": 14,
+   "titles": 8,
    "books": [
     {
      "title": "HOPE RISES",
@@ -1111,6 +1111,13 @@
      "weeks": 4,
      "list_points": 15,
      "best_rank": 10
+    },
+    {
+     "title": "ALL IN",
+     "author": "David Baldacci",
+     "weeks": 1,
+     "list_points": 13,
+     "best_rank": 3
     },
     {
      "title": "BLOODLUST",
@@ -1148,34 +1155,34 @@
      "best_rank": 11
     }
    ],
-   "avg_rank": 8.85,
-   "list_points": 93,
-   "cumulative": 72,
+   "avg_rank": 8.43,
+   "list_points": 106,
+   "cumulative": 81,
    "weeks_at_1": 1,
    "best_rank": 1,
-   "share": 1.8,
+   "share": 1.9,
    "rank_cumulative": 14,
    "tied_cumulative": false,
-   "rank_list_points": 16,
+   "rank_list_points": 14,
    "tied_list_points": false,
-   "rank_appearances": 14,
-   "tied_appearances": false,
-   "rank_titles": 6,
+   "rank_appearances": 13,
+   "tied_appearances": true,
+   "rank_titles": 4,
    "tied_titles": true,
-   "rank_avg_rank": 45,
+   "rank_avg_rank": 41,
    "tied_avg_rank": false,
-   "concentration": 21.0,
-   "effective_titles": 4.8,
+   "concentration": 17.7,
+   "effective_titles": 5.7,
    "top_title": "HOPE RISES",
-   "author_concentration": 25.7,
-   "effective_authors": 3.9,
+   "author_concentration": 30.5,
+   "effective_authors": 3.3,
    "top_author": "David Baldacci",
    "prev_rank_cumulative": 14
   },
   {
    "publisher": "Scribner",
-   "appearances": 12,
-   "titles": 5,
+   "appearances": 13,
+   "titles": 6,
    "books": [
     {
      "title": "THE FIRST TIME I SAW HIM",
@@ -1211,29 +1218,36 @@
      "weeks": 1,
      "list_points": 4,
      "best_rank": 12
+    },
+    {
+     "title": "WHALE HARBOR",
+     "author": "Mary Beth Keane",
+     "weeks": 1,
+     "list_points": 4,
+     "best_rank": 12
     }
    ],
-   "avg_rank": 8.42,
-   "list_points": 91,
-   "cumulative": 65,
+   "avg_rank": 8.69,
+   "list_points": 95,
+   "cumulative": 69,
    "weeks_at_1": 0,
    "best_rank": 2,
-   "share": 1.7,
+   "share": 1.8,
    "rank_cumulative": 15,
    "tied_cumulative": false,
    "rank_list_points": 17,
    "tied_list_points": false,
-   "rank_appearances": 15,
-   "tied_appearances": true,
-   "rank_titles": 16,
+   "rank_appearances": 16,
+   "tied_appearances": false,
+   "rank_titles": 11,
    "tied_titles": true,
-   "rank_avg_rank": 41,
+   "rank_avg_rank": 45,
    "tied_avg_rank": false,
-   "concentration": 28.4,
-   "effective_titles": 3.5,
+   "concentration": 26.2,
+   "effective_titles": 3.8,
    "top_title": "THE FIRST TIME I SAW HIM",
-   "author_concentration": 28.4,
-   "effective_authors": 3.5,
+   "author_concentration": 26.2,
+   "effective_authors": 3.8,
    "top_author": "Laura Dave",
    "prev_rank_cumulative": 15
   },
@@ -1304,12 +1318,12 @@
    "cumulative": 60,
    "weeks_at_1": 0,
    "best_rank": 2,
-   "share": 2.0,
+   "share": 1.9,
    "rank_cumulative": 16,
    "tied_cumulative": true,
-   "rank_list_points": 14,
+   "rank_list_points": 15,
    "tied_list_points": false,
-   "rank_appearances": 12,
+   "rank_appearances": 13,
    "tied_appearances": true,
    "rank_titles": 4,
    "tied_titles": true,
@@ -1353,8 +1367,8 @@
    "tied_cumulative": true,
    "rank_list_points": 18,
    "tied_list_points": false,
-   "rank_appearances": 15,
-   "tied_appearances": true,
+   "rank_appearances": 17,
+   "tied_appearances": false,
    "rank_titles": 33,
    "tied_titles": true,
    "rank_avg_rank": 48,
@@ -1390,7 +1404,7 @@
    "tied_cumulative": false,
    "rank_list_points": 19,
    "tied_list_points": false,
-   "rank_appearances": 22,
+   "rank_appearances": 23,
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
@@ -1471,9 +1485,9 @@
    "tied_list_points": false,
    "rank_appearances": 20,
    "tied_appearances": true,
-   "rank_titles": 6,
+   "rank_titles": 7,
    "tied_titles": true,
-   "rank_avg_rank": 34,
+   "rank_avg_rank": 35,
    "tied_avg_rank": false,
    "concentration": 17.5,
    "effective_titles": 5.7,
@@ -1511,7 +1525,7 @@
    "share": 1.4,
    "rank_cumulative": 20,
    "tied_cumulative": false,
-   "rank_list_points": 15,
+   "rank_list_points": 16,
    "tied_list_points": false,
    "rank_appearances": 20,
    "tied_appearances": true,
@@ -1526,6 +1540,78 @@
    "effective_authors": 1.3,
    "top_author": "Carley Fortune",
    "prev_rank_cumulative": 20
+  },
+  {
+   "publisher": "Atria",
+   "appearances": 9,
+   "titles": 6,
+   "books": [
+    {
+     "title": "IT COULD HAVE BEEN HER",
+     "author": "Lisa Jewell",
+     "weeks": 2,
+     "list_points": 19,
+     "best_rank": 4
+    },
+    {
+     "title": "BURN OF THE EVERFLAME",
+     "author": "Penn Cole",
+     "weeks": 1,
+     "list_points": 15,
+     "best_rank": 1
+    },
+    {
+     "title": "SPLIT SECOND",
+     "author": "Janet Evanovich",
+     "weeks": 1,
+     "list_points": 14,
+     "best_rank": 2
+    },
+    {
+     "title": "BLOOD BOUND",
+     "author": "Ellis Hunter",
+     "weeks": 1,
+     "list_points": 11,
+     "best_rank": 5
+    },
+    {
+     "title": "GOD'S COUNTRY",
+     "author": "William Kent Krueger",
+     "weeks": 1,
+     "list_points": 9,
+     "best_rank": 7
+    },
+    {
+     "title": "THEO OF GOLDEN",
+     "author": "Allen Levi",
+     "weeks": 3,
+     "list_points": 8,
+     "best_rank": 11
+    }
+   ],
+   "avg_rank": 7.56,
+   "list_points": 76,
+   "cumulative": 51,
+   "weeks_at_1": 1,
+   "best_rank": 1,
+   "share": 1.2,
+   "rank_cumulative": 21,
+   "tied_cumulative": false,
+   "rank_list_points": 21,
+   "tied_list_points": false,
+   "rank_appearances": 22,
+   "tied_appearances": false,
+   "rank_titles": 11,
+   "tied_titles": true,
+   "rank_avg_rank": 27,
+   "tied_avg_rank": false,
+   "concentration": 18.1,
+   "effective_titles": 5.5,
+   "top_title": "IT COULD HAVE BEEN HER",
+   "author_concentration": 18.1,
+   "effective_authors": 5.5,
+   "top_author": "Lisa Jewell",
+   "prev_rank_cumulative": 25
   },
   {
    "publisher": "Morrow",
@@ -1588,13 +1674,13 @@
    "weeks_at_1": 0,
    "best_rank": 2,
    "share": 1.1,
-   "rank_cumulative": 21,
+   "rank_cumulative": 22,
    "tied_cumulative": true,
-   "rank_list_points": 21,
+   "rank_list_points": 22,
    "tied_list_points": false,
-   "rank_appearances": 22,
+   "rank_appearances": 23,
    "tied_appearances": true,
-   "rank_titles": 6,
+   "rank_titles": 7,
    "tied_titles": true,
    "rank_avg_rank": 25,
    "tied_avg_rank": false,
@@ -1632,9 +1718,9 @@
    "weeks_at_1": 2,
    "best_rank": 1,
    "share": 1.0,
-   "rank_cumulative": 21,
+   "rank_cumulative": 22,
    "tied_cumulative": true,
-   "rank_list_points": 23,
+   "rank_list_points": 24,
    "tied_list_points": false,
    "rank_appearances": 27,
    "tied_appearances": true,
@@ -1683,15 +1769,15 @@
    "weeks_at_1": 1,
    "best_rank": 1,
    "share": 1.1,
-   "rank_cumulative": 21,
+   "rank_cumulative": 22,
    "tied_cumulative": true,
-   "rank_list_points": 24,
+   "rank_list_points": 25,
    "tied_list_points": false,
-   "rank_appearances": 22,
+   "rank_appearances": 23,
    "tied_appearances": true,
    "rank_titles": 26,
    "tied_titles": true,
-   "rank_avg_rank": 35,
+   "rank_avg_rank": 36,
    "tied_avg_rank": false,
    "concentration": 44.3,
    "effective_titles": 2.3,
@@ -1754,8 +1840,8 @@
    "cumulative": 42,
    "weeks_at_1": 1,
    "best_rank": 1,
-   "share": 1.6,
-   "rank_cumulative": 24,
+   "share": 1.5,
+   "rank_cumulative": 25,
    "tied_cumulative": false,
    "rank_list_points": 26,
    "tied_list_points": false,
@@ -1812,10 +1898,10 @@
    "cumulative": 41,
    "weeks_at_1": 0,
    "best_rank": 2,
-   "share": 1.6,
-   "rank_cumulative": 25,
-   "tied_cumulative": true,
-   "rank_list_points": 22,
+   "share": 1.5,
+   "rank_cumulative": 26,
+   "tied_cumulative": false,
+   "rank_list_points": 23,
    "tied_list_points": false,
    "rank_appearances": 18,
    "tied_appearances": true,
@@ -1830,71 +1916,6 @@
    "effective_authors": 3.0,
    "top_author": "Jenny Jackson",
    "prev_rank_cumulative": 25
-  },
-  {
-   "publisher": "Atria",
-   "appearances": 8,
-   "titles": 5,
-   "books": [
-    {
-     "title": "IT COULD HAVE BEEN HER",
-     "author": "Lisa Jewell",
-     "weeks": 2,
-     "list_points": 19,
-     "best_rank": 4
-    },
-    {
-     "title": "BURN OF THE EVERFLAME",
-     "author": "Penn Cole",
-     "weeks": 1,
-     "list_points": 15,
-     "best_rank": 1
-    },
-    {
-     "title": "BLOOD BOUND",
-     "author": "Ellis Hunter",
-     "weeks": 1,
-     "list_points": 11,
-     "best_rank": 5
-    },
-    {
-     "title": "GOD'S COUNTRY",
-     "author": "William Kent Krueger",
-     "weeks": 1,
-     "list_points": 9,
-     "best_rank": 7
-    },
-    {
-     "title": "THEO OF GOLDEN",
-     "author": "Allen Levi",
-     "weeks": 3,
-     "list_points": 8,
-     "best_rank": 11
-    }
-   ],
-   "avg_rank": 8.25,
-   "list_points": 62,
-   "cumulative": 41,
-   "weeks_at_1": 1,
-   "best_rank": 1,
-   "share": 1.1,
-   "rank_cumulative": 25,
-   "tied_cumulative": true,
-   "rank_list_points": 25,
-   "tied_list_points": false,
-   "rank_appearances": 22,
-   "tied_appearances": true,
-   "rank_titles": 16,
-   "tied_titles": true,
-   "rank_avg_rank": 37,
-   "tied_avg_rank": false,
-   "concentration": 22.2,
-   "effective_titles": 4.5,
-   "top_title": "IT COULD HAVE BEEN HER",
-   "author_concentration": 22.2,
-   "effective_authors": 4.5,
-   "top_author": "Lisa Jewell",
-   "prev_rank_cumulative": 26
   },
   {
    "publisher": "MIRA",
@@ -1945,13 +1966,13 @@
    "share": 0.7,
    "rank_cumulative": 27,
    "tied_cumulative": false,
-   "rank_list_points": 28,
+   "rank_list_points": 29,
    "tied_list_points": true,
    "rank_appearances": 31,
    "tied_appearances": true,
-   "rank_titles": 16,
+   "rank_titles": 18,
    "tied_titles": true,
-   "rank_avg_rank": 24,
+   "rank_avg_rank": 23,
    "tied_avg_rank": false,
    "concentration": 23.2,
    "effective_titles": 4.3,
@@ -1959,7 +1980,7 @@
    "author_concentration": 37.9,
    "effective_authors": 2.6,
    "top_author": "Briar Boleyn",
-   "prev_rank_cumulative": 29
+   "prev_rank_cumulative": 27
   },
   {
    "publisher": "Bramble",
@@ -2014,7 +2035,7 @@
    "cumulative": 35,
    "weeks_at_1": 0,
    "best_rank": 5,
-   "share": 0.9,
+   "share": 0.8,
    "rank_cumulative": 28,
    "tied_cumulative": true,
    "rank_list_points": 27,
@@ -2023,7 +2044,7 @@
    "tied_appearances": true,
    "rank_titles": 11,
    "tied_titles": true,
-   "rank_avg_rank": 23,
+   "rank_avg_rank": 22,
    "tied_avg_rank": false,
    "concentration": 17.7,
    "effective_titles": 5.7,
@@ -2031,7 +2052,7 @@
    "author_concentration": 24.7,
    "effective_authors": 4.0,
    "top_author": "Carissa Broadbent",
-   "prev_rank_cumulative": 27
+   "prev_rank_cumulative": 28
   },
   {
    "publisher": "Europa",
@@ -2054,13 +2075,13 @@
    "share": 0.7,
    "rank_cumulative": 28,
    "tied_cumulative": true,
-   "rank_list_points": 30,
+   "rank_list_points": 31,
    "tied_list_points": true,
    "rank_appearances": 31,
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
-   "rank_avg_rank": 27,
+   "rank_avg_rank": 28,
    "tied_avg_rank": true,
    "concentration": 100.0,
    "effective_titles": 1.0,
@@ -2068,7 +2089,44 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Thomas Schlesser",
-   "prev_rank_cumulative": 27
+   "prev_rank_cumulative": 28
+  },
+  {
+   "publisher": "Bloomsbury",
+   "appearances": 3,
+   "titles": 1,
+   "books": [
+    {
+     "title": "A COURT OF SPLINTERED HARMONY",
+     "author": "Sarah J. Maas",
+     "weeks": 3,
+     "list_points": 45,
+     "best_rank": 1
+    }
+   ],
+   "avg_rank": 1.0,
+   "list_points": 45,
+   "cumulative": 31,
+   "weeks_at_1": 3,
+   "best_rank": 1,
+   "share": 0.4,
+   "rank_cumulative": 30,
+   "tied_cumulative": false,
+   "rank_list_points": 28,
+   "tied_list_points": false,
+   "rank_appearances": 43,
+   "tied_appearances": true,
+   "rank_titles": 46,
+   "tied_titles": true,
+   "rank_avg_rank": 1,
+   "tied_avg_rank": true,
+   "concentration": 100.0,
+   "effective_titles": 1.0,
+   "top_title": "A COURT OF SPLINTERED HARMONY",
+   "author_concentration": 100.0,
+   "effective_authors": 1.0,
+   "top_author": "Sarah J. Maas",
+   "prev_rank_cumulative": 41
   },
   {
    "publisher": "Orbit",
@@ -2096,9 +2154,9 @@
    "weeks_at_1": 1,
    "best_rank": 1,
    "share": 0.6,
-   "rank_cumulative": 30,
+   "rank_cumulative": 31,
    "tied_cumulative": true,
-   "rank_list_points": 35,
+   "rank_list_points": 36,
    "tied_list_points": true,
    "rank_appearances": 36,
    "tied_appearances": true,
@@ -2154,9 +2212,9 @@
    "weeks_at_1": 0,
    "best_rank": 3,
    "share": 0.6,
-   "rank_cumulative": 30,
+   "rank_cumulative": 31,
    "tied_cumulative": true,
-   "rank_list_points": 39,
+   "rank_list_points": 40,
    "tied_list_points": false,
    "rank_appearances": 36,
    "tied_appearances": true,
@@ -2198,15 +2256,15 @@
    "weeks_at_1": 2,
    "best_rank": 1,
    "share": 0.7,
-   "rank_cumulative": 32,
+   "rank_cumulative": 33,
    "tied_cumulative": true,
-   "rank_list_points": 30,
+   "rank_list_points": 31,
    "tied_list_points": true,
    "rank_appearances": 31,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
-   "rank_avg_rank": 27,
+   "rank_avg_rank": 28,
    "tied_avg_rank": true,
    "concentration": 52.8,
    "effective_titles": 1.9,
@@ -2256,15 +2314,15 @@
    "weeks_at_1": 0,
    "best_rank": 2,
    "share": 0.7,
-   "rank_cumulative": 32,
+   "rank_cumulative": 33,
    "tied_cumulative": true,
-   "rank_list_points": 33,
+   "rank_list_points": 34,
    "tied_list_points": false,
    "rank_appearances": 31,
    "tied_appearances": true,
    "rank_titles": 21,
    "tied_titles": true,
-   "rank_avg_rank": 31,
+   "rank_avg_rank": 32,
    "tied_avg_rank": true,
    "concentration": 35.4,
    "effective_titles": 2.8,
@@ -2327,10 +2385,10 @@
    "cumulative": 28,
    "weeks_at_1": 0,
    "best_rank": 5,
-   "share": 0.9,
-   "rank_cumulative": 32,
+   "share": 0.8,
+   "rank_cumulative": 33,
    "tied_cumulative": true,
-   "rank_list_points": 35,
+   "rank_list_points": 36,
    "tied_list_points": true,
    "rank_appearances": 29,
    "tied_appearances": true,
@@ -2379,9 +2437,9 @@
    "weeks_at_1": 0,
    "best_rank": 2,
    "share": 0.6,
-   "rank_cumulative": 32,
+   "rank_cumulative": 33,
    "tied_cumulative": true,
-   "rank_list_points": 38,
+   "rank_list_points": 39,
    "tied_list_points": false,
    "rank_appearances": 36,
    "tied_appearances": true,
@@ -2423,15 +2481,15 @@
    "weeks_at_1": 0,
    "best_rank": 4,
    "share": 0.7,
-   "rank_cumulative": 36,
+   "rank_cumulative": 37,
    "tied_cumulative": false,
-   "rank_list_points": 34,
+   "rank_list_points": 35,
    "tied_list_points": false,
    "rank_appearances": 31,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
-   "rank_avg_rank": 36,
+   "rank_avg_rank": 37,
    "tied_avg_rank": false,
    "concentration": 90.3,
    "effective_titles": 1.1,
@@ -2502,13 +2560,13 @@
    "weeks_at_1": 0,
    "best_rank": 4,
    "share": 1.1,
-   "rank_cumulative": 37,
+   "rank_cumulative": 38,
    "tied_cumulative": true,
-   "rank_list_points": 28,
+   "rank_list_points": 29,
    "tied_list_points": true,
-   "rank_appearances": 22,
+   "rank_appearances": 23,
    "tied_appearances": true,
-   "rank_titles": 6,
+   "rank_titles": 7,
    "tied_titles": true,
    "rank_avg_rank": 57,
    "tied_avg_rank": true,
@@ -2553,9 +2611,9 @@
    "weeks_at_1": 0,
    "best_rank": 4,
    "share": 1.0,
-   "rank_cumulative": 37,
+   "rank_cumulative": 38,
    "tied_cumulative": true,
-   "rank_list_points": 32,
+   "rank_list_points": 33,
    "tied_list_points": false,
    "rank_appearances": 27,
    "tied_appearances": true,
@@ -2611,9 +2669,9 @@
    "weeks_at_1": 0,
    "best_rank": 4,
    "share": 0.6,
-   "rank_cumulative": 37,
+   "rank_cumulative": 38,
    "tied_cumulative": true,
-   "rank_list_points": 35,
+   "rank_list_points": 36,
    "tied_list_points": true,
    "rank_appearances": 36,
    "tied_appearances": true,
@@ -2655,7 +2713,7 @@
    "weeks_at_1": 0,
    "best_rank": 5,
    "share": 0.6,
-   "rank_cumulative": 40,
+   "rank_cumulative": 41,
    "tied_cumulative": false,
    "rank_list_points": 44,
    "tied_list_points": true,
@@ -2672,43 +2730,6 @@
    "effective_authors": 1.4,
    "top_author": "Lee Child",
    "prev_rank_cumulative": 40
-  },
-  {
-   "publisher": "Bloomsbury",
-   "appearances": 2,
-   "titles": 1,
-   "books": [
-    {
-     "title": "A COURT OF SPLINTERED HARMONY",
-     "author": "Sarah J. Maas",
-     "weeks": 2,
-     "list_points": 30,
-     "best_rank": 1
-    }
-   ],
-   "avg_rank": 1.0,
-   "list_points": 30,
-   "cumulative": 20,
-   "weeks_at_1": 2,
-   "best_rank": 1,
-   "share": 0.3,
-   "rank_cumulative": 41,
-   "tied_cumulative": false,
-   "rank_list_points": 41,
-   "tied_list_points": false,
-   "rank_appearances": 48,
-   "tied_appearances": true,
-   "rank_titles": 46,
-   "tied_titles": true,
-   "rank_avg_rank": 1,
-   "tied_avg_rank": true,
-   "concentration": 100.0,
-   "effective_titles": 1.0,
-   "top_title": "A COURT OF SPLINTERED HARMONY",
-   "author_concentration": 100.0,
-   "effective_authors": 1.0,
-   "top_author": "Sarah J. Maas",
-   "prev_rank_cumulative": 50
   },
   {
    "publisher": "Park Row",
@@ -2745,7 +2766,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Mary Kubica",
-   "prev_rank_cumulative": 40
+   "prev_rank_cumulative": 42
   },
   {
    "publisher": "Cardinal",
@@ -2774,7 +2795,7 @@
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
-   "rank_avg_rank": 31,
+   "rank_avg_rank": 32,
    "tied_avg_rank": true,
    "concentration": 100.0,
    "effective_titles": 1.0,
@@ -2782,7 +2803,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Min Jin Lee",
-   "prev_rank_cumulative": 42
+   "prev_rank_cumulative": 43
   },
   {
    "publisher": "Frontline",
@@ -2819,7 +2840,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Jonathan Cahn",
-   "prev_rank_cumulative": 42
+   "prev_rank_cumulative": 43
   },
   {
    "publisher": "Blackstone",
@@ -2844,7 +2865,7 @@
    "tied_cumulative": false,
    "rank_list_points": 47,
    "tied_list_points": true,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
@@ -2856,7 +2877,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Jeneva Rose",
-   "prev_rank_cumulative": 44
+   "prev_rank_cumulative": 45
   },
   {
    "publisher": "Riverhead",
@@ -2907,7 +2928,7 @@
    "author_concentration": 40.1,
    "effective_authors": 2.5,
    "top_author": "Marlon James",
-   "prev_rank_cumulative": 45
+   "prev_rank_cumulative": 46
   },
   {
    "publisher": "Scarlett",
@@ -2930,7 +2951,7 @@
    "share": 0.4,
    "rank_cumulative": 47,
    "tied_cumulative": false,
-   "rank_list_points": 40,
+   "rank_list_points": 41,
    "tied_list_points": false,
    "rank_appearances": 43,
    "tied_appearances": true,
@@ -2944,7 +2965,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "H.M. Wolfe",
-   "prev_rank_cumulative": 46
+   "prev_rank_cumulative": 47
   },
   {
    "publisher": "Saturday",
@@ -2976,7 +2997,7 @@
    "tied_cumulative": true,
    "rank_list_points": 49,
    "tied_list_points": false,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
@@ -2988,7 +3009,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Rachel Schneider",
-   "prev_rank_cumulative": 47
+   "prev_rank_cumulative": 48
   },
   {
    "publisher": "Random House Worlds",
@@ -3020,11 +3041,11 @@
    "tied_cumulative": true,
    "rank_list_points": 50,
    "tied_list_points": false,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
-   "rank_avg_rank": 31,
+   "rank_avg_rank": 32,
    "tied_avg_rank": true,
    "concentration": 50.8,
    "effective_titles": 2.0,
@@ -3032,7 +3053,7 @@
    "author_concentration": 50.8,
    "effective_authors": 2.0,
    "top_author": "T. Kingfisher",
-   "prev_rank_cumulative": 47
+   "prev_rank_cumulative": 48
   },
   {
    "publisher": "Flatiron",
@@ -3069,7 +3090,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Leigh Bardugo",
-   "prev_rank_cumulative": 49
+   "prev_rank_cumulative": 50
   },
   {
    "publisher": "Amara",
@@ -3094,7 +3115,7 @@
    "tied_cumulative": false,
    "rank_list_points": 51,
    "tied_list_points": true,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
@@ -3106,7 +3127,7 @@
    "author_concentration": 100.0,
    "effective_authors": 1.0,
    "top_author": "Rebecca Yarros",
-   "prev_rank_cumulative": 50
+   "prev_rank_cumulative": 51
   },
   {
    "publisher": "Gallery",
@@ -3307,7 +3328,7 @@
    "tied_cumulative": true,
    "rank_list_points": 57,
    "tied_list_points": true,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
@@ -3351,7 +3372,7 @@
    "tied_cumulative": true,
    "rank_list_points": 51,
    "tied_list_points": true,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
@@ -3432,7 +3453,7 @@
    "tied_cumulative": true,
    "rank_list_points": 59,
    "tied_list_points": true,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 33,
    "tied_titles": true,
@@ -3469,7 +3490,7 @@
    "tied_cumulative": true,
    "rank_list_points": 61,
    "tied_list_points": false,
-   "rank_appearances": 48,
+   "rank_appearances": 49,
    "tied_appearances": true,
    "rank_titles": 46,
    "tied_titles": true,
@@ -3800,28 +3821,28 @@
    "title": "YESTERYEAR",
    "author": "Caro Claire Burke",
    "publisher": "Knopf",
-   "weeks": 28,
-   "list_points": 336,
+   "weeks": 29,
+   "list_points": 337,
    "best_rank": 1,
    "weeks_at_1": 7,
    "first_week": "2026-04-26",
-   "last_week": "2026-11-01",
-   "last_rank": 14,
+   "last_week": "2026-11-29",
+   "last_rank": 15,
    "rank": 2,
    "tied": false,
-   "on_latest": false
+   "on_latest": true
   },
   {
    "title": "THE CALAMITY CLUB",
    "author": "Kathryn Stockett",
    "publisher": "Spiegel & Grau",
-   "weeks": 27,
-   "list_points": 323,
+   "weeks": 28,
+   "list_points": 335,
    "best_rank": 1,
    "weeks_at_1": 2,
    "first_week": "2026-05-24",
-   "last_week": "2026-11-22",
-   "last_rank": 3,
+   "last_week": "2026-11-29",
+   "last_rank": 4,
    "rank": 3,
    "tied": false,
    "on_latest": true
@@ -3860,16 +3881,16 @@
    "title": "THE DUNGEON ANARCHIST'S COOKBOOK",
    "author": "Matt Dinniman",
    "publisher": "Ace",
-   "weeks": 32,
-   "list_points": 169,
+   "weeks": 33,
+   "list_points": 171,
    "best_rank": 6,
    "weeks_at_1": 0,
    "first_week": "2026-03-01",
-   "last_week": "2026-11-08",
-   "last_rank": 13,
+   "last_week": "2026-11-29",
+   "last_rank": 14,
    "rank": 6,
    "tied": false,
-   "on_latest": false
+   "on_latest": true
   },
   {
    "title": "THE WIDOW",
@@ -3902,6 +3923,21 @@
    "on_latest": false
   },
   {
+   "title": "THRESHING DAY",
+   "author": "Rebecca Yarros",
+   "publisher": "Red Tower",
+   "weeks": 7,
+   "list_points": 97,
+   "best_rank": 1,
+   "weeks_at_1": 3,
+   "first_week": "2026-10-18",
+   "last_week": "2026-11-29",
+   "last_rank": 5,
+   "rank": 9,
+   "tied": false,
+   "on_latest": true
+  },
+  {
    "title": "DUNGEON CRAWLER CARL",
    "author": "Matt Dinniman",
    "publisher": "Ace",
@@ -3912,24 +3948,9 @@
    "first_week": "2026-01-04",
    "last_week": "2026-09-20",
    "last_rank": 10,
-   "rank": 9,
-   "tied": false,
-   "on_latest": false
-  },
-  {
-   "title": "THRESHING DAY",
-   "author": "Rebecca Yarros",
-   "publisher": "Red Tower",
-   "weeks": 6,
-   "list_points": 86,
-   "best_rank": 1,
-   "weeks_at_1": 3,
-   "first_week": "2026-10-18",
-   "last_week": "2026-11-22",
-   "last_rank": 2,
    "rank": 10,
    "tied": false,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "OUR PERFECT STORM",
@@ -3962,6 +3983,21 @@
    "on_latest": false
   },
   {
+   "title": "THE FRENCH ILLUSION",
+   "author": "John Grisham",
+   "publisher": "Doubleday",
+   "weeks": 7,
+   "list_points": 81,
+   "best_rank": 2,
+   "weeks_at_1": 0,
+   "first_week": "2026-10-18",
+   "last_week": "2026-11-29",
+   "last_rank": 7,
+   "rank": 13,
+   "tied": false,
+   "on_latest": true
+  },
+  {
    "title": "JUDGE STONE",
    "author": "Viola Davis and James Patterson",
    "publisher": "Little, Brown and JVL",
@@ -3972,7 +4008,7 @@
    "first_week": "2026-03-29",
    "last_week": "2026-05-17",
    "last_rank": 11,
-   "rank": 13,
+   "rank": 14,
    "tied": false,
    "on_latest": false
   },
@@ -3987,24 +4023,9 @@
    "first_week": "2026-02-08",
    "last_week": "2026-05-03",
    "last_rank": 14,
-   "rank": 14,
-   "tied": false,
-   "on_latest": false
-  },
-  {
-   "title": "THE FRENCH ILLUSION",
-   "author": "John Grisham",
-   "publisher": "Doubleday",
-   "weeks": 6,
-   "list_points": 72,
-   "best_rank": 2,
-   "weeks_at_1": 0,
-   "first_week": "2026-10-18",
-   "last_week": "2026-11-22",
-   "last_rank": 4,
    "rank": 15,
    "tied": false,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "STARSIDE",
@@ -4018,8 +4039,23 @@
    "last_week": "2026-06-07",
    "last_rank": 14,
    "rank": 16,
-   "tied": false,
+   "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "THE WITCH",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "weeks": 6,
+   "list_points": 69,
+   "best_rank": 1,
+   "weeks_at_1": 1,
+   "first_week": "2026-10-25",
+   "last_week": "2026-11-29",
+   "last_rank": 6,
+   "rank": 16,
+   "tied": true,
+   "on_latest": true
   },
   {
    "title": "THE GATE OF THE FERAL GODS",
@@ -4032,7 +4068,7 @@
    "first_week": "2026-04-05",
    "last_week": "2026-11-08",
    "last_rank": 14,
-   "rank": 17,
+   "rank": 18,
    "tied": false,
    "on_latest": false
   },
@@ -4047,24 +4083,9 @@
    "first_week": "2026-10-04",
    "last_week": "2026-11-15",
    "last_rank": 13,
-   "rank": 18,
-   "tied": false,
-   "on_latest": false
-  },
-  {
-   "title": "THE WITCH",
-   "author": "Freida McFadden",
-   "publisher": "Poisoned Pen",
-   "weeks": 5,
-   "list_points": 59,
-   "best_rank": 1,
-   "weeks_at_1": 1,
-   "first_week": "2026-10-25",
-   "last_week": "2026-11-22",
-   "last_rank": 6,
    "rank": 19,
    "tied": false,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "BRIMSTONE",
@@ -4142,6 +4163,21 @@
    "on_latest": false
   },
   {
+   "title": "PARTITA",
+   "author": "Barbara Kingsolver",
+   "publisher": "Harper",
+   "weeks": 6,
+   "list_points": 46,
+   "best_rank": 4,
+   "weeks_at_1": 0,
+   "first_week": "2026-10-25",
+   "last_week": "2026-11-29",
+   "last_rank": 13,
+   "rank": 25,
+   "tied": false,
+   "on_latest": true
+  },
+  {
    "title": "HALF HIS AGE",
    "author": "Jennette McCurdy",
    "publisher": "Ballantine",
@@ -4152,9 +4188,39 @@
    "first_week": "2026-02-08",
    "last_week": "2026-03-01",
    "last_rank": 10,
-   "rank": 25,
-   "tied": false,
+   "rank": 26,
+   "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "A COURT OF SPLINTERED HARMONY",
+   "author": "Sarah J. Maas",
+   "publisher": "Bloomsbury",
+   "weeks": 3,
+   "list_points": 45,
+   "best_rank": 1,
+   "weeks_at_1": 3,
+   "first_week": "2026-11-15",
+   "last_week": "2026-11-29",
+   "last_rank": 1,
+   "rank": 26,
+   "tied": true,
+   "on_latest": true
+  },
+  {
+   "title": "THE PIRATE QUEEN",
+   "author": "Ariel Lawhon",
+   "publisher": "Doubleday",
+   "weeks": 7,
+   "list_points": 44,
+   "best_rank": 4,
+   "weeks_at_1": 0,
+   "first_week": "2026-09-27",
+   "last_week": "2026-11-29",
+   "last_rank": 10,
+   "rank": 28,
+   "tied": false,
+   "on_latest": true
   },
   {
    "title": "THE INTRUDER",
@@ -4167,24 +4233,9 @@
    "first_week": "2026-01-04",
    "last_week": "2026-02-08",
    "last_rank": 11,
-   "rank": 26,
-   "tied": true,
+   "rank": 29,
+   "tied": false,
    "on_latest": false
-  },
-  {
-   "title": "PARTITA",
-   "author": "Barbara Kingsolver",
-   "publisher": "Harper",
-   "weeks": 5,
-   "list_points": 43,
-   "best_rank": 4,
-   "weeks_at_1": 0,
-   "first_week": "2026-10-25",
-   "last_week": "2026-11-22",
-   "last_rank": 11,
-   "rank": 26,
-   "tied": true,
-   "on_latest": true
   },
   {
    "title": "MONA'S EYES",
@@ -4197,24 +4248,9 @@
    "first_week": "2026-01-04",
    "last_week": "2026-02-01",
    "last_rank": 14,
-   "rank": 28,
+   "rank": 30,
    "tied": false,
    "on_latest": false
-  },
-  {
-   "title": "THE PIRATE QUEEN",
-   "author": "Ariel Lawhon",
-   "publisher": "Doubleday",
-   "weeks": 6,
-   "list_points": 38,
-   "best_rank": 4,
-   "weeks_at_1": 0,
-   "first_week": "2026-09-27",
-   "last_week": "2026-11-22",
-   "last_rank": 9,
-   "rank": 29,
-   "tied": true,
-   "on_latest": true
   },
   {
    "title": "THE FIRST TIME I SAW HIM",
@@ -4227,9 +4263,24 @@
    "first_week": "2026-01-25",
    "last_week": "2026-02-22",
    "last_rank": 15,
-   "rank": 29,
+   "rank": 31,
    "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "A MARRIED LITTLE CHRISTMAS",
+   "author": "Abby Jimenez",
+   "publisher": "Forever",
+   "weeks": 4,
+   "list_points": 38,
+   "best_rank": 3,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-08",
+   "last_week": "2026-11-29",
+   "last_rank": 8,
+   "rank": 31,
+   "tied": true,
+   "on_latest": true
   },
   {
    "title": "THE CROSSROADS",
@@ -4242,7 +4293,7 @@
    "first_week": "2026-03-15",
    "last_week": "2026-04-05",
    "last_rank": 13,
-   "rank": 31,
+   "rank": 33,
    "tied": true,
    "on_latest": false
   },
@@ -4257,7 +4308,7 @@
    "first_week": "2026-03-22",
    "last_week": "2026-04-19",
    "last_rank": 7,
-   "rank": 31,
+   "rank": 33,
    "tied": true,
    "on_latest": false
   },
@@ -4272,7 +4323,7 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-25",
    "last_rank": 7,
-   "rank": 31,
+   "rank": 33,
    "tied": true,
    "on_latest": false
   },
@@ -4287,7 +4338,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-05-17",
    "last_rank": 15,
-   "rank": 34,
+   "rank": 36,
    "tied": false,
    "on_latest": false
   },
@@ -4302,7 +4353,7 @@
    "first_week": "2026-06-21",
    "last_week": "2026-07-19",
    "last_rank": 11,
-   "rank": 35,
+   "rank": 37,
    "tied": true,
    "on_latest": false
   },
@@ -4317,9 +4368,24 @@
    "first_week": "2026-05-03",
    "last_week": "2026-05-17",
    "last_rank": 8,
-   "rank": 35,
+   "rank": 37,
    "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "THE HOLLOW",
+   "author": "Michael Connelly",
+   "publisher": "Little, Brown",
+   "weeks": 3,
+   "list_points": 32,
+   "best_rank": 2,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-15",
+   "last_week": "2026-11-29",
+   "last_rank": 9,
+   "rank": 39,
+   "tied": false,
+   "on_latest": true
   },
   {
    "title": "DAGGERMOUTH",
@@ -4332,7 +4398,7 @@
    "first_week": "2026-08-16",
    "last_week": "2026-08-30",
    "last_rank": 10,
-   "rank": 37,
+   "rank": 40,
    "tied": false,
    "on_latest": false
   },
@@ -4347,39 +4413,9 @@
    "first_week": "2026-08-23",
    "last_week": "2026-09-13",
    "last_rank": 15,
-   "rank": 38,
-   "tied": true,
+   "rank": 41,
+   "tied": false,
    "on_latest": false
-  },
-  {
-   "title": "A MARRIED LITTLE CHRISTMAS",
-   "author": "Abby Jimenez",
-   "publisher": "Forever",
-   "weeks": 3,
-   "list_points": 30,
-   "best_rank": 3,
-   "weeks_at_1": 0,
-   "first_week": "2026-11-08",
-   "last_week": "2026-11-22",
-   "last_rank": 7,
-   "rank": 38,
-   "tied": true,
-   "on_latest": true
-  },
-  {
-   "title": "A COURT OF SPLINTERED HARMONY",
-   "author": "Sarah J. Maas",
-   "publisher": "Bloomsbury",
-   "weeks": 2,
-   "list_points": 30,
-   "best_rank": 1,
-   "weeks_at_1": 2,
-   "first_week": "2026-11-15",
-   "last_week": "2026-11-22",
-   "last_rank": 1,
-   "rank": 38,
-   "tied": true,
-   "on_latest": true
   },
   {
    "title": "THE SHAMPOO EFFECT",
@@ -4392,7 +4428,7 @@
    "first_week": "2026-07-19",
    "last_week": "2026-08-16",
    "last_rank": 15,
-   "rank": 41,
+   "rank": 42,
    "tied": true,
    "on_latest": false
   },
@@ -4407,7 +4443,7 @@
    "first_week": "2026-09-13",
    "last_week": "2026-10-04",
    "last_rank": 15,
-   "rank": 41,
+   "rank": 42,
    "tied": true,
    "on_latest": false
   },
@@ -4422,7 +4458,7 @@
    "first_week": "2026-06-07",
    "last_week": "2026-06-21",
    "last_rank": 13,
-   "rank": 41,
+   "rank": 42,
    "tied": true,
    "on_latest": false
   },
@@ -4437,7 +4473,7 @@
    "first_week": "2026-09-20",
    "last_week": "2026-10-04",
    "last_rank": 13,
-   "rank": 41,
+   "rank": 42,
    "tied": true,
    "on_latest": false
   },
@@ -4452,7 +4488,7 @@
    "first_week": "2026-02-15",
    "last_week": "2026-03-15",
    "last_rank": 13,
-   "rank": 45,
+   "rank": 46,
    "tied": false,
    "on_latest": false
   },
@@ -4467,7 +4503,7 @@
    "first_week": "2026-02-22",
    "last_week": "2026-03-15",
    "last_rank": 12,
-   "rank": 46,
+   "rank": 47,
    "tied": true,
    "on_latest": false
   },
@@ -4482,7 +4518,7 @@
    "first_week": "2026-06-14",
    "last_week": "2026-07-12",
    "last_rank": 15,
-   "rank": 46,
+   "rank": 47,
    "tied": true,
    "on_latest": false
   },
@@ -4497,7 +4533,7 @@
    "first_week": "2026-09-06",
    "last_week": "2026-09-20",
    "last_rank": 13,
-   "rank": 46,
+   "rank": 47,
    "tied": true,
    "on_latest": false
   },
@@ -4512,7 +4548,7 @@
    "first_week": "2026-08-02",
    "last_week": "2026-08-16",
    "last_rank": 12,
-   "rank": 46,
+   "rank": 47,
    "tied": true,
    "on_latest": false
   },
@@ -4527,24 +4563,9 @@
    "first_week": "2026-06-28",
    "last_week": "2026-07-19",
    "last_rank": 13,
-   "rank": 50,
+   "rank": 51,
    "tied": true,
    "on_latest": false
-  },
-  {
-   "title": "THE HOLLOW",
-   "author": "Michael Connelly",
-   "publisher": "Little, Brown",
-   "weeks": 2,
-   "list_points": 25,
-   "best_rank": 2,
-   "weeks_at_1": 0,
-   "first_week": "2026-11-15",
-   "last_week": "2026-11-22",
-   "last_rank": 5,
-   "rank": 50,
-   "tied": true,
-   "on_latest": true
   },
   {
    "title": "PURPLE STATE",
@@ -4557,7 +4578,7 @@
    "first_week": "2026-05-10",
    "last_week": "2026-05-17",
    "last_rank": 4,
-   "rank": 50,
+   "rank": 51,
    "tied": true,
    "on_latest": false
   },
@@ -4634,7 +4655,7 @@
    "last_rank": 12,
    "rank": 57,
    "tied": true,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "THE ALTAR OF PERGAMON",
@@ -4799,7 +4820,7 @@
    "last_rank": 14,
    "rank": 67,
    "tied": true,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "IT COULD HAVE BEEN HER",
@@ -5117,6 +5138,21 @@
    "on_latest": false
   },
   {
+   "title": "SPLIT SECOND",
+   "author": "Janet Evanovich",
+   "publisher": "Atria",
+   "weeks": 1,
+   "list_points": 14,
+   "best_rank": 2,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-29",
+   "last_week": "2026-11-29",
+   "last_rank": 2,
+   "rank": 87,
+   "tied": true,
+   "on_latest": true
+  },
+  {
    "title": "STOLEN IN DEATH",
    "author": "J.D. Robb",
    "publisher": "St. Martin's",
@@ -5172,7 +5208,7 @@
    "first_week": "2026-04-19",
    "last_week": "2026-04-26",
    "last_rank": 15,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5187,7 +5223,7 @@
    "first_week": "2026-03-01",
    "last_week": "2026-03-08",
    "last_rank": 15,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5202,9 +5238,24 @@
    "first_week": "2026-07-12",
    "last_week": "2026-07-19",
    "last_rank": 14,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "ALL IN",
+   "author": "David Baldacci",
+   "publisher": "Grand Central",
+   "weeks": 1,
+   "list_points": 13,
+   "best_rank": 3,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-29",
+   "last_week": "2026-11-29",
+   "last_rank": 3,
+   "rank": 94,
+   "tied": true,
+   "on_latest": true
   },
   {
    "title": "BLOODLUST",
@@ -5217,7 +5268,7 @@
    "first_week": "2026-04-05",
    "last_week": "2026-04-05",
    "last_rank": 3,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5232,7 +5283,7 @@
    "first_week": "2026-09-27",
    "last_week": "2026-09-27",
    "last_rank": 3,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5247,7 +5298,7 @@
    "first_week": "2026-08-30",
    "last_week": "2026-08-30",
    "last_rank": 3,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5262,7 +5313,7 @@
    "first_week": "2026-05-17",
    "last_week": "2026-05-17",
    "last_rank": 3,
-   "rank": 93,
+   "rank": 94,
    "tied": true,
    "on_latest": false
   },
@@ -5277,7 +5328,7 @@
    "first_week": "2026-09-20",
    "last_week": "2026-10-11",
    "last_rank": 15,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5292,7 +5343,7 @@
    "first_week": "2026-05-10",
    "last_week": "2026-05-10",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5307,7 +5358,7 @@
    "first_week": "2026-08-09",
    "last_week": "2026-08-09",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5322,7 +5373,7 @@
    "first_week": "2026-10-04",
    "last_week": "2026-10-04",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5337,7 +5388,7 @@
    "first_week": "2026-02-01",
    "last_week": "2026-02-01",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5352,7 +5403,7 @@
    "first_week": "2026-06-28",
    "last_week": "2026-06-28",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5367,7 +5418,7 @@
    "first_week": "2026-02-15",
    "last_week": "2026-02-15",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5382,7 +5433,7 @@
    "first_week": "2026-07-26",
    "last_week": "2026-07-26",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5397,7 +5448,7 @@
    "first_week": "2026-05-31",
    "last_week": "2026-05-31",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5412,7 +5463,7 @@
    "first_week": "2026-03-08",
    "last_week": "2026-03-08",
    "last_rank": 4,
-   "rank": 100,
+   "rank": 102,
    "tied": true,
    "on_latest": false
   },
@@ -5427,9 +5478,24 @@
    "first_week": "2026-05-24",
    "last_week": "2026-05-31",
    "last_rank": 14,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "THE GIFT",
+   "author": "Freida McFadden",
+   "publisher": "Poisoned Pen",
+   "weeks": 2,
+   "list_points": 11,
+   "best_rank": 10,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-22",
+   "last_week": "2026-11-29",
+   "last_rank": 11,
+   "rank": 112,
+   "tied": true,
+   "on_latest": true
   },
   {
    "title": "AGATHA CHRISTIE: MURDER AT THE GRAND ALPINE HOTEL",
@@ -5442,7 +5508,7 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-11",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5457,7 +5523,7 @@
    "first_week": "2026-03-08",
    "last_week": "2026-03-08",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5472,7 +5538,7 @@
    "first_week": "2026-05-17",
    "last_week": "2026-05-17",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5487,7 +5553,7 @@
    "first_week": "2026-02-15",
    "last_week": "2026-02-15",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5502,7 +5568,7 @@
    "first_week": "2026-04-12",
    "last_week": "2026-04-12",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5517,7 +5583,7 @@
    "first_week": "2026-03-22",
    "last_week": "2026-03-22",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5532,7 +5598,7 @@
    "first_week": "2026-09-13",
    "last_week": "2026-09-13",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5547,7 +5613,7 @@
    "first_week": "2026-04-05",
    "last_week": "2026-04-05",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5562,7 +5628,7 @@
    "first_week": "2026-02-22",
    "last_week": "2026-02-22",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5577,7 +5643,7 @@
    "first_week": "2026-06-21",
    "last_week": "2026-06-21",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5592,7 +5658,7 @@
    "first_week": "2026-08-16",
    "last_week": "2026-08-16",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5607,7 +5673,7 @@
    "first_week": "2026-08-23",
    "last_week": "2026-08-23",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5622,7 +5688,7 @@
    "first_week": "2026-08-30",
    "last_week": "2026-08-30",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5637,7 +5703,7 @@
    "first_week": "2026-03-01",
    "last_week": "2026-03-01",
    "last_rank": 5,
-   "rank": 110,
+   "rank": 112,
    "tied": true,
    "on_latest": false
   },
@@ -5652,7 +5718,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5667,7 +5733,7 @@
    "first_week": "2026-09-27",
    "last_week": "2026-09-27",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5682,7 +5748,7 @@
    "first_week": "2026-08-16",
    "last_week": "2026-08-16",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5697,7 +5763,7 @@
    "first_week": "2026-05-03",
    "last_week": "2026-05-03",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5712,7 +5778,7 @@
    "first_week": "2026-08-30",
    "last_week": "2026-08-30",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5727,7 +5793,7 @@
    "first_week": "2026-04-19",
    "last_week": "2026-04-19",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5742,7 +5808,7 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-11",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5757,7 +5823,7 @@
    "first_week": "2026-05-17",
    "last_week": "2026-05-17",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5772,7 +5838,7 @@
    "first_week": "2026-01-18",
    "last_week": "2026-01-18",
    "last_rank": 6,
-   "rank": 125,
+   "rank": 128,
    "tied": true,
    "on_latest": false
   },
@@ -5787,7 +5853,7 @@
    "first_week": "2026-04-12",
    "last_week": "2026-10-25",
    "last_rank": 12,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5802,7 +5868,7 @@
    "first_week": "2026-03-22",
    "last_week": "2026-03-29",
    "last_rank": 15,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5817,7 +5883,7 @@
    "first_week": "2026-10-18",
    "last_week": "2026-10-18",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5832,7 +5898,7 @@
    "first_week": "2026-04-12",
    "last_week": "2026-04-12",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5847,7 +5913,7 @@
    "first_week": "2026-03-01",
    "last_week": "2026-03-01",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5862,7 +5928,7 @@
    "first_week": "2026-09-06",
    "last_week": "2026-09-06",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5877,7 +5943,7 @@
    "first_week": "2026-04-05",
    "last_week": "2026-04-05",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5892,7 +5958,7 @@
    "first_week": "2026-01-25",
    "last_week": "2026-01-25",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5907,7 +5973,7 @@
    "first_week": "2026-10-04",
    "last_week": "2026-10-04",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5922,7 +5988,7 @@
    "first_week": "2026-05-03",
    "last_week": "2026-05-03",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5937,7 +6003,7 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-11",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5952,7 +6018,7 @@
    "first_week": "2026-08-02",
    "last_week": "2026-08-02",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5967,7 +6033,7 @@
    "first_week": "2026-09-27",
    "last_week": "2026-09-27",
    "last_rank": 7,
-   "rank": 134,
+   "rank": 137,
    "tied": true,
    "on_latest": false
   },
@@ -5982,9 +6048,9 @@
    "first_week": "2026-09-06",
    "last_week": "2026-11-22",
    "last_rank": 15,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "GO GENTLE",
@@ -5997,7 +6063,7 @@
    "first_week": "2026-05-03",
    "last_week": "2026-05-10",
    "last_rank": 15,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6012,7 +6078,7 @@
    "first_week": "2026-10-25",
    "last_week": "2026-11-01",
    "last_rank": 15,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6027,7 +6093,7 @@
    "first_week": "2026-08-09",
    "last_week": "2026-08-09",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6042,9 +6108,9 @@
    "first_week": "2026-11-22",
    "last_week": "2026-11-22",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "PLATFORM DECAY",
@@ -6057,7 +6123,7 @@
    "first_week": "2026-05-24",
    "last_week": "2026-05-24",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6072,7 +6138,7 @@
    "first_week": "2026-10-18",
    "last_week": "2026-10-18",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6087,7 +6153,7 @@
    "first_week": "2026-10-04",
    "last_week": "2026-10-04",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6102,7 +6168,7 @@
    "first_week": "2026-11-08",
    "last_week": "2026-11-08",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6117,7 +6183,7 @@
    "first_week": "2026-03-01",
    "last_week": "2026-03-01",
    "last_rank": 8,
-   "rank": 147,
+   "rank": 150,
    "tied": true,
    "on_latest": false
   },
@@ -6132,7 +6198,7 @@
    "first_week": "2026-07-05",
    "last_week": "2026-07-05",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6147,7 +6213,7 @@
    "first_week": "2026-09-13",
    "last_week": "2026-09-13",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6162,7 +6228,7 @@
    "first_week": "2026-10-04",
    "last_week": "2026-10-04",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6177,7 +6243,7 @@
    "first_week": "2026-08-16",
    "last_week": "2026-08-16",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6192,7 +6258,7 @@
    "first_week": "2026-10-18",
    "last_week": "2026-10-18",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6207,7 +6273,7 @@
    "first_week": "2026-03-15",
    "last_week": "2026-03-15",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6222,7 +6288,7 @@
    "first_week": "2026-04-19",
    "last_week": "2026-04-19",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6237,7 +6303,7 @@
    "first_week": "2026-09-20",
    "last_week": "2026-09-20",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6252,7 +6318,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6267,7 +6333,7 @@
    "first_week": "2026-09-27",
    "last_week": "2026-09-27",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6282,7 +6348,7 @@
    "first_week": "2026-05-31",
    "last_week": "2026-05-31",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6297,7 +6363,7 @@
    "first_week": "2026-06-14",
    "last_week": "2026-06-14",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6312,7 +6378,7 @@
    "first_week": "2026-04-12",
    "last_week": "2026-04-12",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6327,7 +6393,7 @@
    "first_week": "2026-08-23",
    "last_week": "2026-08-23",
    "last_rank": 9,
-   "rank": 157,
+   "rank": 160,
    "tied": true,
    "on_latest": false
   },
@@ -6342,7 +6408,7 @@
    "first_week": "2026-01-04",
    "last_week": "2026-01-25",
    "last_rank": 11,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6357,7 +6423,7 @@
    "first_week": "2026-01-04",
    "last_week": "2026-01-11",
    "last_rank": 15,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6372,7 +6438,7 @@
    "first_week": "2026-02-01",
    "last_week": "2026-03-15",
    "last_rank": 14,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6387,7 +6453,7 @@
    "first_week": "2026-08-23",
    "last_week": "2026-08-23",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6402,7 +6468,7 @@
    "first_week": "2026-02-15",
    "last_week": "2026-02-15",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6417,7 +6483,7 @@
    "first_week": "2026-05-24",
    "last_week": "2026-05-24",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6432,7 +6498,7 @@
    "first_week": "2026-06-21",
    "last_week": "2026-06-21",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6447,7 +6513,7 @@
    "first_week": "2026-02-22",
    "last_week": "2026-02-22",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6462,7 +6528,7 @@
    "first_week": "2026-05-10",
    "last_week": "2026-05-10",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6477,7 +6543,7 @@
    "first_week": "2026-08-09",
    "last_week": "2026-08-09",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6492,7 +6558,7 @@
    "first_week": "2026-03-08",
    "last_week": "2026-03-08",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6507,24 +6573,9 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
-  },
-  {
-   "title": "THE GIFT",
-   "author": "Freida McFadden",
-   "publisher": "Poisoned Pen",
-   "weeks": 1,
-   "list_points": 6,
-   "best_rank": 10,
-   "weeks_at_1": 0,
-   "first_week": "2026-11-22",
-   "last_week": "2026-11-22",
-   "last_rank": 10,
-   "rank": 171,
-   "tied": true,
-   "on_latest": true
   },
   {
    "title": "THE GOAL",
@@ -6537,7 +6588,7 @@
    "first_week": "2026-08-02",
    "last_week": "2026-08-02",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6552,7 +6603,7 @@
    "first_week": "2026-06-07",
    "last_week": "2026-06-07",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6567,7 +6618,7 @@
    "first_week": "2026-04-19",
    "last_week": "2026-04-19",
    "last_rank": 10,
-   "rank": 171,
+   "rank": 174,
    "tied": true,
    "on_latest": false
   },
@@ -6582,7 +6633,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6597,7 +6648,7 @@
    "first_week": "2026-03-15",
    "last_week": "2026-03-15",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6612,7 +6663,7 @@
    "first_week": "2026-07-26",
    "last_week": "2026-07-26",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6627,7 +6678,7 @@
    "first_week": "2026-03-08",
    "last_week": "2026-03-08",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6642,7 +6693,7 @@
    "first_week": "2026-02-01",
    "last_week": "2026-02-01",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6657,7 +6708,7 @@
    "first_week": "2026-11-01",
    "last_week": "2026-11-01",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6672,7 +6723,7 @@
    "first_week": "2026-10-18",
    "last_week": "2026-10-18",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6687,7 +6738,7 @@
    "first_week": "2026-08-02",
    "last_week": "2026-08-02",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6702,7 +6753,7 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-11",
    "last_rank": 11,
-   "rank": 187,
+   "rank": 189,
    "tied": true,
    "on_latest": false
   },
@@ -6717,7 +6768,7 @@
    "first_week": "2026-01-11",
    "last_week": "2026-10-18",
    "last_rank": 15,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6732,7 +6783,7 @@
    "first_week": "2026-01-04",
    "last_week": "2026-01-11",
    "last_rank": 14,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6747,7 +6798,7 @@
    "first_week": "2026-06-28",
    "last_week": "2026-06-28",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6762,7 +6813,7 @@
    "first_week": "2026-02-22",
    "last_week": "2026-02-22",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6777,7 +6828,7 @@
    "first_week": "2026-07-26",
    "last_week": "2026-07-26",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6792,7 +6843,7 @@
    "first_week": "2026-05-10",
    "last_week": "2026-05-10",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6807,7 +6858,7 @@
    "first_week": "2026-01-25",
    "last_week": "2026-01-25",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6822,9 +6873,24 @@
    "first_week": "2026-10-11",
    "last_week": "2026-10-11",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
+  },
+  {
+   "title": "WHALE HARBOR",
+   "author": "Mary Beth Keane",
+   "publisher": "Scribner",
+   "weeks": 1,
+   "list_points": 4,
+   "best_rank": 12,
+   "weeks_at_1": 0,
+   "first_week": "2026-11-29",
+   "last_week": "2026-11-29",
+   "last_rank": 12,
+   "rank": 198,
+   "tied": true,
+   "on_latest": true
   },
   {
    "title": "WORSE THAN A LIE",
@@ -6837,7 +6903,7 @@
    "first_week": "2026-03-08",
    "last_week": "2026-03-08",
    "last_rank": 12,
-   "rank": 196,
+   "rank": 198,
    "tied": true,
    "on_latest": false
   },
@@ -6852,7 +6918,7 @@
    "first_week": "2026-11-01",
    "last_week": "2026-11-01",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6867,7 +6933,7 @@
    "first_week": "2026-02-22",
    "last_week": "2026-02-22",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6882,7 +6948,7 @@
    "first_week": "2026-02-08",
    "last_week": "2026-02-08",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6897,9 +6963,9 @@
    "first_week": "2026-11-22",
    "last_week": "2026-11-22",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
-   "on_latest": true
+   "on_latest": false
   },
   {
    "title": "THE INVISIBLE WOMAN",
@@ -6912,7 +6978,7 @@
    "first_week": "2026-01-25",
    "last_week": "2026-01-25",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6927,7 +6993,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6942,7 +7008,7 @@
    "first_week": "2026-03-29",
    "last_week": "2026-03-29",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6957,7 +7023,7 @@
    "first_week": "2026-05-24",
    "last_week": "2026-05-24",
    "last_rank": 13,
-   "rank": 205,
+   "rank": 208,
    "tied": true,
    "on_latest": false
   },
@@ -6972,7 +7038,7 @@
    "first_week": "2026-05-17",
    "last_week": "2026-05-17",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -6987,7 +7053,7 @@
    "first_week": "2026-04-26",
    "last_week": "2026-04-26",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7002,7 +7068,7 @@
    "first_week": "2026-01-18",
    "last_week": "2026-01-18",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7017,7 +7083,7 @@
    "first_week": "2026-08-23",
    "last_week": "2026-08-23",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7032,7 +7098,7 @@
    "first_week": "2026-06-14",
    "last_week": "2026-06-14",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7047,7 +7113,7 @@
    "first_week": "2026-07-12",
    "last_week": "2026-07-12",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7062,7 +7128,7 @@
    "first_week": "2026-10-25",
    "last_week": "2026-10-25",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7077,7 +7143,7 @@
    "first_week": "2026-06-28",
    "last_week": "2026-06-28",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7092,7 +7158,7 @@
    "first_week": "2026-03-22",
    "last_week": "2026-03-22",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7107,7 +7173,7 @@
    "first_week": "2026-04-12",
    "last_week": "2026-04-12",
    "last_rank": 14,
-   "rank": 213,
+   "rank": 216,
    "tied": true,
    "on_latest": false
   },
@@ -7122,7 +7188,7 @@
    "first_week": "2026-05-03",
    "last_week": "2026-05-03",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7137,7 +7203,7 @@
    "first_week": "2026-07-26",
    "last_week": "2026-07-26",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7152,7 +7218,7 @@
    "first_week": "2026-11-08",
    "last_week": "2026-11-08",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7167,7 +7233,7 @@
    "first_week": "2026-01-18",
    "last_week": "2026-01-18",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7182,7 +7248,7 @@
    "first_week": "2026-11-15",
    "last_week": "2026-11-15",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7197,7 +7263,7 @@
    "first_week": "2026-03-15",
    "last_week": "2026-03-15",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7212,7 +7278,7 @@
    "first_week": "2026-10-25",
    "last_week": "2026-10-25",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   },
@@ -7227,7 +7293,7 @@
    "first_week": "2026-03-22",
    "last_week": "2026-03-22",
    "last_rank": 15,
-   "rank": 223,
+   "rank": 226,
    "tied": true,
    "on_latest": false
   }
@@ -10350,6 +10416,77 @@
     },
     {
      "publisher": "Atria",
+     "list_points": 1,
+     "cumulative": 1
+    }
+   ]
+  },
+  {
+   "published_date": "2026-11-29",
+   "publishers": 13,
+   "rows": [
+    {
+     "publisher": "Bloomsbury",
+     "list_points": 15,
+     "cumulative": 11
+    },
+    {
+     "publisher": "Poisoned Pen",
+     "list_points": 15,
+     "cumulative": 11
+    },
+    {
+     "publisher": "Doubleday",
+     "list_points": 15,
+     "cumulative": 11
+    },
+    {
+     "publisher": "Atria",
+     "list_points": 14,
+     "cumulative": 10
+    },
+    {
+     "publisher": "Grand Central",
+     "list_points": 13,
+     "cumulative": 9
+    },
+    {
+     "publisher": "Spiegel & Grau",
+     "list_points": 12,
+     "cumulative": 8
+    },
+    {
+     "publisher": "Red Tower",
+     "list_points": 11,
+     "cumulative": 7
+    },
+    {
+     "publisher": "Forever",
+     "list_points": 8,
+     "cumulative": 6
+    },
+    {
+     "publisher": "Little, Brown",
+     "list_points": 7,
+     "cumulative": 5
+    },
+    {
+     "publisher": "Scribner",
+     "list_points": 4,
+     "cumulative": 4
+    },
+    {
+     "publisher": "Harper",
+     "list_points": 3,
+     "cumulative": 3
+    },
+    {
+     "publisher": "Ace",
+     "list_points": 2,
+     "cumulative": 2
+    },
+    {
+     "publisher": "Knopf",
      "list_points": 1,
      "cumulative": 1
     }
